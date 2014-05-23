@@ -27,14 +27,15 @@ header{
 	margin-right: 10px;
 	font-family: "Century Gothic", Arial;
 	font-size: 11pt;
+	text-decoration: none;
 }
 
 #holder a:hover {
-	color: #fff;
+	color: #56e8cd;
 }
 
 #logo{
-	color: #55cbe8 !important;
+	color: #56e8cd !important;
 	font-size: 25px !important; 
 	font-family: "Century Gothic", Arial;
 	position:relative;
