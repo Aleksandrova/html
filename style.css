@@ -1,0 +1,75 @@
+html, body {
+  padding: 0px;
+  margin: 0px;
+ }
+
+body {
+  background-image: url("bg.png");
+  background-size: 100% 100%;
+ }
+ 
+#menu{
+	height:85px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.2);
+	margin-top: 20px;
+}
+
+#holder{
+	width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#holder a {
+	color: white;
+	margin-right: 10px;
+	font-family: "Century Gothic", Arial;
+	font-size: 11pt;
+}
+
+#logo{
+	color: #55cbe8 !important;
+	font-size: 25px !important; 
+	font-family: "Century Gothic", Arial;
+	position:relative;
+	top:25px;
+}
+
+.right{
+	float:right;
+	position:relative;
+	top: 30px;
+}
+
+#box-holder{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	
+	border-style: solid;
+	border-color: red;
+}
+
+.box{
+	height: 350px;
+	width: 350px;
+	border: solid blue;
+}
+
+.picture-holder{
+	height: 200px;
+	background-color: blue;
+}
+
+.description{
+	height: 105px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+.bottom-line{
+	height: 45px;
+	background-color: rgba(0,0,0,0.3);
+}
