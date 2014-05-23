@@ -4,11 +4,11 @@ html, body {
  }
 
 body {
-  background-image: url("bg.png");
+  background-image: url("../img/bg.png");
   background-size: 100% 100%;
  }
  
-#menu{
+header{
 	height:85px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.2);
@@ -29,6 +29,10 @@ body {
 	font-size: 11pt;
 }
 
+#holder a:hover {
+	color: #fff;
+}
+
 #logo{
 	color: #55cbe8 !important;
 	font-size: 25px !important; 
@@ -46,7 +50,7 @@ body {
 #box-holder{
 	width: 900px;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto;  
 	margin-top: 150px;
 	
 	border-style: solid;
