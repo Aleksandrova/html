@@ -6,6 +6,8 @@ html, body {
 body {
   background-image: url("../img/bg.png");
   background-size: 100% 100%;
+  link: #fff;
+  vlink: #000;
  }
  
 header{
@@ -21,14 +23,13 @@ header{
 }
 
 #holder{
-<<<<<<< HEAD
+
 	font-family: "Century Gothic";
 	color: #fff !important;
-	width: 800px;
-=======
-	max-width: 900px;
+
+	max-width: 800px;
 	width: 100%;
->>>>>>> f8646e1adbcbd1398c094091753c50aa165292b1
+
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -91,14 +92,16 @@ header{
 
 #content-wrapper {
 	width: 100%;
-	max-width: 850px;
+	max-width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
 }
 
 .dark-holder {
-	width: 900px;
+	max-width:900px;
+	width: 100%;
+	
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
