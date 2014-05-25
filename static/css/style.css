@@ -78,3 +78,10 @@ header{
 	height: 45px;
 	background-color: rgba(0,0,0,0.3);
 }
+
+#content-wrapper {
+	width: 100%;
+	max-width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+}
