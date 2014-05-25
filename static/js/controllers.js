@@ -38,3 +38,39 @@ App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$
 		});
 	}
 ]);
+
+/* Animate Directive */
+
+App.directive('homeAnimation', function() {
+
+	var process = function() {
+		var leftNodes = document.querySelectorAll('.left-box');
+		var left = leftNodes[leftNodes.length - 1];
+
+		var current = document.querySelector('.current-box');
+
+		var right = document.querySelector('.right-box');
+
+		left.setAttribute('class', 'box left-box toleft');
+		current.setAttribute('class', 'box toright');
+
+		setTimeout(function() {
+			left.setAttribute('class', 'box current-box');
+			current.setAttribute('class', 'box right-box')
+		}, 2000);
+
+		right.setAttribute('class', 'box right-box fadeOut');
+
+		setTimeout(function() {
+			var lefts = document.querySelectorAll('.left-box');
+			leftNodes[lefts.length - 2].setAttribute('class', 'box left-box bringtofront');
+
+			right.parentNode.insertBefore(right,right.parentNode.firstChild);
+			right.setAttribute('class', 'box left-box');
+		}, 1000);
+	};
+
+	return function(scope, element) {
+		setInterval(process, 4000);
+	}
+});

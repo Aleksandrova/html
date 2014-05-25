@@ -16,7 +16,7 @@
 			Още статии
 		</div>
 		<div class="articles">
-			<div ng-repeat="article in articles" class="article" ng-click="goTo(article.url)">
+			<div ng-animate="'animate'" ng-repeat="article in articles" class="article" ng-click="goTo(article.url)">
 				<div style="float: left; width: 39%;">
 					<img ng-src="/static/img/products/{{article.thumb}}">
 				</div>

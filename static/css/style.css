@@ -55,21 +55,6 @@ header{
 	top: 30px;
 }
 
-#box-holder{
-	width: 900px;
-	margin-left: auto;
-	margin-right: auto;  
-	margin-top: 150px;
-	
-	border-style: solid;
-	border-color: red;
-}
-
-.box{
-	height: 350px;
-	width: 350px;
-	border: solid blue;
-}
 
 .picture-holder{
 	height: 200px;
