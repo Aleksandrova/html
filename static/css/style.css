@@ -106,6 +106,8 @@ header{
 	color: #fff;
 }
 
+/* Products */
+
 #tag{
 	height: 45px;
 	width: 230px;
@@ -171,3 +173,51 @@ header{
 	text-align: center;
 	padding-top: 15px;
 }
+
+/* About */
+
+#picture-holder{
+	
+}
+
+#text-holder{
+	
+}
+
+/* Contacts */
+
+
+
+#info-holder{
+	height: 600px ;
+	width: 260px;
+	
+	background-color: rgba(0,0,0,0.1);
+	color: white;
+	font-family: "Century Gothic", Arial;
+	font-size: 22px;
+}
+
+#info-holder div{
+	background-color: rgba(0,0,0,0.2);
+	height: 47px;
+	margin-bottom: -2px !important;
+}
+
+#info-holder p{
+	position:relative;
+	top: 8px;
+	
+}
+
+#location{
+	height: 80px !important; 
+}
+
+#location img{
+	position: relative;
+	top: 15px;	
+}
+
+
+
