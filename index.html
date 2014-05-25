@@ -1,30 +1,24 @@
-<html>
+<html ng-app="Fobos">
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
-
 <body>
 	<header>
 		<div id="holder">
 			<a href="index.html" id="logo">FOBOS R</a>
 			<div class="right">
-				<a href="index.html">НАЧАЛО</a>
-				<a href="products.html" >ПРОДУКТИ</a>
-				<a href="us.html">ЗА НАС</a>
-				<a href="index.html">ИНТЕРЕСНО</a>
-				<a href="contacts.html">КОНТАКТИ</a>
+				<a href="/">НАЧАЛО</a>
+				<a href="/products" >ПРОДУКТИ</a>
+				<a href="/about">ЗА НАС</a>
+				<a href="/interesting">ИНТЕРЕСНО</a>
+				<a href="/contacts">КОНТАКТИ</a>
 			</div>
 		</div>
 	</header>
-	<div id="box-holder">
-		<div class="box">
-			<div class="picture-holder"></div>
-			<div class="description"></div>
-			<div class="bottom-line"></div>
-		</div>
-	</div>
+	<ng-view></ng-view>
 
+	<script src="/static/js/libs.js"></script>
+	<script src="/static/js/app.js"></script>
 </body>
-
 </html>
