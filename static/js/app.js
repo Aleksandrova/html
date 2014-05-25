@@ -3,7 +3,7 @@ var App = angular.module('Fobos', ['ngResource', 'ui.router']);
 App.config(
 	['$stateProvider', '$urlRouterProvider', '$locationProvider',
 		function($stateProvider, $urlRouterProvider, $locationProvider) {
-			
+
 
 			$urlRouterProvider
 				.when('/c?id', '/contacts/:id')
@@ -22,6 +22,14 @@ App.config(
 					url: "/interesting",
 					templateUrl: '/partials/interesting.html',
 					controller: 'InterestCtrl'
+				})
+				.state("interesting.page", {
+					url: "/:id",
+					controller: ['$rootScope', '$stateParams',
+						function($rootScope, $stateParams) {
+							$rootScope.$emit('articleid', $stateParams.id)
+						}
+					]
 				})
 				.state('about', {
 					url: '/about',
