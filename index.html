@@ -1,8 +1,8 @@
 <html ng-app="Fobos">
 <head>
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="static/css/style.css">
-<link rel="stylesheet" type="text/css" href="static/css/pages.css">
+<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+<link rel="stylesheet" type="text/css" href="/static/css/pages.css">
 </head>
 <body>
 	<header>
@@ -10,7 +10,7 @@
 			<a href="index.html" id="logo">FOBOS R</a>
 			<div class="right">
 				<a href="/">НАЧАЛО</a>
-				<a href="/products" >ПРОДУКТИ</a>
+				<a href="/products">ПРОДУКТИ</a>
 				<a href="/about">ЗА НАС</a>
 				<a href="/interesting">ИНТЕРЕСНО</a>
 				<a href="/contacts">КОНТАКТИ</a>
@@ -19,10 +19,12 @@
 	</header>
 
 	<div id="content-wrapper">
-		<ng-view></ng-view>
+		<div ui-view></div>
 	</div>
 
 	<script src="/static/js/libs.js"></script>
 	<script src="/static/js/app.js"></script>
+	<script src="/static/js/models.js"></script>
+	<script src="/static/js/controllers.js"></script>
 </body>
 </html>

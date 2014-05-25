@@ -1,1 +1,31 @@
-interesting page
+<div class="current-article">
+	<img class="current-article-img" ng-src="/static/img/products/{{current.image}}">
+
+	<div class="text-wrapper">
+		<div class="current-article-heading">
+			{{current.title}}
+		</div>
+		<div class="current-article-text">
+			{{current.fulltext}}
+		</div>
+	</div>
+</div>
+
+<div class="articles-holder">
+	<div class="head">
+		Още статии
+	</div>
+	<div class="articles">
+		<div ng-repeat="article in articles" class="article" ng-click="open(article.url)">
+			<div style="float: left; width: 39%;">
+				<img ng-src="/static/img/products/{{article.thumb}}">
+			</div>
+			<div class="article-content">
+				<div class="heading">
+					{{article.title}}
+				</div>
+				{{article.fulltext | dots}}
+			</div>
+		</div>
+	</div>
+</div>
