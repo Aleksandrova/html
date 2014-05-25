@@ -15,17 +15,23 @@ header{
 	margin-top: 20px;
 }
 
+а, p{
+	font-family: "Century Gothic", Arial !important;
+	color: #fff;
+}
+
 #holder{
-	width: 900px;
+	font-family: "Century Gothic";
+	color: #fff !important;
+	width: 800px;
 	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #holder a {
-	color: white;
+	
 	margin-right: 10px;
-	font-family: "Century Gothic", Arial;
 	font-size: 11pt;
 	text-decoration: none;
 }
@@ -37,7 +43,6 @@ header{
 #logo{
 	color: #56e8cd !important;
 	font-size: 25px !important; 
-	font-family: "Century Gothic", Arial;
 	position:relative;
 	top:25px;
 }
@@ -84,4 +89,81 @@ header{
 	max-width: 850px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 40px;
+}
+
+.dark-holder {
+	width: 900px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Century Gothic";
+	color: #fff;
+}
+
+#tag{
+	height: 45px;
+	width: 230px;
+	background-color: rgba(0,0,0,0.2);
+	position:relative;
+	top: 20px;
+	
+	margin-left: -20px;
+}
+
+#tag p{
+	margin-left:30px;
+	font-size: 14pt;
+	position: relative;
+	top:8px;
+}
+
+#menu{
+	height: auto;
+	width: 30%;
+	float:left;
+	position:relative;
+}
+
+#menu, #products-holder{
+	top: 40px;
+}
+
+#menu a {
+	font-family: "Century Gothic", Arial;
+	font-size: 16px;
+	color: #ffffff;
+	position: relative;
+	top: 20px;
+}
+
+#menu div{
+	margin-left: 20px;
+	height: 60px;
+	width: 150px;
+	border-bottom: solid rgba(0,0,0, .1) 1px;
+}
+
+#products-holder{
+	height: auto;
+	width: 70%;
+	position:relative;
+	float:left;
+}
+
+.item{
+	height: 180px;
+	width: 180px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}	
+
+.name{
+	height:35px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.3);
+	text-align: center;
+	padding-top: 15px;
 }
