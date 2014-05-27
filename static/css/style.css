@@ -163,7 +163,8 @@ header{
 
 #us-holder{
 	height: auto;
-	width: 600px;
+	max-width: 600px;
+	width: 100%;
 	background-color: rgba(0,0,0,0.2);
 	margin-left: auto;
 	margin-right: auto;
@@ -180,25 +181,45 @@ header{
 
 /* Contacts */
 
-#info-holder div{
+#cont-holder{
+	max-width:900px;
+	width: 100%;
+	
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.2);
+	font-family: "Century Gothic";
+	color: #fff;
+}
+
+.info-holder div{
 	background-color: rgba(0,0,0,0.2);
 	height: 47px;
 	width: 300px;
-
 }
 
-#info-holder p{
+.info-holder p{
 	position:relative;
 	top: 8px;
-	
 }
-#map-place{
-	height: 400px;
+
+#location{
+	height:50;
 	width: 100%;
-	background-color: blue;
+	background-color: rgba(0,0,0,0.2);
+	
 	position: relative;
-	top: 100px;
+	top: 140px;
 }
 
+#location img{
+	margin-top: 20px;
+}
 
+.info-holder{
+	height: 100;
+	width: 450;
+	float: left;
+}
 
