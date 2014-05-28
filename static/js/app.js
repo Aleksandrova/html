@@ -16,7 +16,18 @@ App.config(
 				})
 				.state("products", {
 					url: "/products",
-					templateUrl: '/partials/products.html'
+					templateUrl: '/partials/products.html',
+					controller: 'ProductCtrl'
+				})
+				.state("products.category", {
+					url: "/cat/:id",
+					controller: 'CategoryCtrl',
+					templateUrl: '/partials/products.template.html'
+				})
+				.state("products.view", {
+					url: "/:id",
+					controller: 'ViewProductCtrl',
+					templateUrl: '/partials/products.single.html'
 				})
 				.state("interesting", {
 					url: "/interesting",

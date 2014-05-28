@@ -1,6 +1,6 @@
 App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$rootScope',
 	function($scope, API, $location, $stateParams, $rootScope) {
-		$scope.articles = API.getAllInteresting().query();
+		$scope.articles = API.getInteresting().query();
 		$scope.current = {};
 
 		var ignoreDefault = false;
@@ -39,6 +39,37 @@ App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$
 	}
 ]);
 
+App.controller('ProductCtrl', ['$scope', 'API', '$state', '$stateParams',
+	function($scope, API, $state, $stateParams) {
+		$scope.products = API.getProducts().query();
+	}
+]);
+
+App.controller('CategoryCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
+		$scope.cat = $stateParams.id;
+	}
+]);
+
+App.controller('ViewProductCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
+		var find = function() {
+			for (var i in $scope.products) {
+				if ($scope.products[i].url == $stateParams.id) {
+					$scope.product = $scope.products[i];
+					break;
+				}
+			}
+		};
+
+		if ($scope.products.$resolved) {
+			find();
+		} else {
+			$scope.products.$promise.then(find);
+		}
+	}
+]);
+
 /* Animate Directive */
 
 App.directive('homeAnimation', function() {
@@ -65,7 +96,7 @@ App.directive('homeAnimation', function() {
 			var lefts = document.querySelectorAll('.left-box');
 			leftNodes[lefts.length - 2].setAttribute('class', 'box left-box bringtofront');
 
-			right.parentNode.insertBefore(right,right.parentNode.firstChild);
+			right.parentNode.insertBefore(right, right.parentNode.firstChild);
 			right.setAttribute('class', 'box left-box');
 		}, 1000);
 	};

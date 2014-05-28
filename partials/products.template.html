@@ -1,0 +1,4 @@
+<a ng-href="/products/{{product.url}}" ng-repeat="product in products | category: cat" class="item">
+	<div class="name">{{product.title}}</div>
+	<img ng-src="{{product.thumb}}">
+</a>
