@@ -164,35 +164,61 @@ header{
 
 /* About */
 
-#picture-holder{
-	
+.dark-holder-small{
+	height: auto;
+	max-width: 600px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.2);
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Century Gothic";
+	color: #fff;
 }
 
 #text-holder{
-	
+	padding: 20px;
+}
+
+#text-holder p:first-child{
+	font-size: 20pt;
+	margin: 0px;
 }
 
 /* Contacts */
 
-#info-holder div{
-	background-color: rgba(0,0,0,0.2);
-	height: 47px;
-	width: 300px;
-
+#contacts-holder{
+	background:none !important;
 }
 
-#info-holder p{
-	position:relative;
-	top: 8px;
-	
-}
-#map-place{
-	height: 400px;
+#info{
 	width: 100%;
-	background-color: blue;
-	position: relative;
-	top: 100px;
+	height: 150px;
 }
 
+.part{
+	width: 50%;
+	height: 140px;
+	
+	float: left;
+}
 
+.part div{
+	height: 60px; 
+	width:290px; 
+	margin-top: 10px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: rgba(0,0,0,0.3);
+}
 
+#location{
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,0.2);
+	padding-bottom: 20px;
+}
+
+#adress{
+	padding:15px;
+	background-color: rgba(0,0,0,0.2);
+}
