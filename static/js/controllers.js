@@ -14,6 +14,8 @@ App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$
 				}
 			}
 
+			window.scrollTo(0, 0);
+
 			$scope.current = $scope.articles[0];
 		};
 
