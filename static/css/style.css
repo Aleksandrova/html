@@ -166,7 +166,7 @@ header{
 
 .dark-holder-small{
 	height: auto;
-	max-width: 600px;
+	max-width: 630px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.2);
 	margin-left: auto;
@@ -190,31 +190,28 @@ header{
 	background:none !important;
 }
 
-#info{
-	width: 100%;
-	height: 137px;
-}
-
 .part{
-	width: 50%;
-	height: 140px;
-	
+	width: 49.5%;
 	float: left;
 }
 
 .part div{
 	height: 60px; 
-	width:297px; 
+	width: 100%; 
 	margin-top: 5px;
 	background-color: rgba(0,0,0,0.3);
-}
-
-#left-part div{
 	float: left;
 }
 
-#right-part div{
+#right-part {
 	float: right;
+}
+
+@media all and (max-width: 750px) {
+  	.part {
+  		width: 100%;
+  		float: left !important;
+  	}
 }
 
 .part p{
@@ -231,12 +228,13 @@ header{
 
 }
 
-
 #location{
+	margin-top: 15px;
 	width: 100%;
 	height: auto;
 	background-color: rgba(0,0,0,0.2);
 	padding-bottom: 20px;
+	clear: both;
 }
 
 #adress{

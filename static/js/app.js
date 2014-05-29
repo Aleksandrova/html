@@ -48,7 +48,8 @@ App.config(
 				})
 				.state('contacts', {
 					url: '/contacts',
-					templateUrl: '/partials/contacts.html'
+					templateUrl: '/partials/contacts.html',
+					controller: 'ContactCtrl'
 				});
 
 			$locationProvider.html5Mode(true);

@@ -70,6 +70,29 @@ App.controller('ViewProductCtrl', ['$scope', '$stateParams',
 	}
 ]);
 
+App.controller('ContactCtrl', ['$scope',
+	function($scope) {
+
+		var pos = new google.maps.LatLng(43.4088963, 23.2318185);
+
+		var mapCanvas = document.getElementById('map_canvas');
+		var mapOptions = {
+			center: pos,
+			zoom: 17,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+
+		var map = new google.maps.Map(map_canvas, mapOptions);
+
+		new google.maps.Marker({
+			position: pos,
+			map: map,
+			title: 'Fobos ER - Офис'
+		});
+
+	}
+]);
+
 /* Animate Directive */
 
 App.directive('homeAnimation', function() {
