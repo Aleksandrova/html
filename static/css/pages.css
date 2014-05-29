@@ -5,6 +5,7 @@
 	background-color: rgba(0, 0, 0, 0.2);
 	color: #ffffff;
 	font-family: "Century Gothic", Arial;
+	margin-bottom: 20px;
 }
 
 .articles-holder {
@@ -13,6 +14,19 @@
 	float: right;
 	background-color: rgba(0, 0, 0, 0.2);
 	font-family: "Century Gothic", Arial;
+	margin-bottom: 20px;
+}
+
+@media all and (max-width: 650px) {
+  	.current-article {
+  		width: 100%;
+  		float: left;
+  	}
+
+  	.articles-holder {
+  		width: 100%;
+  		float: left;
+  	}
 }
 
 .current-article-img {
@@ -45,6 +59,11 @@
 	font-family: "Century Gothic", Arial;
 	text-align: center;
 	color: #e7ebec;
+}
+
+#wrapper {
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .articles-holder .articles {

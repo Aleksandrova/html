@@ -1,202 +1,202 @@
 [{
 	"title": "Дева",
-	"category": "салфетки",
+	"category": "salfetki",
 	"image": "/static/img/products/deva_s.png",
 	"thumb": "/static/img/products/deva_s_thumb.png",
 	"fulltext": "Размери: 25*25. Броя в пакет: 32. Пакети в чувал: 24. ",
 	"url": "salfetki-deva"
 }, {
 	"title": "Финес",
-	"category": "салфетки",
+	"category": "salfetki",
 	"image": "/static/img/products/fines_s.png",
 	"thumb": "/static/img/products/fines_s_thumb.png",
 	"fulltext": "Размери: 28*28. Двуцветни с щампа. Броя в пакет: 50. Пакети в чувал: 20. ",
 	"url": "salfetki-fines"
 }, {
 	"title": "Перле",
-	"category": "салфетки",
+	"category": "salfetki",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Размери: 30*30. Трицветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
 	"url": ""
 }, {
 	"title": "Елица",
-	"category": "салфетки",
+	"category": "salfetki",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Размери: 30*30. Трицветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
 	"url": ""
 }, {
 	"title": "Дева",
-	"category": "салфетки",
+	"category": "salfetki",
 	"image": "/static/img/products/deva33_s.png",
 	"thumb": "/static/img/products/deva33_s_thumb.png",
 	"fulltext": "Размери: 33*33. Двуцветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
 	"url": ""
 }, {
 	"title": "Фреш",
-	"category": "салфетки",
+	"category": "salfetki",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Размери: 33*33. Двуцветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
 	"url": ""
 }, {
 	"title": "Писана",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/pisana_h.png",
 	"thumb": "/static/img/products/pisana_h_thumb.png",
 	"fulltext": "Избелена. Ролки в пакет: 4. Пакети в чувал: 4. ",
 	"url": ""
 }, {
 	"title": "Перле",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Избелена. Ролки в пакет: 4. Пакети в чувал: 4. ",
 	"url": ""
 }, {
 	"title": "Римби",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Избелена. Ролки в пакет: 1. Пакети в чувал: 9. ",
 	"url": ""
 }, {
 	"title": "Римби",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "100% целулоза. Ролки в пакет: 8. Пакети в чувал: 5. ",
 	"url": ""
 }, {
 	"title": "Фреш",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/fresh_h.png",
 	"thumb": "/static/img/products/fresh_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Финес",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
 	"url": ""
 }, {
 	"title": "Дева",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Натурал. 300 къса. Пакети в чувал: 24. ",
 	"url": ""
 }, {
 	"title": "Фреш",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
 	"url": ""
 }, {
 	"title": "Мелани",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/melany_h.png",
 	"thumb": "/static/img/products/melany_h_thumb.png",
 	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
 	"url": ""
 }, {
 	"title": "Мони",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/moni_h.png",
 	"thumb": "/static/img/products/moni_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Финес",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/fines_h.png",
 	"thumb": "/static/img/products/fines_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Дева",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Дева +",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/deva+_h.png",
 	"thumb": "/static/img/products/deva+_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Дева MAXI",
-	"category": "тоалетна хартия",
+	"category": "toaletna-hartia",
 	"image": "/static/img/products/devaMAXI_h.png",
 	"thumb": "/static/img/products/devaMAXI_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Sense",
-	"category": "кухненски ролки",
+	"category": "kuhnenski-rolki",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Ролки в пакет: 2. Пакети в чувал: 10. ",
 	"url": ""
 }, {
 	"title": "Римби",
-	"category": "кухненски ролки",
+	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/rimbi1_k.png",
 	"thumb": "/static/img/products/rimbi1_k_thumb.png",
 	"fulltext": "Ролки в пакет: 1. Пакети в чувал: 6. ",
 	"url": ""
 }, {
 	"title": "Римби",
-	"category": "кухненски ролки",
+	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/rimbi2_k.png",
 	"thumb": "/static/img/products/rimbi2_k_thumb.png",
 	"fulltext": "Ролки в пакет: 2. Пакети в чувал: 6. ",
 	"url": ""
 }, {
 	"title": "Melody",
-	"category": "кухненски ролки",
+	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/melody_k.png",
 	"thumb": "/static/img/products/melody_k_thumb.png",
 	"fulltext": "Ролки в пакет: 1. Пакети в чувал: 6. ",
 	"url": ""
 }, {
 	"title": "Spring",
-	"category": "кухненски ролки",
+	"category": "kuhnenski-rolki",
 	"image": "",
 	"thumb": "",
 	"fulltext": "Ролки в пакет: 1. Пакети в чувал: 4. ",
 	"url": ""
 }, {
-	"title": "Носни кърпички Deva",
-	"category": "носни кърпички",
+	"title": "Deva",
+	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n1.png",
 	"thumb": "/static/img/products/n1_thumb.png",
 	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10.",
 	"url": ""
 }, {
-	"title": "Носни кърпички Deva",
-	"category": "носни кърпички",
+	"title": "Deva",
+	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n2.png",
 	"thumb": "/static/img/products/n2_thumb.png",
 	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10. ",
 	"url": ""
 }, {
-	"title": "Носни кърпички Deva",
-	"category": "носни кърпички",
+	"title": "Deva",
+	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n3.png",
 	"thumb": "/static/img/products/n3_thumb.png",
 	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10.",
 	"url": ""
 }, {
-	"title": "Носни кърпички Deva",
-	"category": "носни кърпички",
+	"title": "Deva",
+	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n4.png",
 	"thumb": "/static/img/products/n4_thumb.png",
 	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10.",
