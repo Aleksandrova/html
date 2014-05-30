@@ -118,23 +118,19 @@ header{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
+	position: relative;
 }
 
 .dark-holder {
 	max-width:880px;
 	width: 100%;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
+	position: absolute;
+	left: 0px;
+	right: 0px;
 	background-color: rgba(0,0,0,0.2);
 	font-family: "Century Gothic";
 	color: #fff;
-}
-
-[ui-view] {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-bottom: 15px;
 }
 
 /* Products */

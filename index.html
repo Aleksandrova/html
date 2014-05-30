@@ -1,10 +1,10 @@
 <html ng-app="Fobos">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="/static/css/style.css">
-<link rel="stylesheet" type="text/css" href="/static/css/pages.css">
-<title>Fobos R</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/pages.css">
+	<title ng-bind="$state.current.title + ' - Фобос ЕР'">Начало - Фобос ЕР</title>
 </head>
 <body ng-controller="BaseCtrl">
 	<header>
@@ -28,7 +28,7 @@
 	</header>
 
 	<div id="content-wrapper">
-		<div ui-view></div>
+		<div class="well" ng-animate="'view'" ui-view></div>
 	</div>
 
 	<script src="/static/js/libs.js"></script>
