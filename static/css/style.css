@@ -11,7 +11,7 @@ body {
  }
  
 header{
-	height:85px;
+	min-height:85px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.2);
 	margin-top: 20px;
@@ -22,12 +22,26 @@ header{
 	color: #fff;
 }
 
+.show-for-small {
+	display: none;
+}
+
+@media all and (max-width: 750px) {
+  	.hide-for-small {
+  		display: none;
+  	}
+
+  	.show-for-small {
+  		display: block;
+  	}
+}
+
 #holder{
 	max-width: 800px;
 	width: 100%;
-	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	position: relative;
 }
 
 #holder a {
@@ -42,19 +56,46 @@ header{
 	color: #56e8cd;
 }
 
-#logo{
-	color: #56e8cd !important;
-	font-size: 25px !important; 
+#logo {
 	position:relative;
 	top:25px;
 }
 
-.right{
-	float:right;
-	position:relative;
-	top: 30px;
+#logo a{
+	color: #56e8cd !important;
+	font-size: 25px !important; 
 }
 
+#mainmenu {
+}
+
+@media all and (min-width: 751px) {
+	#mainmenu {
+		position: absolute;
+		right: 0px;
+	}
+}
+
+@media all and (max-width: 750px) {
+	#logo {
+		text-align: center;
+		margin: 0px;
+	}
+
+	#mainmenu {
+		margin-top: 40px;
+		display: none;
+		width: 100%;
+	}
+
+	#mainmenu a{
+		text-align: center;
+		margin: 0px;
+		display: block;
+		padding: 10px;
+		background-color: rgba(50, 50, 50, 0.2);
+	}
+}
 
 .picture-holder{
 	height: 200px;

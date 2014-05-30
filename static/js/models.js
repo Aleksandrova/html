@@ -29,3 +29,16 @@ App.filter('category', function() {
 		return filtered;
 	};
 });
+
+App.directive('toggler', function() {
+	return function(scope, element) {
+		var rightMenu = document.getElementById('mainmenu');
+		element[0].addEventListener('click', function() {
+			if (rightMenu.className == 'showed') {
+				rightMenu.className = '';
+			} else {
+				rightMenu.className = 'showed';
+			}
+		}, false);
+	}
+});
