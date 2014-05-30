@@ -298,17 +298,21 @@
 
 .single-product {
 	width: 100%;
+
 }
 
 .single-product .wrapper {
-	margin: 35px;
-	margin-left: 5px;
-	margin-top: 10px;
+	/* margin: 35px; */
+	margin-left: 75px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+	width: 100%;
+	max-width: 400px;
 }
 
 .single-product .image {
-	width: 100%;
-	height: 250px;
+	width: 400;
+	height: 240px;
 }
 
 .single-product .text-holder {
@@ -316,7 +320,8 @@
 	padding: 20px;
 	padding-top: 20px;
 	margin: 0px;
-	font-size: 23px;
+	font-size: 21px;
+	line-height:160%;
 }
 
 .single-product .back-btn {
@@ -338,8 +343,8 @@
 
 .single-product .title {
 	position: absolute;
-	top: 30px;
-	left: -20px;
+	top: 10px;
+	left: 50px;
 	background-color: rgba(0, 0, 0, 0.45);
 	height: 45px;
 	font-size: 28px;
@@ -350,8 +355,8 @@
 
 .single-product .triangle {
 	position: absolute;
-	top: 80px;
-	left: -20px;
+	top: 60px;
+	left: 50px;
 	background-image: url('/static/img/triangle.png');
 	background-size: 100% 100%;
 	width: 25px;

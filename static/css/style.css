@@ -93,7 +93,7 @@ header{
 		margin: 0px;
 		display: block;
 		padding: 10px;
-		background-color: rgba(50, 50, 50, 0.2);
+		background-color:  rgba(0, 0, 30, 0.1);
 	}
 }
 
@@ -121,8 +121,9 @@ header{
 }
 
 .dark-holder {
-	max-width:900px;
+	max-width:880px;
 	width: 100%;
+	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0,0,0,0.2);
@@ -158,6 +159,7 @@ header{
 #menu{
 	height: auto;
 	width: 30%;
+	min-width: 200px;
 	float:left;
 	position:relative;
 }
@@ -168,7 +170,7 @@ header{
 
 #menu a {
 	font-family: "Century Gothic", Arial;
-	font-size: 16px;
+	font-size: 17px;
 	color: #ffffff;
 	position: relative;
 	top: 20px;
@@ -213,7 +215,7 @@ header{
 
 .dark-holder-small{
 	height: auto;
-	max-width: 630px;
+	max-width: 600px;
 	width: 100%;
 	background-color: rgba(0,0,0,0.2);
 	margin-left: auto;
@@ -282,7 +284,7 @@ header{
 }
 
 #location{
-	margin-top: 15px;
+	margin-top: 10px;
 	width: 100%;
 	height: auto;
 	background-color: rgba(0,0,0,0.2);
