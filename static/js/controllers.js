@@ -1,3 +1,11 @@
+App.controller('BaseCtrl', ['$rootScope',
+	function($rootScope) {
+		$rootScope.$on('$stateChangeStart', function() {
+			document.getElementById('mainmenu').className = '';
+		});
+	}
+]);
+
 App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$rootScope',
 	function($scope, API, $location, $stateParams, $rootScope) {
 		$scope.articles = API.getInteresting().query();
