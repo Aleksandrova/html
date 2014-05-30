@@ -65,7 +65,7 @@
 	"title": "Фреш Лукс",
 	"category": "toaletna-hartia",
 	"image": "/static/img/products/fresh_lux_h.png",
-	"thumb": "/static/img/products/fresh_lux_thumb.png",
+	"thumb": "/static/img/products/fresh_lux_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": "hartiq-fresh-lux"
 }, {
@@ -79,7 +79,7 @@
 	"title": "Дева",
 	"category": "toaletna-hartia",
 	"image": "/static/img/products/deva_h.png",
-	"thumb": "/static/img/products/deva_h.png",
+	"thumb": "/static/img/products/deva_h_thumb.png",
 	"fulltext": "Натурал. 300 къса. Пакети в чувал: 24. ",
 	"url": "hariq-deva"
 }, {
