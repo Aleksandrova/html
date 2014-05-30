@@ -2,3 +2,5 @@
 	<div class="name">{{product.title}}</div>
 	<img ng-src="{{product.thumb}}">
 </a>
+
+<div style="font-size: 20px;" ng-show="!(products | category: cat).length">Няма намерени продукти по вашите критерии.</div>

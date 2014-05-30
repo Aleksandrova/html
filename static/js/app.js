@@ -6,8 +6,7 @@ App.config(
 
 
 			$urlRouterProvider
-				.when('/c?id', '/contacts/:id')
-				.when('/user/:id', '/contacts/:id');
+				.when('/products', '/products/cat/kuhnenski-rolki');
 
 			$stateProvider
 				.state("home", {
