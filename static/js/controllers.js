@@ -52,12 +52,19 @@ App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$
 App.controller('ProductCtrl', ['$scope', 'API', '$state', '$stateParams',
 	function($scope, API, $state, $stateParams) {
 		$scope.products = API.getProducts().query();
+		$scope.category = null;
+
+		$scope.$on('productcat', function(e, data){
+			$scope.category = data;
+			console.log(data);
+		});
 	}
 ]);
 
 App.controller('CategoryCtrl', ['$scope', '$stateParams',
 	function($scope, $stateParams) {
 		$scope.cat = $stateParams.id;
+		$scope.$emit('productcat', $stateParams.id);
 	}
 ]);
 

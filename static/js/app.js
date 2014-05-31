@@ -67,7 +67,6 @@ App.run(['$rootScope', '$state',
 	function($rootScope, $state) {
 		$rootScope.$on("$stateChangeSuccess", function(currentRoute, previousRoute) {
 			$rootScope.$state = $state;
-			console.log($state);
 		});
 	}
 ]);
