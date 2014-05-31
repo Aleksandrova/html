@@ -238,7 +238,7 @@ header{
 }
 
 .picture-menu {
-	border-bottom: solid 5px rgba(0, 0, 0, 0.2);
+	border-top: solid 5px rgba(0, 0, 0, 0.2);
 	overflow: hidden;
 	margin-bottom: 20px;
 }
@@ -248,10 +248,11 @@ header{
 	float: left;
 	border: 0px;
 	text-align: center;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
 .picture-menu a.active {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: transparent;
 }
 
 .picture-menu img {
