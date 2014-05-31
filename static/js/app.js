@@ -4,7 +4,6 @@ App.config(
 	['$stateProvider', '$urlRouterProvider', '$locationProvider',
 		function($stateProvider, $urlRouterProvider, $locationProvider) {
 
-
 			$urlRouterProvider
 				.when('/products', '/products/cat/kuhnenski-rolki');
 

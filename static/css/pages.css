@@ -366,6 +366,9 @@
 }
 
 
+
+/* Transition animation */
+
 .well {
 	position:absolute;
   	top: 0px;
@@ -373,7 +376,6 @@
   	right: 15px;
   	bottom: 0px;
 }
-
 
 [ui-view].ng-enter, [ui-view].ng-leave {
   -webkit-transition:all .3s ease-in-out;
@@ -389,7 +391,6 @@
 
 [ui-view].ng-enter-active {
   opacity: 1;
-
 }
 
 [ui-view].ng-leave {
