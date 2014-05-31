@@ -292,8 +292,8 @@
 
 
 .single-product {
-	width: 100%;
-
+	position: relative;
+	float: left;
 }
 
 .single-product .wrapper {

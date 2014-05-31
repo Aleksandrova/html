@@ -184,6 +184,7 @@ header{
 	position: relative;
 	top: 20px;
 	text-decoration: none;
+	overflow: hidden;
 }
 
 #menu a:hover{
@@ -221,11 +222,8 @@ header{
 
 #products-holder{
 	height: auto;
-	width: 70%;
 	position:relative;
-	float:left;
 	padding-left: 15px;
-
 }
 
 .item{
