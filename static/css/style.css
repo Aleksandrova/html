@@ -155,8 +155,7 @@ header{
 
 #tag-triangle{
 	position: absolute;
-	top: 70px;
-	left: -24px;
+	top: 46px;
 	background-image: url('/static/img/triangle.png');
 	background-size: 100% 100%;
 	width: 25px;
@@ -164,8 +163,8 @@ header{
 	margin: 0px;
 }
 
-#tag:hover  + #tag-triangle{
-	cursor: pointer;
+#tag:hover{
+	cursor: default;
 	-webkit-animation: wobble-vertical 1s;
 }
 
@@ -264,10 +263,11 @@ header{
 	height: auto;
 	position:relative;
 	padding-left: 15px;
+	overflow: hidden;
 }
 
 .item{
-	width: 180px;
+	width: 29%;
 	float: left;
 	margin-right: 20px;
 	margin-bottom: 20px;
@@ -306,7 +306,7 @@ header{
 	}
 
 	.item { 
-		width: 46%;
+		width: 44.5%;
 	}
 }
 
