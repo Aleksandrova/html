@@ -58,12 +58,7 @@ header{
 
 #logo {
 	position:relative;
-	top:25px;
-}
-
-#logo a{
-	color: #56e8cd !important;
-	font-size: 25px !important; 
+	top:10px;
 }
 
 #mainmenu {
@@ -72,6 +67,7 @@ header{
 @media all and (min-width: 751px) {
 	#mainmenu {
 		position: absolute;
+		top: 33px;
 		right: 0px;
 	}
 }
@@ -95,6 +91,11 @@ header{
 		padding: 10px;
 		background-color:  rgba(0, 0, 30, 0.1);
 	}
+	
+	#lines{
+		position: absolute;
+		top: 30px;
+	} 
 }
 
 .picture-holder{
@@ -136,23 +137,35 @@ header{
 /* Products */
 
 #tag{
-	height: 45px;
-	width: 230px;
+	height: 47px;
+	width: 235px;
 	background-color: rgba(0,0,0,0.2);
 	position:relative;
-	top: 20px;
+	top: 5px;
 	
-	margin-left: -20px;
+	margin-left: -24px;
 }
 
 #tag p{
 	margin-left:30px;
 	font-size: 14pt;
 	position: relative;
-	top:8px;
+	top:10px;
+}
+
+#tag-triangle{
+	position: absolute;
+	top: 70px;
+	left: -24px;
+	background-image: url('/static/img/triangle.png');
+	background-size: 100% 100%;
+	width: 25px;
+	height: 13px;
+	margin: 0px;
 }
 
 #menu{
+	margin-top: -10px;
 	height: auto;
 	width: 30%;
 	min-width: 200px;
@@ -171,6 +184,10 @@ header{
 	position: relative;
 	top: 20px;
 	text-decoration: none;
+}
+
+#menu a:hover{
+	color: #56e8cd;
 }
 
 #menu div{
@@ -215,6 +232,16 @@ header{
 	text-decoration: none;
 	color: #ffffff;
 }	
+
+.item:hover{
+	-webkit-animation: zoom 1s;
+}
+
+@-webkit-keyframes zoom {
+	0% { -webkit-transform: scale(1);  }
+	50% { -webkit-transform: scale(1.02); background-color: rgba(0,0,0, 0.2); }
+	100% { -webkit-transform: scale(1); }
+}
 
 .name{
 	height:35px;
