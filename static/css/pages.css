@@ -125,17 +125,13 @@
 .box{
 	height: 350px;
 	width: 350px;
-	border: solid blue;
 	float: left;
 
 	position: absolute;
 }
 
 .right-box {
-	transform: perspective( 600px ) rotateY( 45deg );
-	-webkit-transform: perspective( 600px ) rotateY( 45deg );
-	-moz-transform: perspective( 600px ) rotateY( 45deg );
-	-o-transform: perspective( 600px ) rotateY( 45deg );
+
 	margin-top: 45px;
 	height: 260px;
 	margin-right: -100px;
@@ -144,10 +140,7 @@
 }
 
 .left-box {
-	transform: perspective( 600px ) rotateY( -45deg );
-	-webkit-transform: perspective( 600px ) rotateY( -45deg );
-	-moz-transform: perspective( 600px ) rotateY( -45deg );
-	-o-transform: perspective( 600px ) rotateY( -45deg );
+
 	margin-top: 45px;
 	height: 260px;
 	margin-left: -80px;
@@ -160,6 +153,7 @@
 	left: 50%;
 	margin-left: -175px;
 }
+
 
 .single-product {
 	position: relative;
@@ -253,7 +247,6 @@
 	width: 25px;
 	cursor: pointer;
 }
-
 
 
 /* Transition animation */
