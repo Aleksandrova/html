@@ -161,9 +161,11 @@ header{
 	background-size: 100% 100%;
 	width: 25px;
 	height: 13px;
+	margin: 0px;
 }
 
 #menu{
+	margin-top: -10px;
 	height: auto;
 	width: 30%;
 	min-width: 200px;
@@ -182,6 +184,10 @@ header{
 	position: relative;
 	top: 20px;
 	text-decoration: none;
+}
+
+#menu a:hover{
+	color: #56e8cd;
 }
 
 #menu div{
@@ -209,6 +215,16 @@ header{
 	text-decoration: none;
 	color: #ffffff;
 }	
+
+.item:hover{
+	-webkit-animation: zoom 1s;
+}
+
+@-webkit-keyframes zoom {
+	0% { -webkit-transform: scale(1);  }
+	50% { -webkit-transform: scale(1.02); background-color: rgba(0,0,0, 0.2); }
+	100% { -webkit-transform: scale(1); }
+}
 
 .name{
 	height:35px;
