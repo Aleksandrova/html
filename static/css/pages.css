@@ -125,17 +125,13 @@
 .box{
 	height: 350px;
 	width: 350px;
-	border: solid blue;
 	float: left;
 
 	position: absolute;
 }
 
 .right-box {
-	transform: perspective( 600px ) rotateY( 45deg );
-	-webkit-transform: perspective( 600px ) rotateY( 45deg );
-	-moz-transform: perspective( 600px ) rotateY( 45deg );
-	-o-transform: perspective( 600px ) rotateY( 45deg );
+
 	margin-top: 45px;
 	height: 260px;
 	margin-right: -100px;
@@ -144,10 +140,7 @@
 }
 
 .left-box {
-	transform: perspective( 600px ) rotateY( -45deg );
-	-webkit-transform: perspective( 600px ) rotateY( -45deg );
-	-moz-transform: perspective( 600px ) rotateY( -45deg );
-	-o-transform: perspective( 600px ) rotateY( -45deg );
+
 	margin-top: 45px;
 	height: 260px;
 	margin-left: -80px;
@@ -161,138 +154,9 @@
 	margin-left: -175px;
 }
 
-.bringtofront {
-	z-index: 9;
-}
 
-.fadeOut {
-	-webkit-animation: fadeOut 1s; 
-}
 
-@-webkit-keyframes fadeOut
-{
-	from {
-		opacity: 1;
-	}
-	to {
-		opacity: 0;
-	}
-}
-
-.toright
-{
-	-webkit-animation: mysecond 2s; 
-	animation: mysecond 2s;
-	z-index: 10;
-}
-
-@-webkit-keyframes mysecond
-{
-	from {
-		transform: perspective( 600px ) rotateY( 0deg );
-		-webkit-transform: perspective( 600px ) rotateY( 0deg );
-		-moz-transform: perspective( 600px ) rotateY( 0deg );
-		-o-transform: perspective( 600px ) rotateY( 0deg );
-		right: 30%;
-		height: 350px;
-		margin-left: 175px;
-		margin-top: 0px;
-		margin-right: 0px;
-	}
-	to {
-		transform: perspective( 600px ) rotateY( 45deg );
-		-webkit-transform: perspective( 600px ) rotateY( 45deg );
-		-moz-transform: perspective( 600px ) rotateY( 45deg );
-		-o-transform: perspective( 600px ) rotateY( 45deg );
-		margin-top: 45px;
-		height: 260px;
-		margin-right: -100px;
-		margin-left: 0px;
-		position: absolute;
-		right: 15px;
-	}
-}
-
-@keyframes mysecond
-{
-	from {
-		transform: perspective( 600px ) rotateY( 0deg );
-		-webkit-transform: perspective( 600px ) rotateY( 0deg );
-		-moz-transform: perspective( 600px ) rotateY( 0deg );
-		-o-transform: perspective( 600px ) rotateY( 0deg );
-		right: 50%;
-		height: 350px;
-		margin-left: -175px;
-		margin-top: 0px;
-	}
-	to {
-		transform: perspective( 600px ) rotateY( 45deg );
-		-webkit-transform: perspective( 600px ) rotateY( 45deg );
-		-moz-transform: perspective( 600px ) rotateY( 45deg );
-		-o-transform: perspective( 600px ) rotateY( 45deg );
-		margin-top: 45px;
-		height: 260px;
-		margin-right: -100px;
-		position: absolute;
-		right: 15px;
-	}
-}
-
-.toleft
-{
-	-webkit-animation: myfirst 2s; 
-	animation: myfirst 2s;
-	z-index: 15;
-}
-
-@-webkit-keyframes myfirst
-{
-	from {
-		transform: perspective( 600px ) rotateY( -45deg );
-		-webkit-transform: perspective( 600px ) rotateY( -45deg );
-		-moz-transform: perspective( 600px ) rotateY( -45deg );
-		-o-transform: perspective( 600px ) rotateY( -45deg );
-		margin-top: 45px;
-		height: 260px;
-		margin-left: -80px;
-		left: 0px;
-	}
-	to {
-		transform: perspective( 600px ) rotateY( 0deg );
-		-webkit-transform: perspective( 600px ) rotateY( 0deg );
-		-moz-transform: perspective( 600px ) rotateY( 0deg );
-		-o-transform: perspective( 600px ) rotateY( 0deg );
-		left: 50%;
-		height: 350px;
-		margin-left: -175px;
-		margin-top: 0px;
-	}
-}
-
-@keyframes myfirst
-{
-	from {
-		transform: perspective( 600px ) rotateY( -45deg );
-		-webkit-transform: perspective( 600px ) rotateY( -45deg );
-		-moz-transform: perspective( 600px ) rotateY( -45deg );
-		-o-transform: perspective( 600px ) rotateY( -45deg );
-		margin-top: 45px;
-		height: 260px;
-		margin-left: -80px;
-		left: 0px;
-	}
-	to {
-		transform: perspective( 600px ) rotateY( 0deg );
-		-webkit-transform: perspective( 600px ) rotateY( 0deg );
-		-moz-transform: perspective( 600px ) rotateY( 0deg );
-		-o-transform: perspective( 600px ) rotateY( 0deg );
-		left: 50%;
-		height: 350px;
-		margin-left: -175px;
-		margin-top: 0px;
-	}
-}
-
+/*SINGLE PRODUCT*/
 
 .single-product {
 	position: relative;
@@ -386,7 +250,6 @@
 	width: 25px;
 	cursor: pointer;
 }
-
 
 
 /* Transition animation */
