@@ -5,6 +5,7 @@ App.config(
 		function($stateProvider, $urlRouterProvider, $locationProvider) {
 
 			$urlRouterProvider
+				.when('/interesting', '/interesting/znaehte-li')
 				.when('/products', '/products/cat/kuhnenski-rolki');
 
 			$stateProvider
@@ -39,11 +40,8 @@ App.config(
 				})
 				.state("interesting.page", {
 					url: "/:id",
-					controller: ['$rootScope', '$stateParams',
-						function($rootScope, $stateParams) {
-							$rootScope.$emit('articleid', $stateParams.id)
-						}
-					],
+					controller: 'InterestSingleCtrl',
+					templateUrl: '/partials/interesting.single.html',
 					title: 'Интерестно'
 				})
 				.state('about', {

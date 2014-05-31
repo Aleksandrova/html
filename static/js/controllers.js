@@ -9,43 +9,28 @@ App.controller('BaseCtrl', ['$rootScope',
 App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$rootScope',
 	function($scope, API, $location, $stateParams, $rootScope) {
 		$scope.articles = API.getInteresting().query();
+	}
+]);
+
+App.controller('InterestSingleCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
 		$scope.current = {};
 
-		var ignoreDefault = false;
-
-		$scope.goTo = function(url) {
+		var find = function() {
 			for (var i in $scope.articles) {
-				if ($scope.articles[i].url == url) {
+				if ($scope.articles[i].url == $stateParams.id) {
 					$scope.current = $scope.articles[i];
-					$location.path('/interesting/' + url).replace();
-					return;
+					console.log($scope.current);
+					break;
 				}
 			}
-
-			window.scrollTo(0, 0);
-
-			$scope.current = $scope.articles[0];
 		};
 
-		$rootScope.$on("articleid", function(event, id) {
-			if ($scope.articles.$resolved) {
-				$scope.goTo(id);
-			} else {
-				$scope.articles.$promise.then(function() {
-					$scope.goTo(id);
-					ignoreDefault = true;
-				});
-			}
-		});
-
-		$scope.$watch(function() {
-			return $scope.articles[0];
-		}, function() {
-			if (!$scope.articles.$resolved || ignoreDefault)
-				return;
-
-			$scope.current = $scope.articles[0];
-		});
+		if ($scope.articles.$resolved) {
+			find();
+		} else {
+			$scope.articles.$promise.then(find);
+		}
 	}
 ]);
 
@@ -54,9 +39,8 @@ App.controller('ProductCtrl', ['$scope', 'API', '$state', '$stateParams',
 		$scope.products = API.getProducts().query();
 		$scope.category = null;
 
-		$scope.$on('productcat', function(e, data){
+		$scope.$on('productcat', function(e, data) {
 			$scope.category = data;
-			console.log(data);
 		});
 	}
 ]);

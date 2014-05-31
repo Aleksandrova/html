@@ -1,22 +1,11 @@
-	<div class="current-article">
-		<img class="current-article-img" ng-src="/static/img/interesting/{{current.image}}">
-
-		<div class="text-wrapper">
-			<div class="current-article-heading">
-				{{current.title}}
-			</div>
-			<div class="current-article-text">
-				{{current.fulltext}}
-			</div>
-		</div>
-	</div>
+	<ui-view></ui-view>
 
 	<div class="articles-holder">
 		<div class="head">
 			Още статии
 		</div>
 		<div class="articles">
-			<div ng-animate="'animate'" ng-repeat="article in articles" class="article" ng-click="goTo(article.url)">
+			<a ng-repeat="article in articles" class="article" ng-href="/interesting/{{article.url}}">
 				<div style="float: left; width: 39%;">
 					<img ng-src="/static/img/interesting/{{article.thumb}}">
 				</div>
@@ -26,8 +15,6 @@
 					</div>
 					{{article.fulltext | dots}}
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
-
-	<ui-view></ui-view>
