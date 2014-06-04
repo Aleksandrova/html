@@ -543,7 +543,7 @@ header{
 	max-width: 900px;
 	height: 350px;
    top: 50%;
-   margin-top: 200px;
+   margin-top: -250px;
 	position: absolute;
 	left: 50%;
 	margin-left: -430px;
