@@ -1,11 +1,11 @@
 <!doctype html>
-<html xmlns:ng="http://angularjs.org" id="ng-app" ng-app="Fobos">
+<html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 	<link rel="stylesheet" type="text/css" href="/static/css/pages.css">
-	<title ng-bind="$state.current.title + ' - Фобос ЕР'">Начало - Фобос ЕР</title>
+	<title>Начало - Фобос ЕР</title>
 	<meta name="fragment" content="!" />
 	<!--[if IE 8]><!--> <meta http-equiv="X-UA-Compatible" content="IE=8" /> <!--<![endif]-->
 </head>
@@ -19,11 +19,11 @@
 			<img src="/static/img/lines.png" id="lines" class="show-for-small toggle-icon">
 
 			<div id="mainmenu">
-				<a href="/">НАЧАЛО</a>
-				<a href="/products">ПРОДУКТИ</a>
-				<a href="/about">ЗА НАС</a>
-				<a href="/interesting">ИНТЕРЕСНО</a>
-				<a href="/contacts">КОНТАКТИ</a>
+				<a href="<?=$prefix;?>/">НАЧАЛО</a>
+				<a href="<?=$prefix;?>/products">ПРОДУКТИ</a>
+				<a href="<?=$prefix;?>/about">ЗА НАС</a>
+				<a href="<?=$prefix;?>/interesting">ИНТЕРЕСНО</a>
+				<a href="<?=$prefix;?>/contacts">КОНТАКТИ</a>
 			</div>
 			
 			<div style="clear: both;"></div>
@@ -31,12 +31,9 @@
 	</header>
 
 	<div id="content-wrapper">
-		<div class="well" ng-animate="'view'" ui-view></div>
+		<div class="well">
+			<? if (isset($path)) require('./views/' . $path . '.php'); ?>
+		</div>
 	</div>
-
-	<script src="/static/js/libs.js"></script>
-	<script src="/static/js/app.js"></script>
-	<script src="/static/js/controllers.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </body>
 </html>

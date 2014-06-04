@@ -1,9 +1,10 @@
 var App = angular.module('Fobos', ['ngResource', 'ui.router', 'ngAnimate']);
 
 App.config(
-	['$stateProvider', '$urlRouterProvider', '$locationProvider',
-		function($stateProvider, $urlRouterProvider, $locationProvider) {
-
+	['$stateProvider', '$urlRouterProvider', '$locationProvider', '$sceProvider',
+		function($stateProvider, $urlRouterProvider, $locationProvider, $sceProvider) {
+			$sceProvider.enabled(false);
+			
 			$urlRouterProvider
 				.when('/interesting', '/interesting/znaehte-li')
 				.when('/products', '/products/cat/kuhnenski-rolki');
@@ -61,6 +62,7 @@ App.config(
 	]
 );
 
+
 App.run(['$rootScope', '$state',
 	function($rootScope, $state) {
 		$rootScope.$on("$stateChangeSuccess", function(currentRoute, previousRoute) {
@@ -113,3 +115,4 @@ App.directive('toggler', function() {
 		}, false);
 	}
 });
+
