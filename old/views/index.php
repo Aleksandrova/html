@@ -10,10 +10,11 @@
 	<meta name="classification" content="business" />
 	<meta name="robots" content="index, follow" />
 	<meta name="owner" content="FobosR" />
-	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." /> 
+	<meta name="keywords" content="Fobos, fobosr, фобос, ер, фобосЕр, fobos-r, фобос-ер, ООД, град, монтана, българия, георги, георгиев, производство, пакетаж, пласмент, изделия от хартия, тоалетна, хартия, кухненска, кухненски, рула, ролки,  носни, кърпички, салфетки, римби, rimbi, писана, фреш, fresh, мелани, дева, спринг, перле, perle, финес, мони, целулоза, пакет, пакети, чувал, щампа, бандерол, fantasy, кафе, coffee" />
+	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." />
 </head>
 <body>
-	<header>
+	<div class="bg-hack header">
 		<div id="holder">
 			<div id="logo">
 				<a href="<?=$prefix;?>/"> <img src="/static/img/logo.png"> </a>
@@ -31,12 +32,17 @@
 			
 			<div style="clear: both;"></div>
 		</div>
-	</header>
+	</div>
 
 	<div id="content-wrapper">
 		<div class="well">
 			<? if (isset($path)) require('./views/' . $path . '.php'); ?>
 		</div>
 	</div>
+	<!--[if IE 8]>
+	<script>
+		document.body.className = 'ie-hacks';
+	</script>
+	<![endif]--> 
 </body>
 </html>

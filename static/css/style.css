@@ -10,12 +10,15 @@ body {
   overflow-y: scroll;
  }
  
-header{
+header, .header{
 	min-height:85px;
-	width: 100%;
 	background-color: rgba(0,0,0,0.2);
 	margin-top: 20px;
 	overflow: hidden;
+}
+
+.ie-hacks {
+	overflow-y: hidden;
 }
 
 а, p{
@@ -23,7 +26,7 @@ header{
 	color: #fff;
 }
 
-.bg-hack {
+.ie-hacks .bg-hack {
 	background-image: url("../img/transparent-bg.png") !important;
 	background-repeat: repeat !important;
 }

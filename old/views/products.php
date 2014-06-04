@@ -1,4 +1,4 @@
-<div class="dark-holder">
+<div class="dark-holder bg-hack">
 	<div id="tag" class="hide-for-small">
 		<p>Какво предлагаме?</p>
 		<div id="tag-triangle" class="hide-for-small"></div>
