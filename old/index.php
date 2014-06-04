@@ -11,7 +11,7 @@ $view->setTemplatesDirectory('./views');
 $app->view->setData('prefix', '/old');
 
 $app->get('/', function () use ($app) {
-    $app->render('index.php', ['title' => 'Начало']);
+    $app->render('index.php', ['path' => 'home', 'title' => 'Начало']);
 });
 
 $app->get('/contacts', function() use ($app){
