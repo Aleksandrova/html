@@ -4,12 +4,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
-	<title>Начало - Фобос ЕР</title>
+	<title><?=$title;?> - Фобос ЕР</title>
 	<meta name="fragment" content="!" />
 	<!--[if IE 8]><!--> <meta http-equiv="X-UA-Compatible" content="IE=8" /> <!--<![endif]-->
+	<meta name="classification" content="business" />
+	<meta name="robots" content="index, follow" />
+	<meta name="owner" content="FobosR" />
+	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." /> 
 </head>
 <body>
-	<div class="header">
+	<header>
 		<div id="holder">
 			<div id="logo">
 				<a href="<?=$prefix;?>/"> <img src="/static/img/logo.png"> </a>
@@ -27,7 +31,7 @@
 			
 			<div style="clear: both;"></div>
 		</div>
-	</div>
+	</header>
 
 	<div id="content-wrapper">
 		<div class="well">

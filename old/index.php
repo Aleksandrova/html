@@ -11,20 +11,20 @@ $view->setTemplatesDirectory('./views');
 $app->view->setData('prefix', '/old');
 
 $app->get('/', function () use ($app) {
-    $app->render('index.php');
+    $app->render('index.php', ['title' => 'Начало']);
 });
 
 $app->get('/contacts', function() use ($app){
-    $app->render('index.php', ['path'=>'contacts']);
+    $app->render('index.php', ['path'=>'contacts', 'title' => 'Контакти']);
 });
 
 $app->get('/about', function() use ($app){
-    $app->render('index.php', ['path'=>'about']);
+    $app->render('index.php', ['path'=>'about', 'title' => 'За нас']);
 });
 
 $app->get('/interesting', function() use ($app){
     $data = json_decode(file_get_contents("../api/interesting.json"));
-    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $data[0]]);
+    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $data[0], 'title' => 'Интерестно']);
 });
 
 $app->get('/interesting/:id', function($id) use ($app){
@@ -36,8 +36,8 @@ $app->get('/interesting/:id', function($id) use ($app){
             break;
         }
     }
-
-    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $current]);
+    $title = isset($current->url) ? $current->title : 'Интерестно';
+    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $current, 'title'=>$title]);
 });
 
 function filter($input, $cat) {
@@ -55,14 +55,14 @@ $app->get('/products', function() use ($app) {
     $data = json_decode(file_get_contents("../api/products.json"));
 
     $data = filter($data, 'kuhnenski-rolki');
-    $app->render('index.php', ['path'=>'products', 'cat'=>$data]);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти']);
 });
 
 $app->get('/products/cat/:id', function($id) use ($app) {
     $data = json_decode(file_get_contents("../api/products.json"));
 
     $data = filter($data, $id);
-    $app->render('index.php', ['path'=>'products', 'cat'=>$data]);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти']);
 });
 
 $app->get('/products/:id', function($id) use ($app) {
@@ -73,8 +73,8 @@ $app->get('/products/:id', function($id) use ($app) {
             $current = $now;
         }
     }
-
-    $app->render('index.php', ['path'=>'products', 'current'=>$current]);
+    $title = isset($current->url) ? $current->title : 'Продукти';
+    $app->render('index.php', ['path'=>'products', 'current'=>$current, 'title'=>$title]);
 });
 
 $app->run();
