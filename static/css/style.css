@@ -528,8 +528,9 @@ header{
 	width: 900px;
 	max-width: 900px;
 	height: 350px;
- 	margin-top: 150px;
-	position: relative;
+   top: 50%;
+   margin-top: 200px;
+	position: absolute;
 	left: 50%;
 	margin-left: -430px;
 }
@@ -556,7 +557,7 @@ header{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	max-width: 270px;
-	color: fff;
+	color: #fff;
 	font-family: "Century Gothic", Arial;
 	box-shadow: 0px 0px 10px -1px rgba(0,0,0, 0.2);
 }
