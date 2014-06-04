@@ -15,11 +15,17 @@ header{
 	width: 100%;
 	background-color: rgba(0,0,0,0.2);
 	margin-top: 20px;
+	overflow: hidden;
 }
 
 а, p{
 	font-family: "Century Gothic", Arial !important;
 	color: #fff;
+}
+
+.bg-hack {
+	background-image: url("../img/transparent-bg.png") !important;
+	background-repeat: repeat !important;
 }
 
 .show-for-small {
@@ -59,6 +65,11 @@ header{
 #logo {
 	position:relative;
 	top:10px;
+	border: 0px;
+}
+
+#logo img {
+	border: 0px;
 }
 
 #mainmenu {
@@ -120,6 +131,7 @@ header{
 	margin-right: auto;
 	margin-top: 40px;
 	position: relative;
+	bottom: 0px;
 }
 
 .dark-holder {
@@ -496,6 +508,7 @@ header{
 	display: block;
 	text-decoration: none;
 	color: #fff;
+	cursor: pointer;
 }
 
 
