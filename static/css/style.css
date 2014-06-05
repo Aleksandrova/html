@@ -1,6 +1,7 @@
 html, body {
   padding: 0px;
   margin: 0px;
+  height:100%;
  }
 
 body {
@@ -137,6 +138,8 @@ img {
 	position: relative;
 	bottom: 0px;
 	height: 100%;
+
+	
 }
 
 .dark-holder {
@@ -558,7 +561,7 @@ img {
 	max-width: 900px;
 	height: 350px;
    top: 50%;
-   margin-top: -250px;
+   margin-top: -260px;
 	position: absolute;
 	left: 50%;
 	margin-left: -430px;
