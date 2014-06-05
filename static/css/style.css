@@ -79,10 +79,12 @@ img {
 	border: 0px;
 }
 
-#mainmenu {
-	position: absolute;
-	top: 33px;
-	right: 0px;
+@media all and (min-width: 751px) {
+	#mainmenu {
+		position: absolute;
+		top: 33px;
+		right: 0px;
+	}
 }
 
 @media all and (max-width: 750px) {
@@ -440,6 +442,7 @@ img {
 
 .showed {
 	display: block !important;
+	position: relative !important;
 }
 
 .articles-holder {
