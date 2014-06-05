@@ -1,12 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 	<title><?=$title;?> - Фобос ЕР</title>
-	<meta name="fragment" content="!" />
-	<!--[if IE 8]><!--> <meta http-equiv="X-UA-Compatible" content="IE=8" /> <!--<![endif]-->
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE;chrome=1" />
 	<meta name="classification" content="business" />
 	<meta name="robots" content="index, follow" />
 	<meta name="owner" content="FobosR" />
@@ -14,6 +13,11 @@
 	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." />
 </head>
 <body>
+	<!--[if IE]>
+	<script>
+		document.body.className = 'ie-hacks';
+	</script>
+	<![endif]--> 
 	<div class="bg-hack header">
 		<div id="holder">
 			<div id="logo">
@@ -39,10 +43,6 @@
 			<? if (isset($path)) require('./views/' . $path . '.php'); ?>
 		</div>
 	</div>
-	<!--[if IE 8]>
-	<script>
-		document.body.className = 'ie-hacks';
-	</script>
-	<![endif]--> 
+	<script src="/static/js/media-support.js"></script>
 </body>
 </html>

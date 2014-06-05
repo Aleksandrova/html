@@ -1,4 +1,4 @@
-<div class="dark-holder-small">
+<div class="bg-hack dark-holder-small">
 	<div id="picture-holder">
 		<img width="100%" src="/static/img/us.png">
 	</div>

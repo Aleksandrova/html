@@ -1,5 +1,5 @@
 <div class="dark-holder bg-hack">
-	<div id="tag" class="hide-for-small">
+	<div id="tag" class="bg-hack hide-for-small">
 		<p>Какво предлагаме?</p>
 		<div id="tag-triangle" class="hide-for-small"></div>
 	</div>
@@ -19,7 +19,7 @@
 		<? if (isset($cat)) { ?>
 			<? foreach($cat as $now) { $notnull = true; ?>
 				<a href="<?=$prefix;?>/products/<?=$now->url?>" class="item">
-					<div class="name"><?=$now->title?></div>
+					<div class="name bg-hack"><?=$now->title?></div>
 					<img style="width: 100%" src="<?=$now->thumb;?>">
 				</a>
 			<? } ?>
@@ -30,15 +30,18 @@
 		<? if(isset($current)) { 
 			if (isset($current->title)) { ?>
 			<div class="single-product">
-				<div class="wrapper">
-					<div class="title"><?=$current->title;?></div>
+				<div class="bg-hack-4 wrapper">
+					<div class="title bg-hack"><?=$current->title;?></div>
 					<div class="triangle hide-for-small"></div>
 					<img class="image" src="<?=$current->image;?>">
 
 					<div class="text-holder">
 						<?=$current->fulltext;?>
 					</div>
-					<a href="<?=$prefix;?>/products/cat/<?=$current->category;?>" class="back-btn">Назад</a>
+					<a href="<?=$prefix;?>/products/cat/<?=$current->category;?>" class="back-btn bg-hack">
+						<img src="/static/img/back_arrow.png" style="width: 37px; height: 37px;">
+						<span style="top: -7px; position: relative;">Назад</span>
+					</a>
 				</div>
 			</div><? } ?>
 
