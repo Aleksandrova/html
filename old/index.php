@@ -11,7 +11,10 @@ $view->setTemplatesDirectory('./views');
 $app->view->setData('prefix', '/old');
 
 $app->get('/', function () use ($app) {
-    $app->render('index.php', ['path' => 'home', 'title' => 'Начало']);
+    $data = json_decode(file_get_contents("../api/products.json"));
+    shuffle($data);
+    $data = array_slice($data, 0, 3);
+    $app->render('index.php', ['path' => 'home', 'title' => 'Начало', 'data' => $data]);
 });
 
 $app->get('/contacts', function() use ($app){

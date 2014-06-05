@@ -574,8 +574,9 @@ img {
 	width: 100%;
 	margin-right:30px;
 	float: left;
+	display: block;
+	text-decoration: none;
 	/* border: solid blue; */
-
 }
 
 #box-left, #box-right {
@@ -599,10 +600,10 @@ img {
 }
 
 .example .text-holder {
-	height: 37px;
+	height: 65px;
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 20px;
-	padding-top: 25px;
+	padding-top: 5px;
 	margin: 0px;
 	font-size: 18px;
 	line-height:160%;

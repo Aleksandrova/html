@@ -1,36 +1,17 @@
 <div id="box-holder">
-
-	<div id="box-left" class="box">
+	<? $i = 0; foreach($data as $now) { ?>
+	<a href="<?=$prefix;?>/products/<?=$now->url;?>" id="<?if($i==0){?>box-left<?}elseif($i==2){?>box-right<?}else{?>box<?}?>" class="box">
 		<div class="example">
-			<img class="image" ng-src="../static/img/products/n1.png">
-			<div class="text-holder">
-				textetetextasds
+			<? if ($i == 1) { ?>
+			<div class="title hide-for-small bg-hack-4"><?=$now->title;?></div>
+			<div class="triangle hide-for-small"></div> 
+			<? } ?>
+			<img class="image" src="<?=$now->image;?>">
+			<div class="text-holder bg-hack">
+				<?=mb_substr($now->fulltext, 0, 58, 'UTF-8');?>..
 			</div>
-			<div class="bottom"></div>
+			<div class="bottom bg-hack-4"></div>
 		</div>
-	</div>
-	
-	<div class="box">
-		<div class="example">
-			<div class="title hide-for-small ">Name</div>
-			<div class="triangle hide-for-small"></div>
-			<img class="image" ng-src="../static/img/products/n1.png">
-			<div class="text-holder">
-				textetetextasds
-			</div>
-			<div class="bottom"></div>
-		</div>
-	</div>
-	
-	<div id="box-right" class="box">
-		<div class="example">
-			<img class="image" ng-src="../static/img/products/n1.png">
-			<div class="text-holder">
-				textetetextasds
-			</div>
-			<div class="bottom"></div>
-		</div>
-	</div>
-	
+	</a>
+	<? $i++; } ?>
 </div>
-

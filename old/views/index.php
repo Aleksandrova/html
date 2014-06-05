@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
+	<meta http-equiv="x-ua-compatible" content="IE=edge" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
 	<title><?=$title;?> - Фобос ЕР</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=EDGE;chrome=1" />
 	<meta name="classification" content="business" />
 	<meta name="robots" content="index, follow" />
 	<meta name="owner" content="FobosR" />
