@@ -42,7 +42,7 @@ header, .header{
 
 @media all and (max-width: 750px) {
   	.hide-for-small {
-  		display: none;
+  		display: none!important ;
   	}
 
   	.show-for-small {
@@ -556,9 +556,9 @@ img {
 
 
 #box-holder{
-	/*width: 100%; */
+	/*width: 100%; 
+	  max-width: 900px; */
 	width: 900px;
-	max-width: 900px;
 	height: 350px;
    top: 50%;
    margin-top: -260px;
@@ -581,6 +581,7 @@ img {
 
 #box-left, #box-right {
 	opacity: 0.5;
+	
 }
 
 /**/
@@ -597,6 +598,8 @@ img {
 
 .example .image {
 	width: 100%;
+
+	
 }
 
 .example .text-holder {
@@ -607,6 +610,7 @@ img {
 	margin: 0px;
 	font-size: 18px;
 	line-height:160%;
+		margin-top: 0px;
 }
 .example .bottom {
 	margin-left: 0px;
