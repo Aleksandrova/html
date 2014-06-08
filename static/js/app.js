@@ -105,14 +105,23 @@ App.filter('category', function() {
 
 App.directive('toggler', function() {
 	return function(scope, element) {
-		var rightMenu = document.getElementById('mainmenu');
-		element[0].addEventListener('click', function() {
-			if (rightMenu.className == 'showed') {
-				rightMenu.className = '';
+		var toggler = element[0];
+
+		function toggleMenu() {
+			var mainmenu = document.getElementById('mainmenu');
+			if (mainmenu.className == 'showed') {
+				mainmenu.className = '';
 			} else {
-				rightMenu.className = 'showed';
+				mainmenu.className = 'showed';
 			}
-		}, false);
+		}
+
+		if (!toggler.addEventListener) {
+		    toggler.attachEvent("onclick", toggleMenu);
+		}
+		else {
+		    toggler.addEventListener("click", toggleMenu, false);
+		}
 	}
 });
 

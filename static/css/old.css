@@ -17,10 +17,6 @@ header, .header{
 	overflow: hidden;
 }
 
-.ie-hacks {
-	overflow-y: hidden;
-}
-
 а, p{
 	font-family: "Century Gothic", Arial !important;
 	color: #fff;
@@ -28,6 +24,11 @@ header, .header{
 
 .ie-hacks .bg-hack {
 	background-image: url("../img/transparent-bg.png") !important;
+	background-repeat: repeat !important;
+}
+
+.ie-hacks .bg-hack-4 {
+	background-image: url("../img/transparent-bg-4.png") !important;
 	background-repeat: repeat !important;
 }
 
@@ -71,11 +72,8 @@ header, .header{
 	border: 0px;
 }
 
-#logo img {
+img {
 	border: 0px;
-}
-
-#mainmenu {
 }
 
 @media all and (min-width: 751px) {
@@ -135,19 +133,16 @@ header, .header{
 	margin-top: 40px;
 	position: relative;
 	bottom: 0px;
-	height: 100%;
 }
 
 .dark-holder {
 	max-width:880px;
 	width: 100%;
 	height: auto;
-	position: absolute;
-	left: 0px;
-	right: 0px;
 	background-color: rgba(0,0,0,0.2);
 	font-family: "Century Gothic";
 	color: #fff;
+	overflow: overlay;
 }
 
 /* Products */
@@ -158,7 +153,6 @@ header, .header{
 	background-color: rgba(0,0,0,0.2);
 	position:relative;
 	top: 5px;
-	
 	margin-left: -24px;
 }
 
@@ -379,7 +373,9 @@ header, .header{
 }
 
 .part a:hover {
-	background-color: rgba(0,0,0,0.4);
+	background: url("../img/transparent-bg-4.png") !important;
+	background-repeat: repeat !important;
+	
 }
 
 #right-part {
@@ -397,6 +393,10 @@ header, .header{
 	position: relative;
 	top: -7px;
 	font-size: 17pt;
+}
+
+.ie-hacks .part p {
+
 }
 
 .part img{
@@ -436,6 +436,7 @@ header, .header{
 
 .showed {
 	display: block !important;
+	position: relative !important;
 }
 
 .articles-holder {
@@ -515,9 +516,14 @@ header, .header{
 	cursor: pointer;
 }
 
+.articles-holder .articles .fake-border {
+	width: 100%;
+	height: 1px;
+}
 
 .articles-holder .articles .article:hover {
-	background-color: rgba(255, 255, 255, 0.1);
+	background: url("../img/white-shadow.png");
+	background: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -546,7 +552,7 @@ header, .header{
 	max-width: 900px;
 	height: 350px;
    top: 50%;
-   margin-top: -250px;
+   margin-top: -260px;
 	position: absolute;
 	left: 50%;
 	margin-left: -430px;
@@ -559,8 +565,9 @@ header, .header{
 	width: 100%;
 	margin-right:30px;
 	float: left;
+	display: block;
+	text-decoration: none;
 	/* border: solid blue; */
-
 }
 
 #box-left, #box-right {
@@ -584,10 +591,10 @@ header, .header{
 }
 
 .example .text-holder {
-	height: 37px;
+	height: 65px;
 	background-color: rgba(0, 0, 0, 0.2);
 	padding: 20px;
-	padding-top: 25px;
+	padding-top: 5px;
 	margin: 0px;
 	font-size: 18px;
 	line-height:160%;
@@ -659,12 +666,13 @@ header, .header{
 	height: 50px;
 	font-size: 28px;
 	display: block;
-	background-image: url('/static/img/back_arrow.png');
+	background-image: url('');
 	background-size: 40px 40px;
 	background-position: 20px 10px;
 	background-repeat: no-repeat;
-	padding-left: 70px;
+	padding-left: 30px;
 	padding-top: 10px;
+	color: #ffffff;
 	color: rgba(255,255,255, 0.2);
 	text-decoration: none;
 }
@@ -722,13 +730,6 @@ header, .header{
 
 /* Transition animation */
 
-.well {
-	position:absolute;
-  	top: 0px;
-  	left: 15px;
-  	right: 15px;
-  	bottom: 0px;
-}
 
 [ui-view].ng-enter, [ui-view].ng-leave {
   -webkit-transition:all .3s ease-in-out;

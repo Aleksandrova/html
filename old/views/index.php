@@ -13,6 +13,7 @@
 	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." />
 </head>
 <body>
+	<div style="position: absolute; display: none; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: red;">dasdas</div>	
 	<!--[if IE]>
 	<script>
 		document.body.className = 'ie-hacks';
