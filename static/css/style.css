@@ -2,6 +2,7 @@ html, body {
   padding: 0px;
   margin: 0px;
   height:100%;
+  overflow-x: hidden;
  }
 
 body {
@@ -566,6 +567,7 @@ img {
 	position: absolute;
 	left: 50%;
 	margin-left: -430px;
+
 }
 
 .box{
