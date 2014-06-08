@@ -558,7 +558,8 @@ img {
 
 
 #box-holder{
-	width: 900px; 
+
+	width: 900px;
 	height: 350px;
     top: 50%;
     margin-top: -260px;
@@ -569,10 +570,10 @@ img {
 
 .box{
 	max-height: 270px;
-	max-width: 270px;
+	max-width: 260px;
 	height: 100% ;
 	width: 100%;
-	margin-right:30px;
+	margin-right:25px;
 	float: left;
 	display: block;
 	text-decoration: none;
@@ -625,7 +626,7 @@ img {
 .example .title {
 	position: absolute;
 	top: 10px;
-	left: 285px;
+	left: 275px;
 	background-color: rgba(0, 0, 0, 0.45);
 	height: 33px;
 	font-size: 22px;
@@ -637,10 +638,10 @@ img {
 .example .triangle {
 	position: absolute;
 	top: 48px;
-	left: 285px;
+	left: 275px;
 	background-image: url('/static/img/mini-triangle.png');
 	background-size: 100% 100%;
-	width: 15px;
+	width: 10px;
 	height: 13px;
 }
 
