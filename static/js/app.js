@@ -4,7 +4,7 @@ App.config(
 	['$stateProvider', '$urlRouterProvider', '$locationProvider', '$sceProvider',
 		function($stateProvider, $urlRouterProvider, $locationProvider, $sceProvider) {
 			$sceProvider.enabled(false);
-			
+
 			$urlRouterProvider
 				.when('/interesting', '/interesting/znaehte-li')
 				.when('/products', '/products/cat/kuhnenski-rolki');
@@ -117,11 +117,32 @@ App.directive('toggler', function() {
 		}
 
 		if (!toggler.addEventListener) {
-		    toggler.attachEvent("onclick", toggleMenu);
-		}
-		else {
-		    toggler.addEventListener("click", toggleMenu, false);
+			toggler.attachEvent("onclick", toggleMenu);
+		} else {
+			toggler.addEventListener("click", toggleMenu, false);
 		}
 	}
 });
 
+App.directive('flexmenu', function() {
+
+	function render() {
+		var w = window,
+			d = document,
+			e = d.documentElement,
+			g = d.getElementsByTagName('body')[0],
+			x = w.innerWidth || e.clientWidth || g.clientWidth,
+			y = w.innerHeight || e.clientHeight || g.clientHeight;
+
+		var begin = y / 2 - 175 - 60;
+		var move = (-(900 - x) / 2) + 10;
+
+		document.getElementById('box-parent').style.marginTop = (begin < 0 ? 0 : begin) + 'px';
+		document.getElementById('box-holder').style.marginLeft = (move < 0 ? move : 0) + 'px';
+	}
+
+	return function(scope, element, attrs) {
+		render();
+		window.onresize = render;
+	}
+});
