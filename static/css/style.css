@@ -558,8 +558,7 @@ img {
 
 
 #box-holder{
-	width: 100%; 
-	max-width: 900px; 
+	width: 900px; 
 	height: 350px;
     top: 50%;
     margin-top: -260px;
