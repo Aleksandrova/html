@@ -80,4 +80,8 @@ $app->get('/products/:id', function($id) use ($app) {
     $app->render('index.php', ['path'=>'products', 'current'=>$current, 'title'=>$title]);
 });
 
+$app->notFound(function () use ($app) {
+    $app->render('index.php', ['path'=>'404', 'title'=>'Страницата не бе намерена.']);
+});
+
 $app->run();
