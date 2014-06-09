@@ -6,6 +6,16 @@ App.controller('BaseCtrl', ['$rootScope',
 	}
 ]);
 
+App.controller('HomeCtrl', ['$scope', 'API',
+	function($scope, API) {
+		$scope.current = [];
+
+		API.getHomeItems(3, function(data){
+			$scope.current = data;
+		});
+	}
+]);
+
 App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$rootScope',
 	function($scope, API, $location, $stateParams, $rootScope) {
 		$scope.articles = API.getInteresting().query();

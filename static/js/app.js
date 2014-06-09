@@ -13,7 +13,8 @@ App.config(
 				.state("home", {
 					url: "/",
 					templateUrl: '/partials/home.html',
-					title: 'Начало'
+					title: 'Начало',
+					controller: 'HomeCtrl'
 				})
 				.state("products", {
 					url: "/products",
@@ -73,20 +74,35 @@ App.run(['$rootScope', '$state',
 
 App.factory('API', ['$resource',
 	function($resource) {
+		var randomId = function(len) {
+			return Math.floor(Math.random() * len);
+		}
+
 		return {
 			getInteresting: function() {
 				return $resource('/api/interesting.json');
 			},
 			getProducts: function() {
 				return $resource('/api/products.json');
+			},
+			getHomeItems: function(count, cb) {
+				var data = this.getProducts().query();
+				data.$promise.then(function(res) {
+					var output = [];
+					for (var i = 0; i < count; i++) {
+						output.push(res[randomId(res.length)]);
+					}
+					cb(output);
+				});
 			}
 		}
 	}
 ]);
 
 App.filter('dots', function() {
-	return function(input) {
-		input = input.substr(0, 80) + '..';
+	return function(input, len) {
+		len = len || 80;
+		input = input.substr(0, len) + '..';
 		return input;
 	}
 });

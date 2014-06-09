@@ -34,7 +34,6 @@ function responsiveMenu() {
 	document.getElementById('box-holder').style.marginLeft = (move < 0 ? move : 0) + 'px';
 }
 
-window.onload = function() {
-	responsiveMenu();
-	window.onresize = responsiveMenu;
-}
+
+responsiveMenu();
+window.onresize = responsiveMenu;

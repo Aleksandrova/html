@@ -1,32 +1,12 @@
 <div flexmenu id="box-parent" style="width: 100%; height: 360px; overflow: hidden;">
 	<div id="box-holder">
-		<div id="box-left" class="box">
+		<div ng-repeat="now in current track by $index" class="box" ng-class="{'box-opacity': $index != 1}">
 			<div class="example">
-				<img class="image" ng-src="../static/img/products/n1.png">
+				<div ng-if="$index == 1" class="title hide-for-small ">{{now.title}}</div>
+				<div ng-if="$index == 1" class="triangle hide-for-small"></div>
+				<img class="image" ng-src="{{now.thumb}}">
 				<div class="text-holder">
-					textetetextasds
-				</div>
-				<div class="bottom"></div>
-			</div>
-		</div>
-
-		<div class="box">
-			<div class="example">
-				<div class="title hide-for-small ">Name</div>
-				<div class="triangle hide-for-small"></div>
-				<img class="image" ng-src="../static/img/products/n1.png">
-				<div class="text-holder">
-					textetetextasds
-				</div>
-				<div class="bottom"></div>
-			</div>
-		</div>
-
-		<div id="box-right" class="box">
-			<div class="example">
-				<img class="image" ng-src="../static/img/products/n1.png">
-				<div class="text-holder">
-					textetetextasds
+					{{now.fulltext | dots: 55}}
 				</div>
 				<div class="bottom"></div>
 			</div>
