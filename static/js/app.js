@@ -6,9 +6,9 @@ App.config(
 		function($stateProvider, $urlRouterProvider, $locationProvider, $sceProvider) {
 			$sceProvider.enabled(false);
 
-			//$urlRouterProvider
-			//	.when('/new/interesting', '/new/interesting/znaehte-li')
-			//	.when('/new/products', '/new/products/cat/kuhnenski-rolki');
+			$urlRouterProvider
+				.when('/new/interesting', '/new/interesting/znaehte-li')
+				.when('/new/products', '/new/products/cat/kuhnenski-rolki');
 
 			$stateProvider
 				.state("home", {
@@ -24,13 +24,13 @@ App.config(
 					title: 'Продукти'
 				})
 				.state("products.category", {
-					url: "/new/cat/:id",
+					url: "/cat/:id",
 					controller: 'CategoryCtrl',
 					templateUrl: path + '/partials/products.template.html',
 					title: 'Продукти'
 				})
 				.state("products.view", {
-					url: "/new/:id",
+					url: "/:id",
 					controller: 'ViewProductCtrl',
 					templateUrl: path + '/partials/products.single.html',
 					title: 'Продукти'
@@ -42,7 +42,7 @@ App.config(
 					title: 'Интерестно'
 				})
 				.state("interesting.page", {
-					url: "/new/:id",
+					url: "/:id",
 					controller: 'InterestSingleCtrl',
 					templateUrl: path + '/partials/interesting.single.html',
 					title: 'Интерестно'
