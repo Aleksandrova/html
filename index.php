@@ -8,10 +8,10 @@ $app = new \Slim\Slim();
 $view = $app->view();
 $view->setTemplatesDirectory('./views');
 
-$app->view->setData('prefix', '/old');
+$app->view->setData('prefix', '');
 
 $app->get('/', function () use ($app) {
-    $data = json_decode(file_get_contents("../api/products.json"));
+    $data = json_decode(file_get_contents("./api/products.json"));
     shuffle($data);
     $data = array_slice($data, 0, 3);
     $app->render('index.php', ['path' => 'home', 'title' => 'Начало', 'data' => $data]);
@@ -26,12 +26,12 @@ $app->get('/about', function() use ($app){
 });
 
 $app->get('/interesting', function() use ($app){
-    $data = json_decode(file_get_contents("../api/interesting.json"));
+    $data = json_decode(file_get_contents("./api/interesting.json"));
     $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $data[0], 'title' => 'Интерестно']);
 });
 
 $app->get('/interesting/:id', function($id) use ($app){
-    $data = json_decode(file_get_contents("../api/interesting.json"));
+    $data = json_decode(file_get_contents("./api/interesting.json"));
     $current = [];
     foreach($data as $now) {
         if ($now->url == $id) {
@@ -55,21 +55,21 @@ function filter($input, $cat) {
 }
 
 $app->get('/products', function() use ($app) {
-    $data = json_decode(file_get_contents("../api/products.json"));
+    $data = json_decode(file_get_contents("./api/products.json"));
 
     $data = filter($data, 'kuhnenski-rolki');
     $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти']);
 });
 
 $app->get('/products/cat/:id', function($id) use ($app) {
-    $data = json_decode(file_get_contents("../api/products.json"));
+    $data = json_decode(file_get_contents("./api/products.json"));
 
     $data = filter($data, $id);
     $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти']);
 });
 
 $app->get('/products/:id', function($id) use ($app) {
-    $data = json_decode(file_get_contents("../api/products.json"));
+    $data = json_decode(file_get_contents("./api/products.json"));
     $current = [];
     foreach($data as $now) {
         if ($now->url == $id) {

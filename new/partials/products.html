@@ -1,0 +1,22 @@
+<div class="dark-holder">
+	<div id="tag" class="hide-for-small">
+		<p>Какво предлагаме?</p>
+		<div id="tag-triangle" class="hide-for-small"></div>
+	</div>
+	<div id="menu" class="hide-for-small">
+		<div><a href="/new/products/cat/kuhnenski-rolki">Кухненски ролки</a></div>
+		<div><a href="/new/products/cat/toaletna-hartia">Тоалетна хартия</a></div>
+		<div><a href="/new/products/cat/nosni-kurpichki">Носни кърпички</a></div>
+		<div><a href="/new/products/cat/salfetki">Салфетки</a></div>
+	</div>
+	<div class="picture-menu show-for-small">
+		<a href="/new/products/cat/kuhnenski-rolki" ng-class="{active: category == 'kuhnenski-rolki' }"><img src="/static/img/icons/rola.png"></a>
+		<a href="/new/products/cat/toaletna-hartia" ng-class="{active: category == 'toaletna-hartia' }"><img src="/static/img/icons/hartia.png"></a>
+		<a href="/new/products/cat/nosni-kurpichki" ng-class="{active: category == 'nosni-kurpichki' }"><img src="/static/img/icons/kurpichki.png"></a>
+		<a href="/new/products/cat/salfetki"  ng-class="{active: category == 'salfetki' }"><img src="/static/img/icons/salfetki.png"></a>
+	</div>
+	<div id="products-holder">
+		<ui-view></ui-view>		
+	</div>
+	<div style="clear: both; margin-bottom: 50px;"></div>
+</div>

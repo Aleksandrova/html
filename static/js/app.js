@@ -1,59 +1,60 @@
 var App = angular.module('Fobos', ['ngResource', 'ui.router', 'ngAnimate']);
+var path = '/new';
 
 App.config(
 	['$stateProvider', '$urlRouterProvider', '$locationProvider', '$sceProvider',
 		function($stateProvider, $urlRouterProvider, $locationProvider, $sceProvider) {
 			$sceProvider.enabled(false);
 
-			$urlRouterProvider
-				.when('/interesting', '/interesting/znaehte-li')
-				.when('/products', '/products/cat/kuhnenski-rolki');
+			//$urlRouterProvider
+			//	.when('/new/interesting', '/new/interesting/znaehte-li')
+			//	.when('/new/products', '/new/products/cat/kuhnenski-rolki');
 
 			$stateProvider
 				.state("home", {
-					url: "/",
-					templateUrl: '/partials/home.html',
+					url: "/new/",
+					templateUrl: path + '/partials/home.html',
 					title: 'Начало',
 					controller: 'HomeCtrl'
 				})
 				.state("products", {
-					url: "/products",
-					templateUrl: '/partials/products.html',
+					url: "/new/products",
+					templateUrl: path + '/partials/products.html',
 					controller: 'ProductCtrl',
 					title: 'Продукти'
 				})
 				.state("products.category", {
-					url: "/cat/:id",
+					url: "/new/cat/:id",
 					controller: 'CategoryCtrl',
-					templateUrl: '/partials/products.template.html',
+					templateUrl: path + '/partials/products.template.html',
 					title: 'Продукти'
 				})
 				.state("products.view", {
-					url: "/:id",
+					url: "/new/:id",
 					controller: 'ViewProductCtrl',
-					templateUrl: '/partials/products.single.html',
+					templateUrl: path + '/partials/products.single.html',
 					title: 'Продукти'
 				})
 				.state("interesting", {
-					url: "/interesting",
-					templateUrl: '/partials/interesting.html',
+					url: "/new/interesting",
+					templateUrl: path + '/partials/interesting.html',
 					controller: 'InterestCtrl',
 					title: 'Интерестно'
 				})
 				.state("interesting.page", {
-					url: "/:id",
+					url: "/new/:id",
 					controller: 'InterestSingleCtrl',
-					templateUrl: '/partials/interesting.single.html',
+					templateUrl: path + '/partials/interesting.single.html',
 					title: 'Интерестно'
 				})
 				.state('about', {
-					url: '/about',
-					templateUrl: '/partials/about.html',
+					url: '/new/about',
+					templateUrl: path + '/partials/about.html',
 					title: 'За нас'
 				})
 				.state('contacts', {
-					url: '/contacts',
-					templateUrl: '/partials/contacts.html',
+					url: '/new/contacts',
+					templateUrl: path + '/partials/contacts.html',
 					controller: 'ContactCtrl',
 					title: 'Контакти'
 				});
