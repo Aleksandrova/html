@@ -2,7 +2,6 @@
 	<div id="box-holder">
 		<a ng-repeat="now in current track by $index" class="box" ng-href="/new/products/{{now.url}}" ng-class="{'box-opacity': $index != 1 && $index != 4}">
 			<div class="example">
-				<div ng-if="$index == 1 || $index == 4" class="title hide-for-small ">{{now.title}}</div>
 				<div ng-if="$index == 1 || $index == 4" class="triangle hide-for-small"></div>
 				<img class="image" ng-src="{{now.thumb}}">
 				<div class="text-holder">

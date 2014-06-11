@@ -1,20 +1,15 @@
 [{
 	"title": "Дева",
 	"category": "salfetki",
+	"sub": "25x25",
 	"image": "/static/img/products/deva_s.png",
 	"thumb": "/static/img/products/deva_s_thumb.png",
 	"fulltext": "Размери: 25*25. Броя в пакет: 32. Пакети в чувал: 24. ",
 	"url": "salfetki-deva"
 }, {
-	"title": "Финес",
-	"category": "salfetki",
-	"image": "/static/img/products/fines_s.png",
-	"thumb": "/static/img/products/fines_s_thumb.png",
-	"fulltext": "Размери: 28*28. Двуцветни с щампа. Броя в пакет: 50. Пакети в чувал: 20. ",
-	"url": "salfetki-fines"
-}, {
 	"title": "Перле",
 	"category": "salfetki",
+	"sub": "28x28",
 	"image": "/static/img/products/perle_s.png",
 	"thumb": "/static/img/products/perle_s_thumb.png",
 	"fulltext": "Размери: 30*30. Трицветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
@@ -22,20 +17,15 @@
 }, {
 	"title": "Дева",
 	"category": "salfetki",
+	"sub": "33x33",
 	"image": "/static/img/products/deva33_s.png",
 	"thumb": "/static/img/products/deva33_s_thumb.png",
 	"fulltext": "Размери: 33*33. Двуцветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
 	"url": "salfetki-deva1"
 }, {
-	"title": "Фреш",
-	"category": "salfetki",
-	"image": "/static/img/products/fresh_s.png",
-	"thumb": "/static/img/products/fresh_s_thumb.png",
-	"fulltext": "Размери: 33*33. Двуцветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
-	"url": "salfetki-fresh"
-}, {
 	"title": "Писана",
 	"category": "toaletna-hartia",
+	"sub": "eko-celulozna",
 	"image": "/static/img/products/pisana_h.png",
 	"thumb": "/static/img/products/pisana_h_thumb.png",
 	"fulltext": "Избелена. Ролки в пакет: 4. Пакети в чувал: 4. ",
@@ -43,6 +33,7 @@
 }, {
 	"title": "Перле",
 	"category": "toaletna-hartia",
+	"sub": "eko-celulozna",
 	"image": "/static/img/products/perle_h.png",
 	"thumb": "/static/img/products/perle_h_thumb.png",
 	"fulltext": "Избелена. Ролки в пакет: 4. Пакети в чувал: 4. ",
@@ -50,6 +41,7 @@
 }, {
 	"title": "Римби",
 	"category": "toaletna-hartia",
+	"sub": "eko-celulozna",
 	"image": "/static/img/products/rimbi_h.png",
 	"thumb": "/static/img/products/rimbi_h_thumb.png",
 	"fulltext": "Избелена. Ролки в пакет: 1. Пакети в чувал: 9. ",
@@ -57,6 +49,7 @@
 }, {
 	"title": "Фреш",
 	"category": "toaletna-hartia",
+	"sub": "100%celuloza",
 	"image": "/static/img/products/fresh_h.png",
 	"thumb": "/static/img/products/fresh_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
@@ -64,6 +57,7 @@
 },{
 	"title": "Фреш Лукс",
 	"category": "toaletna-hartia",
+	"sub": "100%celuloza",
 	"image": "/static/img/products/fresh_lux_h.png",
 	"thumb": "/static/img/products/fresh_lux_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
@@ -71,6 +65,7 @@
 }, {
 	"title": "Финес",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/fines1_h.png",
 	"thumb": "/static/img/products/fines1_h_thumb.png",
 	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
@@ -78,6 +73,7 @@
 }, {
 	"title": "Дева",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/deva_h.png",
 	"thumb": "/static/img/products/deva_h_thumb.png",
 	"fulltext": "Натурал. 300 къса. Пакети в чувал: 24. ",
@@ -85,6 +81,7 @@
 }, {
 	"title": "Фреш",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/fresh1_h.png",
 	"thumb": "/static/img/products/fresh1_h_thumb.png",
 	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
@@ -92,6 +89,7 @@
 }, {
 	"title": "Мелани",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/melany_h.png",
 	"thumb": "/static/img/products/melany_h_thumb.png",
 	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
@@ -99,6 +97,7 @@
 }, {
 	"title": "Мони",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/moni_h.png",
 	"thumb": "/static/img/products/moni_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
@@ -106,6 +105,7 @@
 }, {
 	"title": "Финес",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/fines_h.png",
 	"thumb": "/static/img/products/fines_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
@@ -113,6 +113,7 @@
 }, {
 	"title": "Дева +",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/deva+_h.png",
 	"thumb": "/static/img/products/deva+_h_thumb.png",
 	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
@@ -120,9 +121,17 @@
 }, {
 	"title": "Дева MAXI",
 	"category": "toaletna-hartia",
+	"sub": "reciklirana",
 	"image": "/static/img/products/devaMAXI_h.png",
 	"thumb": "/static/img/products/devaMAXI_h_thumb.png",
-	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
+	"fulltext": "Материал:рециклиран; <br/>
+                         Брой ролки в пакет: 4бр.  <br/>
+                         Цвят: натурал;  <br/>
+                         Слоеве: 3;  <br/>
+                         Ролка в т.е.  10бр.;  <br/>
+                         Баркод:  <br/>
+                        Дължина на ролка:…….. <br/>
+ ",
 	"url": "hariq-deva-maxi"
 },  {
 	"title": "Римби",
