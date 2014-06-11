@@ -257,7 +257,6 @@ img {
 }
 
 .picture-menu {
-	border-top: solid 5px rgba(0, 0, 0, 0.2);
 	overflow: hidden;
 	margin-bottom: 20px;
 }
@@ -267,11 +266,11 @@ img {
 	float: left;
 	border: 0px;
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.2);
+	background: url("/static/img/transparent-bg-1.png");
 }
 
 .picture-menu a.active {
-	background-color: transparent;
+	background: transparent;
 }
 
 .picture-menu img {

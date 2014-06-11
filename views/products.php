@@ -9,11 +9,12 @@
 		<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
 		<div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
 	</div>
+	<div class="show-for-small" style="width: 100%; height: 5px; background: url('/static/img/transparent-bg-1.png')"></div>
 	<div class="picture-menu show-for-small">
-		<a href="<?=$prefix;?>/products/cat/kuhnenski-rolki" ng-class="{active: category == 'kuhnenski-rolki' }"><img src="/static/img/icons/rola.png"></a>
-		<a href="<?=$prefix;?>/products/cat/toaletna-hartia" ng-class="{active: category == 'toaletna-hartia' }"><img src="/static/img/icons/hartia.png"></a>
-		<a href="<?=$prefix;?>/products/cat/nosni-kurpichki" ng-class="{active: category == 'nosni-kurpichki' }"><img src="/static/img/icons/kurpichki.png"></a>
-		<a href="<?=$prefix;?>/products/cat/salfetki"  ng-class="{active: category == 'salfetki' }"><img src="/static/img/icons/salfetki.png"></a>
+		<a href="<?=$prefix;?>/products/cat/kuhnenski-rolki" class="<?if($id=='kuhnenski-rolki')echo'active';?>"><img src="/static/img/icons/rola.png"></a>
+		<a href="<?=$prefix;?>/products/cat/toaletna-hartia" class="<?if($id=='toaletna-hartia')echo'active';?>"><img src="/static/img/icons/hartia.png"></a>
+		<a href="<?=$prefix;?>/products/cat/nosni-kurpichki" class="<?if($id=='nosni-kurpichki')echo'active';?>"><img src="/static/img/icons/kurpichki.png"></a>
+		<a href="<?=$prefix;?>/products/cat/salfetki" class="<?if($id=='salfetki')echo'active';?>"><img src="/static/img/icons/salfetki.png"></a>
 	</div>
 	<div id="products-holder">
 		<? if (isset($cat)) { ?>

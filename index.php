@@ -58,14 +58,14 @@ $app->get('/products', function() use ($app) {
     $data = json_decode(file_get_contents("./api/products.json"));
 
     $data = filter($data, 'kuhnenski-rolki');
-    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти']);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => 'kuhnenski-rolki']);
 });
 
 $app->get('/products/cat/:id', function($id) use ($app) {
     $data = json_decode(file_get_contents("./api/products.json"));
 
     $data = filter($data, $id);
-    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти']);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => $id]);
 });
 
 $app->get('/products/:id', function($id) use ($app) {
@@ -77,7 +77,8 @@ $app->get('/products/:id', function($id) use ($app) {
         }
     }
     $title = isset($current->url) ? $current->title : 'Продукти';
-    $app->render('index.php', ['path'=>'products', 'current'=>$current, 'title'=>$title]);
+    $cat = isset($current->category) ? $current->category : '';
+    $app->render('index.php', ['path'=>'products', 'current'=>$current, 'title'=>$title, 'id' => $cat]);
 });
 
 $app->notFound(function () use ($app) {
