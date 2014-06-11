@@ -92,7 +92,7 @@ App.factory('API', ['$resource',
 					var added = [];
 					var random;
 					for (var i = 0; i < count; i++) {
-						while(added.indexOf(random = randomId(res.length)) != -1 );
+						while (added.indexOf(random = randomId(res.length)) != -1);
 						output.push(res[random]);
 						added.push(random);
 					}
@@ -203,7 +203,7 @@ App.directive('carousel', function() {
 				element.style.marginLeft = field_pos + calculate(percentage, start, 870, start != 0) + 'px';
 			}
 
-			
+
 			before = new Date();
 		}, 10);
 	}
@@ -269,10 +269,14 @@ App.controller('InterestSingleCtrl', ['$scope', '$stateParams',
 	}
 ]);
 
-App.controller('ProductCtrl', ['$scope', 'API', '$state', '$stateParams',
-	function($scope, API, $state, $stateParams) {
+App.controller('ProductCtrl', ['$scope', 'API', '$state', '$stateParams', '$sce',
+	function($scope, API, $state, $stateParams, $sce) {
 		$scope.products = API.getProducts().query();
 		$scope.category = null;
+
+		$scope.to_trusted = function(html_code) {
+			return $sce.trustAsHtml(html_code);
+		}
 
 		$scope.$on('productcat', function(e, data) {
 			$scope.category = data;
@@ -287,8 +291,8 @@ App.controller('CategoryCtrl', ['$scope', '$stateParams',
 	}
 ]);
 
-App.controller('ViewProductCtrl', ['$scope', '$stateParams',
-	function($scope, $stateParams) {
+App.controller('ViewProductCtrl', ['$scope', '$stateParams', '$sce',
+	function($scope, $stateParams, $sce) {
 		var find = function() {
 			for (var i in $scope.products) {
 				if ($scope.products[i].url == $stateParams.id) {

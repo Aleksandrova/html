@@ -4,8 +4,7 @@
 		<div class="triangle hide-for-small"></div>
 		<img class="image" ng-src="{{product.image}}">
 
-		<div class="text-holder">
-			{{product.fulltext}}
+		<div class="text-holder" ng-bind-html="to_trusted(product.fulltext)">
 		</div>
 		<a href="/new/products/cat/{{product.category}}" class="back-btn bg-hack">
 			<img src="/static/img/back_arrow.png" style="width: 37px; height: 37px;">
