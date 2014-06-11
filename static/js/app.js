@@ -64,7 +64,6 @@ App.config(
 	]
 );
 
-
 App.run(['$rootScope', '$state',
 	function($rootScope, $state) {
 		$rootScope.$on("$stateChangeSuccess", function(currentRoute, previousRoute) {
@@ -90,8 +89,12 @@ App.factory('API', ['$resource',
 				var data = this.getProducts().query();
 				data.$promise.then(function(res) {
 					var output = [];
+					var added = [];
+					var random;
 					for (var i = 0; i < count; i++) {
-						output.push(res[randomId(res.length)]);
+						while(added.indexOf(random = randomId(res.length)) != -1 );
+						output.push(res[random]);
+						added.push(random);
 					}
 					cb(output);
 				});
@@ -141,6 +144,8 @@ App.directive('toggler', function() {
 	}
 });
 
+var field_pos;
+
 App.directive('flexmenu', function() {
 
 	function render() {
@@ -156,6 +161,7 @@ App.directive('flexmenu', function() {
 
 		document.getElementById('box-parent').style.marginTop = (begin < 0 ? 0 : begin) + 'px';
 		document.getElementById('box-holder').style.marginLeft = (move < 0 ? move : 0) + 'px';
+		field_pos = parseInt(move < 0 ? move : 0);
 	}
 
 	return function(scope, element, attrs) {
@@ -163,3 +169,161 @@ App.directive('flexmenu', function() {
 		window.onresize = render;
 	}
 });
+
+App.directive('carousel', function() {
+
+	var calculate = function(p, firstNum, diff, back) {
+		return Math.sin(p / 100 * Math.PI / 2) * diff * (!back ? -1 : 1) + firstNum;
+	};
+
+	var interval;
+	var flag = true;
+
+	var move = function(element, parent) {
+		var percentage = 0;
+		flag = !flag;
+		var start = flag ? -870 : 0;
+
+		var before = new Date();
+
+		var interval = setInterval(function() {
+			now = new Date();
+			var elapsedTime = (now.getTime() - before.getTime());
+			percentage++;
+
+			if (percentage >= 100) {
+				clearInterval(interval);
+			}
+
+			if (elapsedTime > 50) {
+				element.style.marginLeft = field_pos + 'px';
+				flag = true;
+				clearInterval(interval);
+			} else {
+				element.style.marginLeft = field_pos + calculate(percentage, start, 870, start != 0) + 'px';
+			}
+
+			
+			before = new Date();
+		}, 10);
+	}
+
+	return function(scope, elem) {
+		clearInterval(interval);
+
+		var loop = setInterval(function() {
+			move(document.getElementById('box-holder'), document.getElementById('box-parent').offsetWidth);
+		}, 3000);
+
+		scope.$on('$destroy', function() {
+			console.log("destroy");
+			clearInterval(loop);
+			clearInterval(interval);
+		});
+	}
+});
+
+App.controller('BaseCtrl', ['$rootScope',
+	function($rootScope) {
+		$rootScope.$on('$stateChangeStart', function() {
+			document.getElementById('mainmenu').className = '';
+		});
+	}
+]);
+
+App.controller('HomeCtrl', ['$scope', 'API',
+	function($scope, API) {
+		$scope.current = [];
+
+		API.getHomeItems(6, function(data) {
+			$scope.current = data;
+		});
+	}
+]);
+
+App.controller('InterestCtrl', ['$scope', 'API', '$location', '$stateParams', '$rootScope',
+	function($scope, API, $location, $stateParams, $rootScope) {
+		$scope.articles = API.getInteresting().query();
+	}
+]);
+
+App.controller('InterestSingleCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
+		$scope.current = {};
+
+		var find = function() {
+			for (var i in $scope.articles) {
+				if ($scope.articles[i].url == $stateParams.id) {
+					$scope.current = $scope.articles[i];
+					console.log($scope.current);
+					break;
+				}
+			}
+		};
+
+		if ($scope.articles.$resolved) {
+			find();
+		} else {
+			$scope.articles.$promise.then(find);
+		}
+	}
+]);
+
+App.controller('ProductCtrl', ['$scope', 'API', '$state', '$stateParams',
+	function($scope, API, $state, $stateParams) {
+		$scope.products = API.getProducts().query();
+		$scope.category = null;
+
+		$scope.$on('productcat', function(e, data) {
+			$scope.category = data;
+		});
+	}
+]);
+
+App.controller('CategoryCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
+		$scope.cat = $stateParams.id;
+		$scope.$emit('productcat', $stateParams.id);
+	}
+]);
+
+App.controller('ViewProductCtrl', ['$scope', '$stateParams',
+	function($scope, $stateParams) {
+		var find = function() {
+			for (var i in $scope.products) {
+				if ($scope.products[i].url == $stateParams.id) {
+					$scope.product = $scope.products[i];
+					break;
+				}
+			}
+		};
+
+		if ($scope.products.$resolved) {
+			find();
+		} else {
+			$scope.products.$promise.then(find);
+		}
+	}
+]);
+
+App.controller('ContactCtrl', ['$scope',
+	function($scope) {
+
+		var pos = new google.maps.LatLng(43.4088963, 23.2318185);
+
+		var mapCanvas = document.getElementById('map_canvas');
+		var mapOptions = {
+			center: pos,
+			zoom: 17,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+
+		var map = new google.maps.Map(map_canvas, mapOptions);
+
+		new google.maps.Marker({
+			position: pos,
+			map: map,
+			title: 'Fobos ER - Офис'
+		});
+	}
+]);

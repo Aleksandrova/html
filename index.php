@@ -13,7 +13,7 @@ $app->view->setData('prefix', '');
 $app->get('/', function () use ($app) {
     $data = json_decode(file_get_contents("./api/products.json"));
     shuffle($data);
-    $data = array_slice($data, 0, 3);
+    $data = array_slice($data, 0, 6);
     $app->render('index.php', ['path' => 'home', 'title' => 'Начало', 'data' => $data]);
 });
 

@@ -557,13 +557,13 @@ img {
 
 
 #box-holder{
-	width: 900px;
+	width: 10000px;
 	height: 350px;
 }
 
 .box{
 	max-height: 270px;
-	max-width: 260px;
+	max-width: 268px;
 	height: 100% ;
 	width: 100%;
 	margin-right:25px;
