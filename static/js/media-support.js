@@ -229,5 +229,5 @@ var move = function(element, parent) {
 if (window.location.pathname == '/') {
 	setInterval(function() {
 		move(document.getElementById('box-holder'), document.getElementById('box-parent').offsetWidth);
-	}, 3000);
+	}, 4500);
 }
