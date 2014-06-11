@@ -207,13 +207,13 @@ var move = function(element, parent) {
 	var interval = setInterval(function() {
 		now = new Date();
 		var elapsedTime = (now.getTime() - before.getTime());
-		percentage++;
+		percentage += 5;
 
 		if (percentage >= 100) {
 			clearInterval(interval);
 		}
 
-		if (elapsedTime > 50) {
+		if (elapsedTime > 100) {
 			element.style.marginLeft = field_pos + 'px';
 			flag = true;
 			clearInterval(interval);
@@ -223,7 +223,7 @@ var move = function(element, parent) {
 
 
 		before = new Date();
-	}, 10);
+	}, 50);
 }
 
 if (window.location.pathname == '/') {
