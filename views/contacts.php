@@ -1,5 +1,11 @@
 <div class="dark-holder-small" id="contacts-holder">
-	<div style="overflow: hidden;">
+	<div id="cities-holder">
+		<div id="first-one" class="cities"><a href="#"><p>Монтана</p></a></div>
+		<div class="cities"><a href="#"><p>София</p></a></div>
+		<div class="cities"><a href="#"><p>Ст.Загора</p></a></div>
+		<div class="cities"><a href="#"><p>Враца</p></a></div>
+	</div>
+	<div id="test "style="overflow: hidden;">
 		<div id="left-part" class="part">
 			<a class="bg-hack" href="tel:+35996300314">
 				<img src="/static/img/icons/phone.png" align="left">

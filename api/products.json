@@ -62,7 +62,7 @@
 	"thumb": "/static/img/products/fresh_lux_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
 	"url": "hartiq-fresh-lux"
-}, {
+},{
 	"title": "Финес",
 	"category": "toaletna-hartia",
 	"sub": "reciklirana",
@@ -78,14 +78,6 @@
 	"thumb": "/static/img/products/deva_h_thumb.png",
 	"fulltext": "Натурал. 300 къса. Пакети в чувал: 24. ",
 	"url": "hariq-deva"
-}, {
-	"title": "Фреш",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/fresh1_h.png",
-	"thumb": "/static/img/products/fresh1_h_thumb.png",
-	"fulltext": "Натурал. Единична с бандерол. Пакети в чувал: 24. ",
-	"url": "hartiq-fresh1"
 }, {
 	"title": "Мелани",
 	"category": "toaletna-hartia",
@@ -124,16 +116,9 @@
 	"sub": "reciklirana",
 	"image": "/static/img/products/devaMAXI_h.png",
 	"thumb": "/static/img/products/devaMAXI_h_thumb.png",
-	"fulltext": "Материал:рециклиран; <br/>
-                         Брой ролки в пакет: 4бр.  <br/>
-                         Цвят: натурал;  <br/>
-                         Слоеве: 3;  <br/>
-                         Ролка в т.е.  10бр.;  <br/>
-                         Баркод:  <br/>
-                        Дължина на ролка:…….. <br/>
- ",
+	"fulltext": "Материал:рециклиран; <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Ролка в т.е.  10бр.; <br/>Дължина на ролка: ",
 	"url": "hariq-deva-maxi"
-},  {
+}, {
 	"title": "Римби",
 	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/rimbi1_k.png",

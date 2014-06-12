@@ -384,11 +384,44 @@ img {
 .part a:hover {
 	background: url("../img/transparent-bg-4.png") !important;
 	background-repeat: repeat !important;
-	
 }
 
 #right-part {
 	float: right;
+}
+
+#cities-holder{
+	width: 100%;
+	height: 70px;
+}
+
+#first-one{
+	margin-left: 0px !important;
+}
+.cities {
+	width: 24%; 
+	float: left;
+	margin-left: 7px;
+}
+
+.cities a{
+	height: 60px; 
+	width: 100%; 
+	margin-top: 5px;
+	background-color: rgba(0,0,0,0.3);
+	float: left;
+	display: block;
+	text-decoration: none;
+}
+
+.cities a:hover {
+	background: url("../img/transparent-bg-4.png") !important;
+	background-repeat: repeat !important;
+}
+
+.cities p{
+	font-size: 20px;
+	text-align: center;
 }
 
 @media all and (max-width: 750px) {
@@ -661,8 +694,8 @@ img {
 	padding: 20px;
 	padding-top: 20px;
 	margin: 0px;
-	font-size: 21px;
-	line-height:160%;
+	font-size: 18px;
+	line-height:140%;
 }
 
 .single-product .back-btn {
@@ -767,4 +800,99 @@ img {
 
 [ui-view].ng-leave-active {
   opacity: 0;
+}
+
+
+/* Contact Form*/
+
+#form-holder{
+	height: auto;
+	width: 100%;
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-family: "Century Gothic";
+}
+
+#write-us{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0,0,0, 0.2);
+	text-align: center; 
+}
+
+#write-us p{
+	position: relative;
+	top: 10px;
+	font-size: 28px !important;
+	color: #56e8cd !important;
+}
+
+input{
+	display: block; 
+}
+
+input, textarea, #tex {
+	width:75%;
+	height:27px;
+	background:none;
+	border: none;
+	padding:10px;
+	margin-top:35px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16pt;
+	font-family: "Century Gothic"; 
+	color: #fff;
+}
+
+#tex{
+	height: auto;
+}
+
+input, textarea{
+	border-bottom: solid 1px rgba(255,255,255,0.3) !important;
+}
+
+textarea{
+	margin-top: -10px !important;
+	margin-left: -10px;
+	
+	width: 100% !important;
+	height: 150px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: rgba(255,255,255, 0.3);
+}
+
+#button-send{
+	height: 50px;
+	width: 50%;
+	max-width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: solid 2px #40e2c9;
+	color: #40e2c9;
+	text-align: center;
+}
+
+#button-send p {
+	color: #40e2c9;
+	font-size: 18pt;
+	position: relative;
+	top: -15px;
+}
+#button-send:hover {
+	background-color: #40e2c9;
+	color: #fff;
+}
+
+#fix{
+	width: 100%;
+	height: 1px;
+	background-color: none;
 }
