@@ -11,7 +11,7 @@
 	<meta name="owner" content="FobosR" />
 	<meta name="keywords" content="Fobos, fobosr, фобос, ер, фобосЕр, fobos-r, фобос-ер, ООД, град, монтана, българия, георги, георгиев, производство, пакетаж, пласмент, изделия от хартия, тоалетна, хартия, кухненска, кухненски, рула, ролки,  носни, кърпички, салфетки, римби, rimbi, писана, фреш, fresh, мелани, дева, спринг, перле, perle, финес, мони, целулоза, пакет, пакети, чувал, щампа, бандерол, fantasy, кафе, coffee" />
 	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." />
-	<script>if(window.chrome){window.location = '/new' + window.location.pathname;}</script>
+	<!-- <script>if(window.chrome){window.location = '/new' + window.location.pathname;}</script> -->
 </head>
 <body>
 	<div style="position: absolute; display: none; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: red;">dasdas</div>	
