@@ -2,48 +2,52 @@
 	"city": "Монтана",
 	"url": "montana",
 	"location": {
-		x: "43.408337", 
-		y: "23.237616" 
+		"x": "43.408337",
+		"y": "23.237616"
 	},
-	"contact" : [
-		{ data: "0885669847", type: "mobile"}, 
-		{ data: "096/300 314", type: "phone"},
-		{ data: "096/313 581", type: "phone"},
-		{ data: "fobosr@gmail.com", type: "mail"},
-	]
-},
-{
+	"contact": [{
+		"data": "0885669847",
+		"type": "mobile"
+	}, {
+		"data": "096/300 314",
+		"type": "phone"
+	}, {
+		"data": "096/313 581",
+		"type": "phone"
+	}, {
+		"data": "fobosr@gmail.com",
+		"type": "mail"
+	}]
+}, {
 	"city": "София",
 	"url": "sofia",
 	"location": {
-		x: "42.723883", 
-		y: "23.251218" 
+		"x": "42.723883",
+		"y": "23.251218"
 	},
-	"contact" : [
-		{ data: "fantasy_kafe@mail.bg", type: "mail"},
-	]
-},
-{
+	"contact": [{
+		"data": "fantasy_kafe@mail.bg",
+		"type": "mail"
+	}]
+}, {
 	"city": "Враца",
 	"url": "vratsa",
 	"location": {
-		x: "43.217522", 
-		y: "23.554373" 
+		"x": "43.217522",
+		"y": "23.554373"
 	},
-	"contact" : [
-		
+	"contact": [
+
 	]
-},
-{
+}, {
 	"city": "Ст. Загора",
 	"url": "stara-zagora",
 	"location": {
-		x: "42.414877", 
-		y: "25.638175" 
+		"x": "42.414877",
+		"y": "25.638175"
 	},
-	"contact" : [
-		{ data: "fobos.stz@gmail.com", type: "mail"},
-	]
-},
-
-]
+	"contact": [{
+		"data": "fobos.stz@gmail.com",
+		"type": "mail"
+	}]
+}]

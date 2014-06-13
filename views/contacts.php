@@ -4,20 +4,11 @@
 	</div>
 	<div style="overflow: hidden;">
 		<div class="part">
-			<a class="bg-hack" href="#">
-				<p>Монтана</p>
+			<? foreach($data as $now) { ?> 
+			<a class="bg-hack" href="/contacts/<?=$now->url;?>">
+				<p><?=$now->city;?></p>
 			</a>
-			<a class="bg-hack" href="#">
-				<p>София</p>
-			</a>
-		</div>
-		<div class="part right-part">
-			<a class="bg-hack" href="#">
-				<p>Враца</p>
-			</a>
-			<a class="bg-hack" href="#">
-				<p>Ст. Загора</p>
-			</a>
+			<? } ?>
 		</div>
 	</div>
 

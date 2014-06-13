@@ -367,20 +367,24 @@ img {
 }
 
 .part{
-	width: 49.5%;
+	width: 100%;
 	float: left;
 	margin-top: 6px;
 }
 
 .part a{
 	height: 60px; 
-	width: 100%; 
+	width: 49.5%; 
 	margin-top: 5px;
 	background-color: rgba(0,0,0,0.3);
 	float: left;
 	display: block;
 	text-decoration: none;
 	text-align: center;
+}
+
+.part a:nth-child(even) {
+	float: right;
 }
 
 .part a:hover {
@@ -454,19 +458,29 @@ img {
 }
 
 .partc{
-	width: 49.5%;
+	width: 100%;
 	float: left;
 	margin-top: 2px;
 }
 
 .partc a{
 	height: 60px; 
-	width: 100%; 
+	width: 49.5%; 
 	margin-top: 5px;
 	background-color: rgba(0,0,0,0.3);
 	float: left;
 	display: block;
 	text-decoration: none;
+}
+
+.partc a:nth-child(even) {
+	float: right;
+}
+
+@media all and (max-width: 750px) {
+	.partc a {
+		width: 100% !important;
+	}
 }
 
 .partc a:hover {

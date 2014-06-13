@@ -18,7 +18,26 @@ $app->get('/', function () use ($app) {
 });
 
 $app->get('/contacts', function() use ($app){
-    $app->render('index.php', ['path'=>'contacts', 'title' => 'Контакти']);
+	$data = json_decode(file_get_contents("./api/cities.json"));
+    $app->render('index.php', ['path'=>'contacts', 'title' => 'Контакти', 'data' => $data]);
+});
+
+$app->get('/contacts/:id', function($id) use ($app){
+	$data = json_decode(file_get_contents("./api/cities.json"));
+    $current = null;
+    foreach($data as $now) {
+        if ($now->url == $id) {
+            $current = $now;
+            break;
+        }
+    }
+
+    if($current == null) {
+    	$app->redirect('/404');
+    	exit;
+    }
+
+    $app->render('index.php', ['path'=>'contact-city', 'title' => 'Контакти', 'data' => $current]);
 });
 
 $app->get('/about', function() use ($app){
