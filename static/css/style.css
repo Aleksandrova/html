@@ -369,6 +369,7 @@ img {
 .part{
 	width: 49.5%;
 	float: left;
+	margin-top: 6px;
 }
 
 .part a{
@@ -379,6 +380,7 @@ img {
 	float: left;
 	display: block;
 	text-decoration: none;
+	text-align: center;
 }
 
 .part a:hover {
@@ -390,38 +392,26 @@ img {
 	float: right;
 }
 
-#cities-holder{
+#click-here{
+	margin-top: 8px;
 	width: 100%;
-	height: 70px;
-}
-
-#first-one{
-	margin-left: 0px !important;
-}
-.cities {
-	width: 24%; 
-	float: left;
-	margin-left: 7px;
-}
-
-.cities a{
-	height: 60px; 
-	width: 100%; 
-	margin-top: 5px;
-	background-color: rgba(0,0,0,0.3);
-	float: left;
-	display: block;
-	text-decoration: none;
-}
-
-.cities a:hover {
-	background: url("../img/transparent-bg-4.png") !important;
-	background-repeat: repeat !important;
-}
-
-.cities p{
-	font-size: 20px;
+	height: auto;
+	background-color: rgba(0,0,0,0.2);
+	padding-bottom: 5px;
+	clear: both;
 	text-align: center;
+	padding-top: 10px;
+}
+
+#click-here p:first-child{
+	color: #56e8cd !important;
+	font-size: 25pt !important;
+	margin-top: 0px;
+}
+
+#for {
+	font-size: 13pt !important;
+	margin-top: -25px !important;
 }
 
 @media all and (max-width: 750px) {
@@ -441,27 +431,7 @@ img {
 
 }
 
-.part img{
-	position: relative;
-	top: 7px;
-	margin-left: 10px;
-	margin-right: 20px;
 
-}
-
-#location{
-	margin-top: 10px;
-	width: 100%;
-	height: auto;
-	background-color: rgba(0,0,0,0.2);
-	padding-bottom: 20px;
-	clear: both;
-}
-
-#adress{
-	padding:15px;
-	background-color: rgba(0,0,0,0.2);
-}
 
 /* INTERESTING */
 
