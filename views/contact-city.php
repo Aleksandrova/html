@@ -1,5 +1,5 @@
 <div class="dark-holder-small" id="contacts-holder">
-	<div id="city">
+	<div class="bg-hack" id="city">
 		<p><?=$data->city;?></p>
 	</div>
 	<div style="overflow: hidden;">

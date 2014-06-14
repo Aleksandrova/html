@@ -13,9 +13,23 @@
 	</div>
 
 	<div class="bg-hack" id="click-here">
-		<a href="#">
+		<a href="#" onclick="document.getElementById('form-holder').style.display = 'block'; this.parentNode.style.display = 'none';">
 			<p>Пишете ни</p>
 			<p id="for">За заявки, въпроси и повече информация кликнете тук.</p>
 		</a>
+	</div>
+
+	<div class="bg-hack" id="form-holder" style="display: none;">
+		<div id="write-us" class="bg-hack"><p>Пишете ни</p></div>
+		<form>
+	        <input name="name" placeholder="Вашето име...">
+
+			<input name="email" type="email" placeholder="Email...">
+
+			<div id="tex"><textarea name="message" placeholder="Съобщението Ви..."></textarea></div>
+					
+			<input type="submit" value="Изпрати">
+	        <div id="fix"></div>
+		</form>
 	</div>
 </div>

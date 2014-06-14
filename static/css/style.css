@@ -859,11 +859,11 @@ img {
 #form-holder{
 	height: auto;
 	width: 100%;
-	max-width: 400px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(0, 0, 0, 0.3);
 	font-family: "Century Gothic";
+	margin-bottom: 50px;
 }
 
 #write-us{
@@ -903,7 +903,7 @@ input, textarea, #tex {
 }
 
 input, textarea{
-	border-bottom: solid 1px rgba(255,255,255,0.3) !important;
+	border: solid 1px rgb(255,255,255) !important;
 }
 
 textarea{
