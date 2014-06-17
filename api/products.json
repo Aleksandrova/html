@@ -28,7 +28,7 @@
 	"sub": "eko-celulozna",
 	"image": "/static/img/products/pisana_h.png",
 	"thumb": "/static/img/products/pisana_h_thumb.png",
-	"fulltext": "Избелена. Ролки в пакет: 4. Пакети в чувал: 4. ",
+	"fulltext": "Материал:еко-целулоза <br/> Брой ролки в пакет: 4бр. <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10бр.  <br/> Грамаж:100гр ",
 	"url": "salfetki-pisana"
 }, {
 	"title": "Перле",
@@ -36,7 +36,7 @@
 	"sub": "eko-celulozna",
 	"image": "/static/img/products/perle_h.png",
 	"thumb": "/static/img/products/perle_h_thumb.png",
-	"fulltext": "Избелена. Ролки в пакет: 4. Пакети в чувал: 4. ",
+	"fulltext": "Материал:еко-целулоза <br/> Брой ролки в пакет: 4бр. <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10бр.  <br/> Грамаж:100гр ",
 	"url": "hartiq-perle"
 }, {
 	"title": "Римби",
@@ -44,9 +44,19 @@
 	"sub": "eko-celulozna",
 	"image": "/static/img/products/rimbi_h.png",
 	"thumb": "/static/img/products/rimbi_h_thumb.png",
-	"fulltext": "Избелена. Ролки в пакет: 1. Пакети в чувал: 9. ",
+	"fulltext": "Материал:еко-целулоза <br/> Брой ролки в пакет: 9бр. <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е. 1бр.  <br/> Грамаж:140гр ",
 	"url": "hartiq-rimbi"
-}, {
+},
+{
+	"title": "Римби чанта",
+	"category": "toaletna-hartia",
+	"sub": "100%celuloza",
+	"image": "/static/img/products/rimbichanta_h.png",
+	"thumb": "/static/img/products/rimbichanta_h_thumb.png",
+	"fulltext": "Материал:100% целулоза <br/> Брой ролки в пакет: 8бр. <br/> Цвят: бял <br/> Слоеве: 3  <br/> Пакет в т.е. 5бр.  <br/> Грамаж:100гр ",
+	"url": "hartiq-rimbi"
+},
+ {
 	"title": "Фреш",
 	"category": "toaletna-hartia",
 	"sub": "100%celuloza",
@@ -92,7 +102,7 @@
 	"sub": "reciklirana",
 	"image": "/static/img/products/moni_h.png",
 	"thumb": "/static/img/products/moni_h_thumb.png",
-	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
+	"fulltext": "Материал:рециклиран <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  10бр.  <br/> Грамаж:85гр ",
 	"url": "hartiq-moni"
 }, {
 	"title": "Финес",
@@ -108,7 +118,7 @@
 	"sub": "reciklirana",
 	"image": "/static/img/products/deva+_h.png",
 	"thumb": "/static/img/products/deva+_h_thumb.png",
-	"fulltext": "Натурал. Ролки в пакет: 4. Пакети в чувал: 10. ",
+	"fulltext": "Материал:рециклиран <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Ролка в т.е.  10бр.; ",
 	"url": "hariq-deva-plus"
 }, {
 	"title": "Дева MAXI",
@@ -116,17 +126,26 @@
 	"sub": "reciklirana",
 	"image": "/static/img/products/devaMAXI_h.png",
 	"thumb": "/static/img/products/devaMAXI_h_thumb.png",
-	"fulltext": "Материал:рециклиран; <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Ролка в т.е.  10бр.; <br/>Дължина на ролка: ",
+	"fulltext": "Материал:рециклиран <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  10бр.  <br/> Грамаж:100гр ",
+	"url": "hariq-deva-maxi"
+},
+{
+	"title": "Дева Super 99",
+	"category": "toaletna-hartia",
+	"sub": "reciklirana",
+	"image": "/static/img/products/devasuper_h.png",
+	"thumb": "/static/img/products/devasuper_h_thumb.png",
+	"fulltext": "Материал:рециклиран <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  9бр.  <br/> Грамаж:105гр ",
 	"url": "hariq-deva-maxi"
 }, {
-	"title": "Римби",
+	"title": "Римби Джъмбо",
 	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/rimbi1_k.png",
 	"thumb": "/static/img/products/rimbi1_k_thumb.png",
-	"fulltext": "Ролки в пакет: 1. Пакети в чувал: 6. ",
+	"fulltext": "Материал:100% целулоза <br/> Брой ролки в пакет: 1бр. <br/>  Слоеве: 2  <br/> Пакет в т.е. 6бр.  <br/> Грамаж:400гр ",
 	"url": "rolki-rimbi"
 }, {
-	"title": "Римби",
+	"title": "Римби 2",
 	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/rimbi2_k.png",
 	"thumb": "/static/img/products/rimbi2_k_thumb.png",
@@ -144,9 +163,16 @@
 	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/spring_k.png",
 	"thumb": "/static/img/products/spring_k_thumb.png",
-	"fulltext": "Ролки в пакет: 1. Пакети в чувал: 4. ",
+	"fulltext": "Брой ролки в пакет: 1бр. <br/>  Цвят: бял <br/>Слоеве: 2  <br/> Пакет в т.е. 4бр.  <br/> Грамаж:320 ",
 	"url": "rolki-spring"
 }, {
+	"title": "Sense",
+	"category": "kuhnenski-rolki",
+	"image": "/static/img/products/sense_k.png",
+	"thumb": "/static/img/products/sense_k_thumb.png",
+	"fulltext": "Материал: 100% целулоза <br/> Брой ролки в пакет: 2бр. <br/>Слоеве: 2  <br/> Пакет в т.е. 10бр.  <br/> Грамаж:115 ",
+	"url": "rolki-spring"
+},{
 	"title": "Deva",
 	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n1.png",
