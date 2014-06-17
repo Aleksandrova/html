@@ -441,7 +441,13 @@ img {
   	}
 }
 
-
+.message {
+	height: 30px;
+	text-align: center;
+	font-family: "Century Gothic";
+	font-size: 18px;
+	background-color: rgba(0,0,0,0.2)
+}
 /* Cities Contacts*/
 
 #city{

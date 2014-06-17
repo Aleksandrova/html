@@ -4,25 +4,50 @@
 	"sub": "25x25",
 	"image": "/static/img/products/deva_s.png",
 	"thumb": "/static/img/products/deva_s_thumb.png",
-	"fulltext": "Размери: 25*25. Броя в пакет: 32. Пакети в чувал: 24. ",
+	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 24бр. <br/> Цвят: бял <br/> Размер: 25х25 <br/> Пакет в т.е. 24бр. ",
 	"url": "salfetki-deva"
 }, {
 	"title": "Перле",
 	"category": "salfetki",
-	"sub": "28x28",
+	"sub": "25x28",
 	"image": "/static/img/products/perle_s.png",
 	"thumb": "/static/img/products/perle_s_thumb.png",
-	"fulltext": "Размери: 30*30. Трицветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
+	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 30бр. <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 24бр. ",
 	"url": "salfetki-perle"
-}, {
+},{
+	"title": "Перле",
+	"category": "salfetki",
+	"sub": "30x30",
+	"image": "/static/img/products/ perle30_s.png",
+	"thumb": "/static/img/products/ perle30_s_thumb.png",
+	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 70бр. <br/> Цвят: бял/цветни <br/> Размер: 30х30 <br/> Пакет в т.е. 12бр. ",
+	"url": "salfetki-perle30"
+}, 
+{
+	"title": "Перле",
+	"category": "salfetki",
+	"sub": "33x33",
+	"image": "/static/img/products/ _s.png",
+	"thumb": "/static/img/products/ _s_thumb.png",
+	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 70бр. <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12бр. ",
+	"url": "salfetki-perle33"
+},{
 	"title": "Дева",
 	"category": "salfetki",
 	"sub": "33x33",
 	"image": "/static/img/products/deva33_s.png",
 	"thumb": "/static/img/products/deva33_s_thumb.png",
-	"fulltext": "Размери: 33*33. Двуцветни с щампа. Броя в пакет: 70. Пакети в чувал: 12. ",
+	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 70бр. <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12бр. ",
+	"url": "salfetki-deva33"
+},{
+	"title": "Дева",
+	"category": "salfetki",
+	"sub": "25x28",
+	"image": "/static/img/products/deva33_s.png",
+	"thumb": "/static/img/products/deva33_s_thumb.png",
+	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 70бр. <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 12бр. ",
 	"url": "salfetki-deva1"
-}, {
+},{
 	"title": "Писана",
 	"category": "toaletna-hartia",
 	"sub": "eko-celulozna",
@@ -54,7 +79,7 @@
 	"image": "/static/img/products/rimbichanta_h.png",
 	"thumb": "/static/img/products/rimbichanta_h_thumb.png",
 	"fulltext": "Материал:100% целулоза <br/> Брой ролки в пакет: 8бр. <br/> Цвят: бял <br/> Слоеве: 3  <br/> Пакет в т.е. 5бр.  <br/> Грамаж:100гр ",
-	"url": "hartiq-rimbi"
+	"url": "hartiq-rimbi-chanta"
 },
  {
 	"title": "Фреш",
@@ -136,7 +161,7 @@
 	"image": "/static/img/products/devasuper_h.png",
 	"thumb": "/static/img/products/devasuper_h_thumb.png",
 	"fulltext": "Материал:рециклиран <br/> Брой ролки в пакет: 4бр. <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  9бр.  <br/> Грамаж:105гр ",
-	"url": "hariq-deva-maxi"
+	"url": "hariq-deva-super"
 }, {
 	"title": "Римби Джъмбо",
 	"category": "kuhnenski-rolki",
@@ -149,7 +174,7 @@
 	"category": "kuhnenski-rolki",
 	"image": "/static/img/products/rimbi2_k.png",
 	"thumb": "/static/img/products/rimbi2_k_thumb.png",
-	"fulltext": "Ролки в пакет: 2. Пакети в чувал: 6. ",
+	"fulltext": "Материал: еко целулоза <br/> Брой ролки в пакет: 2бр. <br/>  Слоеве: 2  <br/> Пакет в т.е. 6бр.  <br/> Грамаж:180гр",
 	"url": "rolki-rimbi2"
 }, {
 	"title": "Melody",
@@ -171,33 +196,62 @@
 	"image": "/static/img/products/sense_k.png",
 	"thumb": "/static/img/products/sense_k_thumb.png",
 	"fulltext": "Материал: 100% целулоза <br/> Брой ролки в пакет: 2бр. <br/>Слоеве: 2  <br/> Пакет в т.е. 10бр.  <br/> Грамаж:115 ",
-	"url": "rolki-spring"
+	"url": "rolki-sense"
 },{
 	"title": "Deva",
 	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n1.png",
 	"thumb": "/static/img/products/n1_thumb.png",
-	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10.",
+	"fulltext": "Материал: 100% целулоза <br/> Брой в пакет: 6бр. <br/> Пакет в т.е. 240бр.  <br/> Ароматизирани",
 	"url": "kurpichki-deva"
 }, {
 	"title": "Deva",
 	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n2.png",
 	"thumb": "/static/img/products/n2_thumb.png",
-	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10. ",
+	"fulltext": "Материал: 100% целулоза <br/> Брой в пакет: 6бр. <br/> Пакет в т.е. 240бр.  <br/> Ароматизирани",
 	"url": "kurpichki-deva1"
 }, {
 	"title": "Deva",
 	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n3.png",
 	"thumb": "/static/img/products/n3_thumb.png",
-	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10.",
+	"fulltext": "Материал: 100% целулоза <br/> Брой в пакет: 6бр. <br/> Пакет в т.е. 240бр.  <br/> Ароматизирани",
 	"url": "kurpichki-deva2"
 }, {
 	"title": "Deva",
 	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n4.png",
 	"thumb": "/static/img/products/n4_thumb.png",
-	"fulltext": "Ароматизирани носни кърпички в свежи новаторски опаковки. Броя в пакетче: 10.",
+	"fulltext": "Материал: 100% целулоза <br/> Брой в пакет: 6бр. <br/> Пакет в т.е. 240бр.  <br/> Ароматизирани",
 	"url": "kurpichki-deva3"
-}]
+}, {
+	"title": "Донна дневни",
+	"category": "pr",
+	"image": "/static/img/products/donad_p.png",
+	"thumb": "/static/img/products/donad_p_thumb.png",
+	"fulltext": "Материал: коприна <br/> Брой в пакет: 10бр. <br/> Пакет в т.е. 40бр.  <br/> Вид:дневни ",
+	"url": "prevruzki-donna-dn"
+}, {
+	"title": "Донна нощни",
+	"category": "pr",
+	"image": "/static/img/products/donan_p_.png",
+	"thumb": "/static/img/products/donan_p_thumb.png",
+	"fulltext": "Материал: коприна <br/> Брой в пакет: 10бр. <br/> Пакет в т.е. 40бр.  <br/> Вид:нощни ",
+	"url": "prevruzki-donna-ng"
+},
+{
+	"title": "Донна ежедневни",
+	"category": "pr",
+	"image": "/static/img/products/donald_p.png",
+	"thumb": "/static/img/products/donald_p_thumb.png",
+	"fulltext": "Материал: памук <br/> Брой в пакет: 25бр. <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
+	"url": "prevruzki-donnacot"
+}, {
+	"title": "Донна ежедневни",
+	"category": "pr",
+	"image": "/static/img/products/donasn_p_.png",
+	"thumb": "/static/img/products/donasn_p_thumb.png",
+	"fulltext": "Материал: коприна <br/> Брой в пакет: 25бр. <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
+	"url": "prevruzki-donnasilk"
+},]
