@@ -8,6 +8,9 @@
 		<div><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div>
 		<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
 		<div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
+		<ul>
+			<li><a href="<?=$prefix;?>/products/cat/salfetki/25x25">25x25</a></li>
+		</ul>
 	</div>
 	<div class="show-for-small" style="width: 100%; height: 5px; background: url('/static/img/transparent-bg-1.png')"></div>
 	<div class="picture-menu show-for-small">
