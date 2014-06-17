@@ -1,4 +1,9 @@
 <div class="dark-holder-small" id="contacts-holder">
+	<?if(isset($flash['error'])){?>
+		<div style="background-color: red;"><?=$flash['error'];?></div>
+	<?}elseif($flash['success']){?>
+		<div style="background-color: green;">Писмото беше изпратено успешно!</div>
+	<?}?>
 	<div>
 		<img src="/static/img/contacts-map.png">
 	</div>
@@ -21,7 +26,7 @@
 
 	<div class="bg-hack" id="form-holder" style="display: none;">
 		<div id="write-us" class="bg-hack"><p>Пишете ни</p></div>
-		<form>
+		<form action="/contacts" method="post">
 	        <input name="name" placeholder="Вашето име...">
 
 			<input name="email" type="email" placeholder="Email...">

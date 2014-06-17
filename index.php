@@ -1,4 +1,5 @@
 <?php
+session_start();
 require 'Slim/Slim.php';
 
 \Slim\Slim::registerAutoloader();
@@ -17,9 +18,24 @@ $app->get('/', function () use ($app) {
     $app->render('index.php', ['path' => 'home', 'title' => 'Начало', 'data' => $data]);
 });
 
-$app->get('/contacts', function() use ($app){
+$app->get('/contacts', function() use ($app) {
 	$data = json_decode(file_get_contents("./api/cities.json"));
     $app->render('index.php', ['path'=>'contacts', 'title' => 'Контакти', 'data' => $data]);
+});
+
+$app->post('/contacts', function() use ($app) {
+    require 'Slim/Validator.php';
+
+    $validation = new Validation();
+    try {
+        $validation->add($app->request->post('email'))->isEmail("Невалиден e-mail.");
+        $validation->add($app->request->post('name'))->min(4, "Името трябва да е минимално 4 символа.");
+        $validation->add($app->request->post('message'))->min(15, "Текста трябва е инимално 15 символа.");
+        $app->flash('success', true);
+    } catch(ValidationException $e) {
+        $app->flash('error', $e->getMessage());
+    } 
+    $app->redirect('/contacts', 301);
 });
 
 $app->get('/contacts/:id', function($id) use ($app){
