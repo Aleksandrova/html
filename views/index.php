@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	    <link rel="stylesheet" href="/static/css/foundation.css" />
 	<title><?=$title;?> - Фобос ЕР</title>
 	<meta name="classification" content="business" />
 	<meta name="robots" content="index, follow" />
@@ -46,5 +47,6 @@
 		</div>
 	</div>
 	<script src="/static/js/media-support.js"></script>
+	<script src="/static/js/vendor/modernizr.js"></script>
 </body>
 </html>

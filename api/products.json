@@ -18,8 +18,8 @@
 	"title": "Перле",
 	"category": "salfetki",
 	"sub": "30x30",
-	"image": "/static/img/products/ perle30_s.png",
-	"thumb": "/static/img/products/ perle30_s_thumb.png",
+	"image": "/static/img/products/perle30_s.png",
+	"thumb": "/static/img/products/perle30_s_thumb.png",
 	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 70бр. <br/> Цвят: бял/цветни <br/> Размер: 30х30 <br/> Пакет в т.е. 12бр. ",
 	"url": "salfetki-perle30"
 }, 
@@ -27,8 +27,8 @@
 	"title": "Перле",
 	"category": "salfetki",
 	"sub": "33x33",
-	"image": "/static/img/products/ _s.png",
-	"thumb": "/static/img/products/ _s_thumb.png",
+	"image": "/static/img/products/perle_s.png",
+	"thumb": "/static/img/products/perle_s_thumb.png",
 	"fulltext": "Материал:100% целулоза <br/> Брой в пакет: 70бр. <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12бр. ",
 	"url": "salfetki-perle33"
 },{
@@ -235,7 +235,7 @@
 }, {
 	"title": "Донна нощни",
 	"category": "pr",
-	"image": "/static/img/products/donan_p_.png",
+	"image": "/static/img/products/donan_p.png",
 	"thumb": "/static/img/products/donan_p_thumb.png",
 	"fulltext": "Материал: коприна <br/> Брой в пакет: 10бр. <br/> Пакет в т.е. 40бр.  <br/> Вид:нощни ",
 	"url": "prevruzki-donna-ng"
@@ -250,8 +250,9 @@
 }, {
 	"title": "Донна ежедневни",
 	"category": "pr",
-	"image": "/static/img/products/donasn_p_.png",
+	"image": "/static/img/products/donasn_p.png",
 	"thumb": "/static/img/products/donasn_p_thumb.png",
 	"fulltext": "Материал: коприна <br/> Брой в пакет: 25бр. <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
 	"url": "prevruzki-donnasilk"
-},]
+}
+]

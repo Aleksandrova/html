@@ -3,15 +3,26 @@
 		<p>Какво предлагаме?</p>
 		<div id="tag-triangle" class="hide-for-small"></div>
 	</div>
+	
+	
 	<div id="menu" class="hide-for-small">
-		<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki">Кухненски ролки</a></div>
-		<div><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div>
-		<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
-		<div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
-		<ul>
-			<li><a href="<?=$prefix;?>/products/cat/salfetki/25x25">25x25</a></li>
-		</ul>
+			<div><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/100%celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
+			<div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
+				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
+			<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div>
+			<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
+
+
+		
 	</div>
+	
+	
 	<div class="show-for-small" style="width: 100%; height: 5px; background: url('/static/img/transparent-bg-1.png')"></div>
 	<div class="picture-menu show-for-small">
 		<a href="<?=$prefix;?>/products/cat/kuhnenski-rolki" class="<?if($id=='kuhnenski-rolki')echo'active';?>"><img src="/static/img/icons/rola.png"></a>
