@@ -1,5 +1,9 @@
 <div class="dark-holder-small" id="contacts-holder">
-
+	<?if(isset($flash['error'])){?>
+		<div style="background-color: red;"><?=$flash['error'];?></div>
+	<?}elseif($flash['success']){?>
+		<div style="background-color: green;">Писмото беше изпратено успешно!</div>
+	<?}?>
 	<div>
 		<img src="/static/img/contacts-map.png">
 	</div>
@@ -12,13 +16,7 @@
 			<? } ?>
 		</div>
 	</div>
-	
-	<?if(isset($flash['error'])){?>
-		<div class="message"; style="background-color: red;"><?=$flash['error'];?></div>
-	<?}elseif($flash['success']){?>
-		<div class="message"; style="color: green;">Писмото беше изпратено успешно!</div>
-	<?}?>
-	
+
 	<div class="bg-hack" id="click-here">
 		<a href="#" onclick="document.getElementById('form-holder').style.display = 'block'; this.parentNode.style.display = 'none';">
 			<p>Пишете ни</p>
