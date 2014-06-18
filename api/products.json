@@ -59,7 +59,7 @@
  {
 	"title": "Фреш",
 	"category": "toaletna-hartia",
-	"sub": "100%celuloza",
+	"sub": "100-celuloza",
 	"image": "/static/img/products/fresh_h.png",
 	"thumb": "/static/img/products/fresh_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
@@ -67,7 +67,7 @@
 },{
 	"title": "Фреш Лукс",
 	"category": "toaletna-hartia",
-	"sub": "100%celuloza",
+	"sub": "100-celuloza",
 	"image": "/static/img/products/fresh_lux_h.png",
 	"thumb": "/static/img/products/fresh_lux_h_thumb.png",
 	"fulltext": "100% целулоза. Ролки в пакет: 4. Пакети в чувал: 10. ",
