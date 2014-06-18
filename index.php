@@ -109,20 +109,6 @@ $app->get('/products/cat/:id', function($id) use ($app) {
     $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => $id]);
 });
 
-$app->get('/products/cat/:id/:sub', function($id, $sub) use ($app) {
-    $data = json_decode(file_get_contents("./api/products.json"));
-
-    $output = [];
-    foreach($data as $now) {
-        if ($now->category == $id && $now->sub == $sub) {
-            $output[] = $now;
-        }
-    }
-
-
-    $app->render('index.php', ['path'=>'products', 'cat'=>$output, 'title' => 'Продукти', 'id' => $id, 'sub'=>$sub]);
-});
-
 $app->get('/products/:id', function($id) use ($app) {
     $data = json_decode(file_get_contents("./api/products.json"));
     $current = [];
