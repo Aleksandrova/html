@@ -3,27 +3,31 @@
 		<p>Какво предлагаме?</p>
 		<div id="tag-triangle" class="hide-for-small"></div>
 	</div>
+
+	<? $g = new linkGenerator($prefix, $id, isset($sub) ? $sub : false); ?>
 	
 	
 	<div id="menu" class="hide-for-small accordion">
-			<div id="click1" ><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div> 
+			<a <?=$g->gen("toaletna-hartia");?>>Тоалетна хартия</a>
 
-				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/toaletna-hartia/100-celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
-				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/toaletna-hartia/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
-				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/toaletna-hartia/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
-
+			<div class="subcat" style="display: <?=($id == 'toaletna-hartia' ? 'block' : 'none');?>">
+				<a <?=$g->gen("toaletna-hartia", "100-celuloza");?>>100% целулоза</a>
+				<a <?=$g->gen("toaletna-hartia", "reciklirana");?>>Рециклирана</a>
+				<a <?=$g->gen("toaletna-hartia", "eko-celulozna");?>>Еко-целулозна</a>
+			</div>
 			
-			<div id="click2"><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
+			<a <?=$g->gen("salfetki");?>>Салфетки</a>
 			
-				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
-				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
-				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
-				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
+			<div class="subcat" style="display: <?=($id == 'salfetki' ? 'block' : 'none');?>">
+				<a <?=$g->gen("salfetki", "25x25");?>>25x25</a>
+				<a <?=$g->gen("salfetki", "25x28");?>>25x28</a>
+				<a <?=$g->gen("salfetki", "30x30");?>>30x30</a>
+				<a <?=$g->gen("salfetki", "33x33");?>>33x33</a>
+			</div>
 			
-			
-			<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div>
-			<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
-			<div><a href="<?=$prefix;?>/products/cat/pr">Дамски превръзки</a></div>
+			<a <?=$g->gen("kuhnenski-rolki");?>> Кухненски ролки</a>
+			<a <?=$g->gen("nosni-kurpichki");?>>Носни кърпички</a>
+			<a <?=$g->gen("pr");?>>Дамски превръзки</a>
 	</div>
 	
 	
@@ -70,32 +74,3 @@
 	</div>
 	<div style="clear: both; margin-bottom: 50px;"></div>
 </div>
-
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-<script>
-
-
-
-$(document).ready(function(){
-
-	console.log("asdsadasd");
-
-
-  $("#click1").click(function(){
-    $(".toggle1").slideToggle();
-	$(".toggle2").hide();
-	
-  });
-  
-   $("#click2").click(function(){
-    $(".toggle2").toggle();
-	$(".toggle1").hide();
-	
-  });
-  
-});
-
-	
-</script>

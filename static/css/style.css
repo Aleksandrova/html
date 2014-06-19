@@ -245,21 +245,28 @@ img {
 	font-size: 17px;
 	color: #ffffff;
 	position: relative;
-	top: 20px;
+	margin-top: 20px;
 	text-decoration: none;
 	overflow: hidden;
+	margin-left: 20px;
+	height: 40px;
+	width: 180px;
+	border-bottom: solid rgba(0,0,0, .1) 1px;
+	display: block;
+}
+
+#menu .subcat a {
+	padding-left: 25px;
+}
+
+#menu .active {
+	color: #56e8cd;
 }
 
 #menu a:hover{
 	color: #56e8cd;
 }
 
-#menu div{
-	margin-left: 20px;
-	height: 60px;
-	width: 180px;
-	border-bottom: solid rgba(0,0,0, .1) 1px;
-}
 
 .picture-menu {
 	overflow: hidden;

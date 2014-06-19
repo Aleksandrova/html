@@ -95,6 +95,22 @@ function filter($input, $cat) {
     return $output;
 }
 
+class linkGenerator {
+    public $prefix, $currentSub, $currentCat;
+
+    public function __construct($prefix, $currentCat, $currentSub) {
+        $this->currentCat = $currentCat;
+        $this->currentSub = $currentSub;
+        $this->prefix = $prefix;
+    }
+
+    public function gen($cat, $sub = false) {
+        $link = $this->prefix . "/products/cat/$cat" . ($sub ? '/' . $sub : '');
+        $active = $cat == $this->currentCat && ((!$sub && !$this->currentSub) || $this->currentSub == $sub);
+        return 'href="' . $link . '"' . ($active ? ' class="active"' : '');
+    }
+}
+
 $app->get('/products', function() use ($app) {
     $data = json_decode(file_get_contents("./api/products.json"));
 
