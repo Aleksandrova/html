@@ -5,21 +5,24 @@
 	</div>
 	
 	
-	<div id="menu" class="hide-for-small">
-			<div><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/100%celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
-			<div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
-				<div class="hide"><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
-			<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div>
-			<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
-
-
-		
+	<div id="menu" class="hide-for-small accordion">
+			<dt> <div><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div> </dt>
+			<dd>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/100%celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
+			</dd>
+			
+			<dt> <div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div> </dt>
+			<dd>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
+				<div><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
+			</dd>
+			
+			<dt>  <div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div></dt> 
+			<dt>  <div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div></dt> 
 	</div>
 	
 	
@@ -66,3 +69,25 @@
 	</div>
 	<div style="clear: both; margin-bottom: 50px;"></div>
 </div>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+
+(function($) {
+    
+  var allPanels = $('.accordion > dd').hide();
+    
+  $('.accordion > dt > div > a').click(function() {
+    allPanels.slideUp();
+    $(this).parent().parent().next().slideDown();
+    return false;
+  });
+  
+  
+
+})(jQuery);
+
+	
+</script>
