@@ -6,23 +6,23 @@
 	
 	
 	<div id="menu" class="hide-for-small accordion">
-			<dt> <div><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div> </dt>
-			<dd>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/100%celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
-			</dd>
+			<div id="click1" ><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div> 
+
+				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/salfetki/100%celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
+				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/salfetki/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
+				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/salfetki/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
+
 			
-			<dt> <div><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div> </dt>
-			<dd>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
-				<div><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
-			</dd>
+			<div id="click2"><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
 			
-			<dt>  <div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div></dt> 
-			<dt>  <div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div></dt> 
+				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
+				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
+				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
+				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
+			
+			
+			<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div>
+			<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
 	</div>
 	
 	
@@ -75,19 +75,20 @@
 
 <script>
 
-(function($) {
-    
-  var allPanels = $('.accordion > dd').hide();
-    
-  $('.accordion > dt > div > a').click(function() {
-    allPanels.slideUp();
-    $(this).parent().parent().next().slideDown();
-    return false;
+$(document).ready(function(){
+  $("#click1").click(function(){
+    $(".toggle1").toggle();
+	$(".toggle2").hide();
+	
   });
   
+   $("#click2").click(function(){
+    $(".toggle2").toggle();
+	$(".toggle1").hide();
+	
+  });
   
-
-})(jQuery);
+});
 
 	
 </script>
