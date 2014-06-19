@@ -441,12 +441,6 @@ img {
   	}
 }
 
-.message {
-	height: 30px;
-	text-align: center;
-	font-family: "Century Gothic";
-	font-size: 18px;
-	background-color: rgba(0,0,0,0.2)
 }
 /* Cities Contacts*/
 
@@ -877,6 +871,8 @@ img {
 	height: 60px;
 	background-color: rgba(0,0,0, 0.2);
 	text-align: center; 
+	margin-bottom: 40px;
+	
 }
 
 #write-us p{
@@ -896,7 +892,7 @@ input, textarea, #tex {
 	background:none;
 	border: none;
 	padding:10px;
-	margin-top:35px;
+	margin-top:20px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 16pt;
@@ -926,27 +922,25 @@ textarea{
 
 #button-send{
 	height: 50px;
-	width: 50%;
 	max-width: 150px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-bottom: 30px;
-	border: solid 2px #40e2c9;
-	color: #40e2c9;
+	border: solid 2px #fff !important;
+	color: #fff;
 	text-align: center;
 }
 
 #button-send p {
-	color: #40e2c9;
 	font-size: 18pt;
-	position: relative;
-	top: -15px;
 }
-#button-send:hover {
-	background-color: #40e2c9;
-	color: #fff;
+
+#button-send:hover{
+	border: solid 2px #40e2c9 !important;
+	color: #40e2c9;
 }
+
 
 #fix{
 	width: 100%;
@@ -954,6 +948,20 @@ textarea{
 	background-color: none;
 }
 
+
+.message {
+	margin-top: 20px;
+	height: 40px;
+	text-align: center;
+	font-family: "Century Gothic";
+	font-size: 20px;
+}
+.message p{
+	position: relative;
+	top:8px;
+}
+	
+	
 /* 404 */
 
 #holder-404{
@@ -976,4 +984,8 @@ textarea{
 
 #image-404, #text-404{
 	float: left;
+}
+
+.hide{
+	display: none !important;
 }

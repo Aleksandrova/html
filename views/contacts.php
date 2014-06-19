@@ -14,9 +14,9 @@
 	</div>
 	
 	<?if(isset($flash['error'])){?>
-		<div class="message"; style="background-color: red;"><?=$flash['error'];?></div>
+		<div class="message"; style="background-color: #F10044;"><p> <?=$flash['error'];?></p></div>
 	<?}elseif($flash['success']){?>
-		<div class="message"; style="color: green;">Писмото беше изпратено успешно!</div>
+		<div class="message"; style="background-color: #28a989;"><p>Писмото беше изпратено успешно!</p></div>
 	<?}?>
 	
 	<div class="bg-hack" id="click-here">
@@ -35,7 +35,8 @@
 
 			<div id="tex"><textarea name="message" placeholder="Съобщението Ви..."></textarea></div>
 					
-			<input type="submit" value="Изпрати">
+			<input id="button-send"type="submit" value="Изпрати">
+			
 	        <div id="fix"></div>
 		</form>
 	</div>
