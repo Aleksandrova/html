@@ -76,7 +76,13 @@
 
 <script>
 
+
+
 $(document).ready(function(){
+
+	console.log("asdsadasd");
+
+
   $("#click1").click(function(){
     $(".toggle1").slideToggle();
 	$(".toggle2").hide();
