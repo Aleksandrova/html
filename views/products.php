@@ -23,6 +23,7 @@
 			
 			<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div>
 			<div><a href="<?=$prefix;?>/products/cat/nosni-kurpichki">Носни кърпички</a></div>
+			<div><a href="<?=$prefix;?>/products/cat/pr">Дамски превръзки</a></div>
 	</div>
 	
 	

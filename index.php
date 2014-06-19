@@ -28,9 +28,9 @@ $app->post('/contacts', function() use ($app) {
 
     $validation = new Validation();
     try {
-        $validation->add($app->request->post('email'))->isEmail("Невалиден e-mail.");
-        $validation->add($app->request->post('name'))->min(4, "Името трябва да е минимално 4 символа.");
-        $validation->add($app->request->post('message'))->min(15, "Текста трябва е инимално 15 символа.");
+        $validation->add($app->request->post('email'))->isEmail("Невалиден e-mail адрес.");
+        $validation->add($app->request->post('name'))->min(4, "Името трябва да е минимум 4 символа.");
+        $validation->add($app->request->post('message'))->min(15, "Текста трябва е минимум 15 символа.");
         $app->flash('success', true);
 
         $message = wordwrap($app->request->post('email'), 70);
