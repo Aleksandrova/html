@@ -230,7 +230,7 @@ img {
 #menu{
 	margin-top: -10px;
 	height: auto;
-	width:300px;
+	min-width:300px;
 	width: 30%;
 	float:left;
 	position:relative;
