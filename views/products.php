@@ -8,9 +8,9 @@
 	<div id="menu" class="hide-for-small accordion">
 			<div id="click1" ><a href="<?=$prefix;?>/products/cat/toaletna-hartia">Тоалетна хартия</a></div> 
 
-				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/salfetki/100%celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
-				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/salfetki/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
-				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/salfetki/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
+				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/toaletna-hartia/100-celuloza"> &nbsp; &nbsp; &nbsp; 100% целулоза</a></div>
+				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/toaletna-hartia/reciklirana"> &nbsp; &nbsp; &nbsp; Рециклирана</a></div>
+				<div class="toggle1"><a href="<?=$prefix;?>/products/cat/toaletna-hartia/eko-celulozna"> &nbsp; &nbsp; &nbsp; Еко-целулозна</a></div>
 
 			
 			<div id="click2"><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
@@ -77,7 +77,7 @@
 
 $(document).ready(function(){
   $("#click1").click(function(){
-    $(".toggle1").toggle();
+    $(".toggle1").slideToggle();
 	$(".toggle2").hide();
 	
   });
