@@ -46,6 +46,5 @@
 		</div>
 	</div>
 	<script src="/static/js/media-support.js"></script>
-	<script src="/static/js/vendor/modernizr.js"></script>
 </body>
 </html>
