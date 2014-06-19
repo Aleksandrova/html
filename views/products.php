@@ -16,9 +16,9 @@
 			<div id="click2"><a href="<?=$prefix;?>/products/cat/salfetki">Салфетки</a></div>
 			
 				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/25x25"> &nbsp; &nbsp; &nbsp; 25x25</a></div>
-				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
 				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/25x28"> &nbsp; &nbsp; &nbsp; 25x28</a></div>
 				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/30x30"> &nbsp; &nbsp; &nbsp; 30x30</a></div>
+				<div class="toggle2"><a href="<?=$prefix;?>/products/cat/salfetki/33x33"> &nbsp; &nbsp; &nbsp; 33x33</a></div>
 			
 			
 			<div><a href="<?=$prefix;?>/products/cat/kuhnenski-rolki"> Кухненски ролки</a></div>
