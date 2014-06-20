@@ -7,7 +7,7 @@
 			<?=$current->title;?>
 		</div>
 		<div class="current-article-text">
-			<?=$current->fulltext;?>
+			<?=$current->fulltext->{$lng};?>
 		</div>
 	</div>
 </div>
@@ -32,7 +32,7 @@
 				<div class="heading">
 					<?=$now->title?>
 				</div>
-				<?=mb_substr($now->fulltext, 0, 80, 'UTF-8');?>...
+				<?=mb_substr($now->fulltext->{$lng}, 0, 80, 'UTF-8');?>...
 			</div>
 		</a>
 		<div class="fake-border bg-hack"></div>
