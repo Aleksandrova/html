@@ -1,22 +1,21 @@
 <div class="dark-holder bg-hack">
 	<div id="tag" class="bg-hack hide-for-small">
-		<p>Какво предлагаме?</p>
+		<p><?=$label['products']['head_text']?></p>
 		<div id="tag-triangle" class="hide-for-small"></div>
 	</div>
 
 	<? $g = new linkGenerator($prefix, $id, isset($sub) ? $sub : false); ?>
 	
-	
 	<div id="menu" class="hide-for-small accordion">
-			<a <?=$g->gen("toaletna-hartia");?>>Тоалетна хартия</a>
+			<a <?=$g->gen("toaletna-hartia");?>><?=$label['products']['t-hartia'];?></a>
 
 			<div class="subcat" style="display: <?=($id == 'toaletna-hartia' ? 'block' : 'none');?>">
-				<a <?=$g->gen("toaletna-hartia", "100-celuloza");?>>100% целулоза</a>
-				<a <?=$g->gen("toaletna-hartia", "reciklirana");?>>Рециклирана</a>
-				<a <?=$g->gen("toaletna-hartia", "eko-celulozna");?>>Еко-целулозна</a>
+				<a <?=$g->gen("toaletna-hartia", "100-celuloza");?>><?=$label['products']['celuloza'];?></a>
+				<a <?=$g->gen("toaletna-hartia", "reciklirana");?>><?=$label['products']['reciklirana'];?></a>
+				<a <?=$g->gen("toaletna-hartia", "eko-celulozna");?>><?=$label['products']['eko-celuloza'];?></a>
 			</div>
 			
-			<a <?=$g->gen("salfetki");?>>Салфетки</a>
+			<a <?=$g->gen("salfetki");?>><?=$label['products']['salfetki'];?></a>
 			
 			<div class="subcat" style="display: <?=($id == 'salfetki' ? 'block' : 'none');?>">
 				<a <?=$g->gen("salfetki", "25x25");?>>25x25</a>
@@ -25,9 +24,9 @@
 				<a <?=$g->gen("salfetki", "33x33");?>>33x33</a>
 			</div>
 			
-			<a <?=$g->gen("kuhnenski-rolki");?>> Кухненски ролки</a>
-			<a <?=$g->gen("nosni-kurpichki");?>>Носни кърпички</a>
-			<a <?=$g->gen("pr");?>>Дамски превръзки</a>
+			<a <?=$g->gen("kuhnenski-rolki");?>><?=$label['products']['rolki'];?></a>
+			<a <?=$g->gen("nosni-kurpichki");?>><?=$label['products']['kurpichki'];?></a>
+			<a <?=$g->gen("pr");?>><?=$label['products']['pr'];?></a>
 	</div>
 	
 	
@@ -47,7 +46,7 @@
 				</a>
 			<? } ?>
 
-			<? if ( !isset($notnull) ) { ?><div style="font-size: 20px; ">Няма намерени продукти по вашите критерии.</div><? } ?>
+			<? if ( !isset($notnull) ) { ?><div style="font-size: 20px; "><?=$label['products']['notfound'];?></div><? } ?>
 		<? } ?>
 
 		<? if(isset($current)) { 
@@ -63,12 +62,12 @@
 					</div>
 					<a href="<?=$prefix;?>/products/cat/<?=$current->category;?>" class="back-btn bg-hack">
 						<img src="/static/img/back_arrow.png" style="width: 37px; height: 37px;">
-						<span style="top: -7px; position: relative;">Назад</span>
+						<span style="top: -7px; position: relative;"><?=$label['products']['backbtn'];?></span>
 					</a>
 				</div>
 			</div><? } ?>
 
-			<? if ( !isset($current->title) ) { ?><div style="font-size: 20px; ">Няма намерени продукти по вашите критерии.</div><? } ?>
+			<? if ( !isset($current->title) ) { ?><div style="font-size: 20px; "><?=$label['products']['notfound'];?></div><? } ?>
 		<? } ?>
 
 	</div>

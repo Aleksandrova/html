@@ -7,19 +7,37 @@ require 'Slim/Slim.php';
 $app = new \Slim\Slim();
 
 $view = $app->view();
-$view->setTemplatesDirectory('./views');
+$view->setTemplatesDirectory('./app/views');
 
 $app->view->setData('prefix', '');
+$app->view->setData('lng', 'bg');
+
+function _link($data){
+    $app = \Slim\Slim::getInstance();
+    return 'href="' . $app->view->getData('prefix') . '/' . $app->view->getData('lng') . $data . '"';
+}
+
+$app->hook('slim.before', function() use ($app){
+    $env = $app->environment();
+
+    if( preg_match("/^\/(bg|en)/", $env['PATH_INFO'], $out) ) {
+        $app->view->setData('lng', $out[1]);
+        $env['PATH_INFO'] = str_replace($out[0], '', $env['PATH_INFO']);
+    }
+
+    require('./app/lang/' . $app->view->getData('lng') . '.php');
+    $app->view->setData('label', $lang);
+});
 
 $app->get('/', function () use ($app) {
-    $data = json_decode(file_get_contents("./api/products.json"));
+    $data = json_decode(file_get_contents("./app/api/products.json"));
     shuffle($data);
     $data = array_slice($data, 0, 6);
     $app->render('index.php', ['path' => 'home', 'title' => 'Начало', 'data' => $data]);
 });
 
 $app->get('/contacts', function() use ($app) {
-	$data = json_decode(file_get_contents("./api/cities.json"));
+	$data = json_decode(file_get_contents("./app/api/cities.json"));
     $app->render('index.php', ['path'=>'contacts', 'title' => 'Контакти', 'data' => $data]);
 });
 
@@ -45,7 +63,7 @@ $app->post('/contacts', function() use ($app) {
 });
 
 $app->get('/contacts/:id', function($id) use ($app){
-	$data = json_decode(file_get_contents("./api/cities.json"));
+	$data = json_decode(file_get_contents("./app/api/cities.json"));
     $current = null;
     foreach($data as $now) {
         if ($now->url == $id) {
@@ -67,12 +85,12 @@ $app->get('/about', function() use ($app){
 });
 
 $app->get('/interesting', function() use ($app){
-    $data = json_decode(file_get_contents("./api/interesting.json"));
+    $data = json_decode(file_get_contents("./app/api/interesting.json"));
     $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $data[0], 'title' => 'Интерестно']);
 });
 
 $app->get('/interesting/:id', function($id) use ($app){
-    $data = json_decode(file_get_contents("./api/interesting.json"));
+    $data = json_decode(file_get_contents("./app/api/interesting.json"));
     $current = [];
     foreach($data as $now) {
         if ($now->url == $id) {
@@ -112,21 +130,21 @@ class linkGenerator {
 }
 
 $app->get('/products', function() use ($app) {
-    $data = json_decode(file_get_contents("./api/products.json"));
+    $data = json_decode(file_get_contents("./app/api/products.json"));
 
     $data = filter($data, 'kuhnenski-rolki');
     $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => 'kuhnenski-rolki']);
 });
 
 $app->get('/products/cat/:id', function($id) use ($app) {
-    $data = json_decode(file_get_contents("./api/products.json"));
+    $data = json_decode(file_get_contents("./app/api/products.json"));
 
     $data = filter($data, $id);
     $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => $id]);
 });
 
 $app->get('/products/cat/:id/:sub', function($id, $sub) use ($app) {
-    $data = json_decode(file_get_contents("./api/products.json"));
+    $data = json_decode(file_get_contents("./app/api/products.json"));
 
     $output = [];
     foreach($data as $now) {
@@ -140,7 +158,7 @@ $app->get('/products/cat/:id/:sub', function($id, $sub) use ($app) {
 });
 
 $app->get('/products/:id', function($id) use ($app) {
-    $data = json_decode(file_get_contents("./api/products.json"));
+    $data = json_decode(file_get_contents("./app/api/products.json"));
     $current = [];
     foreach($data as $now) {
         if ($now->url == $id) {

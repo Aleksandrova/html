@@ -19,7 +19,7 @@
 
 <div class="bg-hack articles-holder">
 	<div class="bg-hack head">
-		Още статии
+		<?=$label['interesting']['more']?>
 	</div>
 	<div class="articles">
 

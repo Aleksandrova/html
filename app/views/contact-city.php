@@ -14,7 +14,7 @@
 	</div>
 
 	<div class="bg-hack" id="location">
-		<div id="adress">Офиса ни може да намерите на:   <?=$data->address;?>.</div>
+		<div id="adress"><?=$label['contacts']['maptext']?>   <?=$data->address;?>.</div>
 		<div>
 			<div id="map_canvas" width="100%" height="260px;" style="width: 100%; height: 260px;"></div>
 		</div>

@@ -16,18 +16,18 @@
 	<?if(isset($flash['error'])){?>
 		<div class="message"; style="background-color: #F10044;"><p> <?=$flash['error'];?></p></div>
 	<?}elseif($flash['success']){?>
-		<div class="message"; style="background-color: #28a989;"><p>Писмото беше изпратено успешно!</p></div>
+		<div class="message"; style="background-color: #28a989;"><p><?=$label['contacts']['sendsuccessful'];?></p></div>
 	<?}?>
 	
 	<div class="bg-hack" id="click-here">
 		<a href="#" onclick="document.getElementById('form-holder').style.display = 'block'; this.parentNode.style.display = 'none';">
-			<p>Пишете ни</p>
-			<p id="for">За заявки, въпроси и повече информация кликнете тук.</p>
+			<p><?=$label['contacts']['writetous'];?></p>
+			<p id="for"><?=$label['contacts']['clickhere'];?></p>
 		</a>
 	</div>
 
 	<div class="bg-hack" id="form-holder" style="display: none;">
-		<div id="write-us" class="bg-hack"><p>Пишете ни</p></div>
+		<div id="write-us" class="bg-hack"><p><?=$label['contacts']['writetous'];?></p></div>
 		<form action="/contacts" method="post">
 	        <input name="name" placeholder="Вашето име...">
 
@@ -35,8 +35,7 @@
 
 			<div id="tex"><textarea name="message" placeholder="Съобщението Ви..."></textarea></div>
 					
-			<input id="button-send"type="submit" value="Изпрати">
-			
+			<input id="button-send" type="submit" value="<?=$label['contacts']['send'];?>">
 	        <div id="fix"></div>
 		</form>
 	</div>
