@@ -33,12 +33,12 @@ $app->get('/', function () use ($app) {
     $data = json_decode(file_get_contents("./app/api/products.json"));
     shuffle($data);
     $data = array_slice($data, 0, 6);
-    $app->render('index.php', ['path' => 'home', 'title' => 'Начало', 'data' => $data]);
+    $app->render('index.php', ['path' => 'home', 'title' => $app->view->getData('label')['titles']['home'], 'data' => $data]);
 });
 
 $app->get('/contacts', function() use ($app) {
 	$data = json_decode(file_get_contents("./app/api/cities.json"));
-    $app->render('index.php', ['path'=>'contacts', 'title' => 'Контакти', 'data' => $data]);
+    $app->render('index.php', ['path'=>'contacts', 'title' => $app->view->getData('label')['titles']['contacts'], 'data' => $data]);
 });
 
 $app->post('/contacts', function() use ($app) {
@@ -77,16 +77,16 @@ $app->get('/contacts/:id', function($id) use ($app){
     	exit;
     }
 
-    $app->render('index.php', ['path'=>'contact-city', 'title' => 'Контакти', 'data' => $current]);
+    $app->render('index.php', ['path'=>'contact-city', 'title' => $app->view->getData('label')['titles']['contacts'], 'data' => $current]);
 });
 
 $app->get('/about', function() use ($app){
-    $app->render('index.php', ['path'=>'about', 'title' => 'За нас']);
+    $app->render('index.php', ['path'=>'about', 'title' => $app->view->getData('label')['titles']['about']]);
 });
 
 $app->get('/interesting', function() use ($app){
     $data = json_decode(file_get_contents("./app/api/interesting.json"));
-    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $data[0], 'title' => 'Интерестно']);
+    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $data[0], 'title' => $app->view->getData('label')['titles']['interesting']]);
 });
 
 $app->get('/interesting/:id', function($id) use ($app){
@@ -133,14 +133,14 @@ $app->get('/products', function() use ($app) {
     $data = json_decode(file_get_contents("./app/api/products.json"));
 
     $data = filter($data, 'kuhnenski-rolki');
-    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => 'kuhnenski-rolki']);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => $app->view->getData('label')['titles']['products'], 'id' => 'kuhnenski-rolki']);
 });
 
 $app->get('/products/cat/:id', function($id) use ($app) {
     $data = json_decode(file_get_contents("./app/api/products.json"));
 
     $data = filter($data, $id);
-    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => 'Продукти', 'id' => $id]);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$data, 'title' => $app->view->getData('label')['titles']['products'], 'id' => $id]);
 });
 
 $app->get('/products/cat/:id/:sub', function($id, $sub) use ($app) {
@@ -154,7 +154,7 @@ $app->get('/products/cat/:id/:sub', function($id, $sub) use ($app) {
     }
 
 
-    $app->render('index.php', ['path'=>'products', 'cat'=>$output, 'title' => 'Продукти', 'id' => $id, 'sub'=>$sub]);
+    $app->render('index.php', ['path'=>'products', 'cat'=>$output, 'title' => $app->view->getData('label')['titles']['products'], 'id' => $id, 'sub'=>$sub]);
 });
 
 $app->get('/products/:id', function($id) use ($app) {

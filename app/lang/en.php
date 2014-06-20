@@ -3,6 +3,12 @@ $lang = [];
 
 $lang['title'] = "Fobos R";
 
+$lang['titles']['home'] = 'Home';
+$lang['titles']['products'] = 'Products';
+$lang['titles']['about'] = 'About us';
+$lang['titles']['interesting'] = 'Interesting';
+$lang['titles']['contacts'] = 'Contacts';
+
 $lang['menu']['home'] = 'HOME';
 $lang['menu']['products'] = 'PRODUCTS';
 $lang['menu']['about'] = 'ABOUT US';
