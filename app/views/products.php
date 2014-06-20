@@ -58,7 +58,7 @@
 					<img class="image" src="<?=$current->image;?>">
 
 					<div class="text-holder">
-						<?=$current->fulltext;?>
+						<?=$current->fulltext->{$lng};?>
 					</div>
 					<a <?=_link("/products/cat/" . $current->category);?> class="back-btn bg-hack">
 						<img src="/static/img/back_arrow.png" style="width: 37px; height: 37px;">
