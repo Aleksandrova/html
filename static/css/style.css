@@ -899,14 +899,13 @@ input{
 }
 
 input, textarea, #tex {
-	width:75%;
+	width:66%;
 	height:27px;
 	background:none;
 	border: none;
 	padding:10px;
-	margin-top:20px;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top:-48px;
+	margin-left: 140px;
 	font-size: 16pt;
 	font-family: "Century Gothic"; 
 	color: #fff;
@@ -926,6 +925,14 @@ textarea{
 	
 	width: 100% !important;
 	height: 150px;
+}
+
+form p{
+	font-size: 16pt;
+	position: relative;
+	top: 10px;
+	left: 40px;
+	
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
