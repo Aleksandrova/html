@@ -1,6 +1,0 @@
-<a ng-href="/new/products/{{product.url}}" ng-repeat="product in products | category: cat" class="item">
-	<div class="name">{{product.title}}</div>
-	<img style="width: 100%" ng-src="{{product.thumb}}">
-</a>
-
-<div style="font-size: 20px;" ng-show="!(products | category: cat).length">Няма намерени продукти по вашите критерии.</div>
