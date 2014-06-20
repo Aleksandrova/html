@@ -24,7 +24,7 @@
 	<div class="articles">
 
     	<?php foreach($data as $now) { ?>
-		<a class="article" href="<?=$prefix;?>/interesting/<?=$now->url;?>">
+		<a class="article" <?=_link("/interesting/" . $now->url);?>>
 			<div style="float: left; width: 39%;">
 				<img src="/static/img/interesting/<?=$now->thumb?>">
 			</div>

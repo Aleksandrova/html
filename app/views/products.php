@@ -4,7 +4,7 @@
 		<div id="tag-triangle" class="hide-for-small"></div>
 	</div>
 
-	<? $g = new linkGenerator($prefix, $id, isset($sub) ? $sub : false); ?>
+	<? $g = new linkGenerator($id, isset($sub) ? $sub : false); ?>
 	
 	<div id="menu" class="hide-for-small accordion">
 			<a <?=$g->gen("toaletna-hartia");?>><?=$label['products']['t-hartia'];?></a>
@@ -32,15 +32,15 @@
 	
 	<div class="show-for-small" style="width: 100%; height: 5px; background: url('/static/img/transparent-bg-1.png')"></div>
 	<div class="picture-menu show-for-small">
-		<a href="<?=$prefix;?>/products/cat/kuhnenski-rolki" class="<?if($id=='kuhnenski-rolki')echo'active';?>"><img src="/static/img/icons/rola.png"></a>
-		<a href="<?=$prefix;?>/products/cat/toaletna-hartia" class="<?if($id=='toaletna-hartia')echo'active';?>"><img src="/static/img/icons/hartia.png"></a>
-		<a href="<?=$prefix;?>/products/cat/nosni-kurpichki" class="<?if($id=='nosni-kurpichki')echo'active';?>"><img src="/static/img/icons/kurpichki.png"></a>
-		<a href="<?=$prefix;?>/products/cat/salfetki" class="<?if($id=='salfetki')echo'active';?>"><img src="/static/img/icons/salfetki.png"></a>
+		<a <?=_link("/products/cat/kuhnenski-rolki");?> class="<?if($id=='kuhnenski-rolki')echo'active';?>"><img src="/static/img/icons/rola.png"></a>
+		<a <?=_link("/products/cat/toaletna-hartia");?> class="<?if($id=='toaletna-hartia')echo'active';?>"><img src="/static/img/icons/hartia.png"></a>
+		<a <?=_link("/products/cat/nosni-kurpichki");?> class="<?if($id=='nosni-kurpichki')echo'active';?>"><img src="/static/img/icons/kurpichki.png"></a>
+		<a <?=_link("/products/cat/salfetki");?> class="<?if($id=='salfetki')echo'active';?>"><img src="/static/img/icons/salfetki.png"></a>
 	</div>
 	<div id="products-holder">
 		<? if (isset($cat)) { ?>
 			<? foreach($cat as $now) { $notnull = true; ?>
-				<a href="<?=$prefix;?>/products/<?=$now->url?>" class="item">
+				<a <?=_link("/products/" . $now->url);?> class="item">
 					<div class="name bg-hack"><?=$now->title?></div>
 					<img style="width: 100%" src="<?=$now->thumb;?>">
 				</a>
@@ -60,7 +60,7 @@
 					<div class="text-holder">
 						<?=$current->fulltext;?>
 					</div>
-					<a href="<?=$prefix;?>/products/cat/<?=$current->category;?>" class="back-btn bg-hack">
+					<a <?=_link("/products/cat/" . $current->category);?> class="back-btn bg-hack">
 						<img src="/static/img/back_arrow.png" style="width: 37px; height: 37px;">
 						<span style="top: -7px; position: relative;"><?=$label['products']['backbtn'];?></span>
 					</a>

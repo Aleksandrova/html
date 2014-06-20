@@ -116,14 +116,14 @@ function filter($input, $cat) {
 class linkGenerator {
     public $prefix, $currentSub, $currentCat;
 
-    public function __construct($prefix, $currentCat, $currentSub) {
+    public function __construct($currentCat, $currentSub) {
         $this->currentCat = $currentCat;
         $this->currentSub = $currentSub;
-        $this->prefix = $prefix;
+        $this->prefix = \Slim\Slim::getInstance();
     }
 
     public function gen($cat, $sub = false) {
-        $link = $this->prefix . "/products/cat/$cat" . ($sub ? '/' . $sub : '');
+        $link = $this->prefix->view->getData('prefix') . "/" . $this->prefix->view->getData('lng') . "/products/cat/$cat" . ($sub ? '/' . $sub : '');
         $active = $cat == $this->currentCat && ((!$sub && !$this->currentSub) || $this->currentSub == $sub);
         return 'href="' . $link . '"' . ($active ? ' class="active"' : '');
     }

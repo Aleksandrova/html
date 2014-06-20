@@ -1,13 +1,12 @@
 <div class="dark-holder-small" id="contacts-holder">
-
 	<div>
 		<img src="/static/img/contacts-map.png">
 	</div>
 	<div style="overflow: hidden;">
 		<div class="part">
 			<? foreach($data as $now) { ?> 
-			<a class="bg-hack" href="/contacts/<?=$now->url;?>">
-				<p><?=$now->city;?></p>
+			<a class="bg-hack" <?=_link("/contacts/" . $now->url);?>>
+				<p><?=$now->city->{$lng};?></p>
 			</a>
 			<? } ?>
 		</div>
@@ -28,7 +27,7 @@
 
 	<div class="bg-hack" id="form-holder" style="display: none;">
 		<div id="write-us" class="bg-hack"><p><?=$label['contacts']['writetous'];?></p></div>
-		<form action="/contacts" method="post">
+		<form action="/<?=$lng;?>/contacts" method="post">
 	        <input name="name" placeholder="Вашето име...">
 
 			<input name="email" type="email" placeholder="Email...">
