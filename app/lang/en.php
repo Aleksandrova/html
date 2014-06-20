@@ -1,34 +1,34 @@
 <?
 $lang = [];
 
-$lang['title'] = "Фобос ЕР";
+$lang['title'] = "Fobos R";
 
 $lang['menu']['home'] = 'HOME';
-$lang['menu']['products'] = 'ПРОДУКТИ';
-$lang['menu']['about'] = 'ЗА НАС';
-$lang['menu']['interesting'] = 'ИНТЕРЕСТНО';
-$lang['menu']['contacts'] = 'КОНТАКТИ';
+$lang['menu']['products'] = 'PRODUCTS';
+$lang['menu']['about'] = 'ABOUT US';
+$lang['menu']['interesting'] = 'INTERESTING';
+$lang['menu']['contacts'] = 'CONTACTS';
 
-$lang['products']['head_text'] = 'Какво предлагаме?';
-$lang['products']['t-hartia'] = 'Тоалетна хартия';
-$lang['products']['celuloza'] = '100% целулоза';
-$lang['products']['reciklirana'] = 'Рециклирана';
-$lang['products']['eko-celuloza'] = 'Еко-целулозна';
-$lang['products']['salfetki'] = 'Салфетки';
-$lang['products']['rolki'] = 'Кухненски ролки';
-$lang['products']['kurpichki'] = 'Носни кърпички';
-$lang['products']['pr'] = 'Дамски превръзки';
-$lang['products']['backbtn'] = 'Назад';
-$lang['products']['notfound'] = 'Няма намерени продукти по вашите критерии.';
+$lang['products']['head_text'] = 'What we offer?';
+$lang['products']['t-hartia'] = 'Toilet paper';
+$lang['products']['celuloza'] = '100% cellulose';
+$lang['products']['reciklirana'] = 'recycled';
+$lang['products']['eko-celuloza'] = 'Eco-cellulose';
+$lang['products']['salfetki'] = 'Napkins';
+$lang['products']['rolki'] = 'Kitchen rolls';
+$lang['products']['kurpichki'] = 'Handkerchiefs';
+$lang['products']['pr'] = 'Sanitary napkins';
+$lang['products']['backbtn'] = 'Back';
+$lang['products']['notfound'] = 'No products found.';
 
-$lang['about']['learnmore'] = 'Научете за FobosR';
-$lang['about']['data'] = 'Фобос–ЕР ООД е специализирана фирма  в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички, както и продукти за хо-ре-ка канала.';
+$lang['about']['learnmore'] = 'Learn about FobosR';
+$lang['about']['data'] = 'Fobos R Ltd. is a company specialized in the production and distribution of a wide range of napkins, kitchen rolls, toilet paper, handkerchiefs, and products for re-ho-ing channel. ';
 
-$lang['interesting']['more'] = 'Още статии';
+$lang['interesting']['more'] = 'More articles';
 
-$lang['contacts']['sendsuccessful'] = 'Писмото беше изпратено успешно!';
-$lang['contacts']['writetous'] = 'Пишете ни';
-$lang['contacts']['clickhere'] = 'За заявки, въпроси и повече информация кликнете тук.';
-$lang['contacts']['maptext'] = 'Офиса ни може да намерите на:';
+$lang['contacts']['sendsuccessful'] = 'The message was sent successfully!';
+$lang['contacts']['writetous'] = 'Write us';
+$lang['contacts']['clickhere'] = 'For queries, questions and more information click here.';
+$lang['contacts']['maptext'] = 'Our office can be found at:';
 
-$lang['contacts']['send'] = 'Изпрати';
+$lang['contacts']['send'] = 'SEND';
