@@ -1,351 +1,351 @@
-﻿[{
-	"title": "Дева",
-	"category": "salfetki",
-	"sub": "25x25",
-	"image": "/static/img/products/deva_s.png",
-	"thumb": "/static/img/products/deva_s_thumb.png",
-	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой в пакет: 24  <br/> Цвят: бял <br/> Размер: 25х25 <br/> Пакет в т.е. 24  ",
-		"en": "Material:100% cellulose <br/>Pieces in pack: 24pcs. <br/> Color: white <br/> Size: 25х25 <br/> Packages in t.u: 24 "
-	},
-	"url": "salfetki-deva"
+[{
+        "title": "Дева",
+        "category": "salfetki",
+        "sub": "25x25",
+        "image": "/static/img/products/deva_s.png",
+        "thumb": "/static/img/products/deva_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 24  <br/> Цвят: бял <br/> Размер: 25х25 <br/> Пакет в т.е. 24  ",
+                "en": "Material:100% cellulose <br/>Pieces in pack: 24pcs. <br/> Color: white <br/> Size: 25х25 <br/> Packages in t.u: 24 "
+        },
+        "url": "salfetki-deva"
 }, {
-	"title": "Перле",
-	"category": "salfetki",
-	"sub": "25x28",
-	"image": "/static/img/products/perle_s.png",
-	"thumb": "/static/img/products/perle_s_thumb.png",
-	"fulltext": {
-		"bg" : "Материал:100% целулоза <br/> Брой в пакет: 30  <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 24  ",
-		"en" : "Material:100% cellulose <br/> Pieces in pack: 30  <br/> Color: white <br/> Size: 25х28 <br/> Packages in t.u:  24  " 
-	},
-	"url": "salfetki-perle"
+        "title": "Перле",
+        "category": "salfetki",
+        "sub": "25x28",
+        "image": "/static/img/products/perle_s.png",
+        "thumb": "/static/img/products/perle_s_thumb.png",
+        "fulltext": {
+                "bg" : "Материал:100% целулоза <br/> Брой в пакет: 30  <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 24  ",
+                "en" : "Material:100% cellulose <br/> Pieces in pack: 30  <br/> Color: white <br/> Size: 25х28 <br/> Packages in t.u:  24  "
+        },
+        "url": "salfetki-perle"
 }, {
-	"title": "Перле",
-	"category": "salfetki",
-	"sub": "30x30",
-	"image": "/static/img/products/perle30_s.png",
-	"thumb": "/static/img/products/perle30_s_thumb.png",
-	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 30х30 <br/> Пакет в т.е. 12  ",
-		"en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful <br/> Size: 30х30 <br/>  Packages in t.u:  12 "
-	},
+        "title": "Перле",
+        "category": "salfetki",
+        "sub": "30x30",
+        "image": "/static/img/products/perle30_s.png",
+        "thumb": "/static/img/products/perle30_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 30х30 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful <br/> Size: 30х30 <br/>  Packages in t.u:  12 "
+        },
 "url": "salfetki-perle30"
 }, {
-	"title": "Перле",
-	"category": "salfetki",
-	"sub": "33x33",
-	"image": "/static/img/products/perle_s.png",
-	"thumb": "/static/img/products/perle_s_thumb.png",
-	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
-		"en" : "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
-	},
-	"url": "salfetki-perle33"
+        "title": "Перле",
+        "category": "salfetki",
+        "sub": "33x33",
+        "image": "/static/img/products/perle_s.png",
+        "thumb": "/static/img/products/perle_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
+                "en" : "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-perle33"
 }, {
-	"title": "Дева",
-	"category": "salfetki",
-	"sub": "33x33",
-	"image": "/static/img/products/deva33_s.png",
-	"thumb": "/static/img/products/deva33_s_thumb.png",
-	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
-		"en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
-	},
-	"url": "salfetki-deva33"
+        "title": "Дева",
+        "category": "salfetki",
+        "sub": "33x33",
+        "image": "/static/img/products/deva33_s.png",
+        "thumb": "/static/img/products/deva33_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-deva33"
 }, {
-	"title": "Дева",
-	"category": "salfetki",
-	"sub": "25x28",
-	"image": "/static/img/products/deva33_s.png",
-	"thumb": "/static/img/products/deva33_s_thumb.png",
-	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 12  ",
-		"en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white <br/> Size: 25х28 <br/>  Packages in t.u:  12  "
-	},
-	"url": "salfetki-deva1"
+        "title": "Дева",
+        "category": "salfetki",
+        "sub": "25x28",
+        "image": "/static/img/products/deva33_s.png",
+        "thumb": "/static/img/products/deva33_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white <br/> Size: 25х28 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-deva1"
 }, {
-	"title": "Писана",
-	"category": "toaletna-hartia",
-	"sub": "eko-celulozna",
-	"image": "/static/img/products/pisana_h.png",
-	"thumb": "/static/img/products/pisana_h_thumb.png",
-	"fulltext": {
-		"bg":"Материал:еко-целулоза <br/> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
-		"en": "Material:eco-cellulose <br/> Pieces in pack: 4  <br/> Color: bleached <br/> Layers: 3  <br/> Packages in t.u:   10   <br/> Weight:100gr "
-	},
-	"url": "salfetki-pisana"
+        "title": "Писана",
+        "category": "toaletna-hartia",
+        "sub": "eko-celulozna",
+        "image": "/static/img/products/pisana_h.png",
+        "thumb": "/static/img/products/pisana_h_thumb.png",
+        "fulltext": {
+                "bg":"Материал:еко-целулоза <br/> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
+                "en": "Material:eco-cellulose <br/> Pieces in pack: 4  <br/> Color: bleached <br/> Layers: 3  <br/> Packages in t.u:   10   <br/> Weight:100gr "
+        },
+        "url": "salfetki-pisana"
 }, {
-	"title": "Перле",
-	"category": "toaletna-hartia",
-	"sub": "eko-celulozna",
-	"image": "/static/img/products/perle_h.png",
-	"thumb": "/static/img/products/perle_h_thumb.png",
-	"fulltext": {
-		"bg" : "Материал:еко-целулоза <br/> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
-		"en" : "Material:eco-cellulose <br/>Pieces in pack:: 4  <br/>  Color: bleached  <br/>  Layers: 3  <br/>  Packages in t.u:  10   <br/> Weight: 100gr "
-	},
-	"url": "hartiq-perle"
+        "title": "Перле",
+        "category": "toaletna-hartia",
+        "sub": "eko-celulozna",
+        "image": "/static/img/products/perle_h.png",
+        "thumb": "/static/img/products/perle_h_thumb.png",
+        "fulltext": {
+                "bg" : "Материал:еко-целулоза <br/> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
+                "en" : "Material:eco-cellulose <br/>Pieces in pack:: 4  <br/>  Color: bleached  <br/>  Layers: 3  <br/>  Packages in t.u:  10   <br/> Weight: 100gr "
+        },
+        "url": "hartiq-perle"
 }, {
-	"title": "Римби",
-	"category": "toaletna-hartia",
-	"sub": "eko-celulozna",
-	"image": "/static/img/products/rimbi_h.png",
-	"thumb": "/static/img/products/rimbi_h_thumb.png",
-	"fulltext": {
-		"bg": "Материал:еко-целулоза <br/> Брой ролки в пакет: 9  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е. 1   <br/> Грамаж:140гр ",
-		"en": "Material:eco-cellulose <br/> Pieces in pack: 9  <br/>  Color: bleached  <br/> Layers: 3  <br/> Packages in t.u:  1   <br/> Weight: 140gr "
-	},
-	"url": "hartiq-rimbi"
+        "title": "Римби",
+        "category": "toaletna-hartia",
+        "sub": "eko-celulozna",
+        "image": "/static/img/products/rimbi_h.png",
+        "thumb": "/static/img/products/rimbi_h_thumb.png",
+        "fulltext": {
+                "bg": "Материал:еко-целулоза <br/> Брой ролки в пакет: 9  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е. 1   <br/> Грамаж:140гр ",
+                "en": "Material:eco-cellulose <br/> Pieces in pack: 9  <br/>  Color: bleached  <br/> Layers: 3  <br/> Packages in t.u:  1   <br/> Weight: 140gr "
+        },
+        "url": "hartiq-rimbi"
 }, {
-	"title": "Римби чанта",
-	"category": "toaletna-hartia",
-	"sub": "100-celuloza",
-	"image": "/static/img/products/rimbichanta_h.png",
-	"thumb": "/static/img/products/rimbichanta_h_thumb.png",
-	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой ролки в пакет: 8  <br/> Цвят: бял <br/> Слоеве: 3  <br/> Пакет в т.е. 5   <br/> Грамаж:100гр ",
-		"en": "Material:100% cellulose <br/> Pieces in pack: 8  <br/>Color: white <br/> Layers: 3  <br/>  Packages in t.u:  5   <br/>  Weight: 100gr "
-	},
-	"url": "hartiq-rimbi-chanta"
+        "title": "Римби чанта",
+        "category": "toaletna-hartia",
+        "sub": "100-celuloza",
+        "image": "/static/img/products/rimbichanta_h.png",
+        "thumb": "/static/img/products/rimbichanta_h_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой ролки в пакет: 8  <br/> Цвят: бял <br/> Слоеве: 3  <br/> Пакет в т.е. 5   <br/> Грамаж:100гр ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 8  <br/>Color: white <br/> Layers: 3  <br/>  Packages in t.u:  5   <br/>  Weight: 100gr "
+        },
+        "url": "hartiq-rimbi-chanta"
 }, {
-	"title": "Фреш",
-	"category": "toaletna-hartia",
-	"sub": "100-celuloza",
-	"image": "/static/img/products/fresh_h.png",
-	"thumb": "/static/img/products/fresh_h_thumb.png",
-	"fulltext": {
-		"bg" : "100% целулоза.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
-		"en": "Material:100% cellulose.  <br/>  Pieces in pack: 4.  <br/>  Packages in t.u:  10. "
-	},
-	"url": "hartiq-fresh"
+        "title": "Фреш",
+        "category": "toaletna-hartia",
+        "sub": "100-celuloza",
+        "image": "/static/img/products/fresh_h.png",
+        "thumb": "/static/img/products/fresh_h_thumb.png",
+        "fulltext": {
+                "bg" : "100% целулоза.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
+                "en": "Material:100% cellulose.  <br/>  Pieces in pack: 4.  <br/>  Packages in t.u:  10. "
+        },
+        "url": "hartiq-fresh"
 }, {
-	"title": "Фреш Лукс",
-	"category": "toaletna-hartia",
-	"sub": "100-celuloza",
-	"image": "/static/img/products/fresh_lux_h.png",
-	"thumb": "/static/img/products/fresh_lux_h_thumb.png",
-	"fulltext": {
-		"bg": "100% целулоза.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
-		"en": "Material:100% cellulose.  <br/> Pieces in pack: 4. <br/> Packages in a sack: 10. "
-	},
-	"url": "hartiq-fresh-lux"
+        "title": "Фреш Лукс",
+        "category": "toaletna-hartia",
+        "sub": "100-celuloza",
+        "image": "/static/img/products/fresh_lux_h.png",
+        "thumb": "/static/img/products/fresh_lux_h_thumb.png",
+        "fulltext": {
+                "bg": "100% целулоза.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
+                "en": "Material:100% cellulose.  <br/> Pieces in pack: 4. <br/> Packages in a sack: 10. "
+        },
+        "url": "hartiq-fresh-lux"
 }, {
-	"title": "Финес",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/fines1_h.png",
-	"thumb": "/static/img/products/fines1_h_thumb.png",
-	"fulltext": {
-		"bg": "Натурал.  <br/> Единична с бандерол.  <br/> Пакети в чувал: 24. ",
-		"en": "Color: natural  <br/> Single roll with a band.  <br/> Packages in a sack: 24. "
-	},
-	"url": "hartiq-fines1"
+        "title": "Финес",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/fines1_h.png",
+        "thumb": "/static/img/products/fines1_h_thumb.png",
+        "fulltext": {
+                "bg": "Натурал.  <br/> Единична с бандерол.  <br/> Пакети в чувал: 24. ",
+                "en": "Color: natural  <br/> Single roll with a band.  <br/> Packages in a sack: 24. "
+        },
+        "url": "hartiq-fines1"
 }, {
-	"title": "Дева",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/deva_h.png",
-	"thumb": "/static/img/products/deva_h_thumb.png",
-	"fulltext": {
-		"bg": "Натурал.  <br/> 300 къса.  <br/> Пакети в чувал: 24. ",
-		"en" :"Color: natural  <br/> 300  slices.  <br/>  Packages in a sack: 24. "
-	},
-	"url": "hariq-deva"
+        "title": "Дева",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/deva_h.png",
+        "thumb": "/static/img/products/deva_h_thumb.png",
+        "fulltext": {
+                "bg": "Натурал.  <br/> 300 къса.  <br/> Пакети в чувал: 24. ",
+                "en" :"Color: natural  <br/> 300  slices.  <br/>  Packages in a sack: 24. "
+},
+        "url": "hariq-deva"
 }, {
-	"title": "Мелани",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/melany_h.png",
-	"thumb": "/static/img/products/melany_h_thumb.png",
-	"fulltext": {
-		"bg": "Натурал.  <br/> Единична с бандерол.  <br/> Пакети в чувал: 24. ",
-		"en": "Color: natural   <br/> Single roll with a band.  <br/>  Packages in a sack: 24. "
-	},
-	"url": "hartiq-melani"
+        "title": "Мелани",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/melany_h.png",
+        "thumb": "/static/img/products/melany_h_thumb.png",
+        "fulltext": {
+                "bg": "Натурал.  <br/> Единична с бандерол.  <br/> Пакети в чувал: 24. ",
+                "en": "Color: natural   <br/> Single roll with a band.  <br/>  Packages in a sack: 24. "
+        },
+        "url": "hartiq-melani"
 }, {
-	"title": "Мони",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/moni_h.png",
-	"thumb": "/static/img/products/moni_h_thumb.png",
-	"fulltext": {
-		"bg": "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:85гр ",
-		"en": "Material: recycled <br/> Pieces in pack: 4  <br/> Color: natural <br/> Layers: 3  <br/> Packages in t.u:   10   <br/>  Weight: 85gr "
-	},
-	"url": "hartiq-moni"
+        "title": "Мони",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/moni_h.png",
+        "thumb": "/static/img/products/moni_h_thumb.png",
+        "fulltext": {
+                "bg": "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:85гр ",
+                "en": "Material: recycled <br/> Pieces in pack: 4  <br/> Color: natural <br/> Layers: 3  <br/> Packages in t.u:   10   <br/>  Weight: 85gr "
+        },
+        "url": "hartiq-moni"
 }, {
-	"title": "Финес",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/fines_h.png",
-	"thumb": "/static/img/products/fines_h_thumb.png",
-	"fulltext": {
-		"bg":  "Цвят: Натурал.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
-		"en":  "Color: natural  <br/>  Pieces in pack: 4. <br/>  Packages in t.u:  10. "
-	},
-	"url": "hartiq-fines"
+        "title": "Финес",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/fines_h.png",
+        "thumb": "/static/img/products/fines_h_thumb.png",
+        "fulltext": {
+                "bg":  "Цвят: Натурал.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
+                "en":  "Color: natural  <br/>  Pieces in pack: 4. <br/>  Packages in t.u:  10. "
+        },
+        "url": "hartiq-fines"
 }, {
-	"title": "Дева +",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/deva+_h.png",
-	"thumb": "/static/img/products/deva+_h_thumb.png",
-	"fulltext": {
-		"bg": "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Ролка в т.е.  10 ; ",
-		"en" : "Material: recycled <br/> Брой ролки в пакет: 4  <br/> Color: natural <br/> Layers: 3  <br/>  Packages in t.u:  10 ; "
-	},
-	"url": "hariq-deva-plus"
+        "title": "Дева +",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/deva+_h.png",
+        "thumb": "/static/img/products/deva+_h_thumb.png",
+        "fulltext": {
+                "bg": "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Ролка в т.е.  10 ; ",
+                "en" : "Material: recycled <br/> Брой ролки в пакет: 4  <br/> Color: natural <br/> Layers: 3  <br/>  Packages in t.u:  10 ; "
+        },
+        "url": "hariq-deva-plus"
 }, {
-	"title": "Дева MAXI",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/devaMAXI_h.png",
-	"thumb": "/static/img/products/devaMAXI_h_thumb.png",
-	"fulltext": {
-		"bg": "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
-		"en": "Material: recycled <br/> Pieces in pack: 4  <br/> Color: natural  <br/> Layers: 3  <br/>  Packages in t.u:  10   <br/>  Weight:100gr "
-	},
-	"url": "hariq-deva-maxi"
+        "title": "Дева MAXI",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/devaMAXI_h.png",
+        "thumb": "/static/img/products/devaMAXI_h_thumb.png",
+        "fulltext": {
+                "bg": "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
+                "en": "Material: recycled <br/> Pieces in pack: 4  <br/> Color: natural  <br/> Layers: 3  <br/>  Packages in t.u:  10   <br/>  Weight:100gr "
+        },
+        "url": "hariq-deva-maxi"
 }, {
-	"title": "Дева Super 99",
-	"category": "toaletna-hartia",
-	"sub": "reciklirana",
-	"image": "/static/img/products/devasuper_h.png",
-	"thumb": "/static/img/products/devasuper_h_thumb.png",
-	"fulltext": {
-		"bg" : "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  9   <br/> Грамаж:105гр ",
-		"en": "Material: recycled <br/> Pieces in pack: 4  <br/> Color: natural <br/> Layers: 3  <br/>  Packages in t.u:   9   <br/> Weight:105gr "
-	},
-	"url": "hariq-deva-super"
+        "title": "Дева Super 99",
+        "category": "toaletna-hartia",
+        "sub": "reciklirana",
+        "image": "/static/img/products/devasuper_h.png",
+        "thumb": "/static/img/products/devasuper_h_thumb.png",
+        "fulltext": {
+                "bg" : "Материал:рециклиран <br/> Брой ролки в пакет: 4  <br/> Цвят: натурал <br/> Слоеве: 3  <br/> Пакет в т.е.  9   <br/> Грамаж:105гр ",
+                "en": "Material: recycled <br/> Pieces in pack: 4  <br/> Color: natural <br/> Layers: 3  <br/>  Packages in t.u:   9   <br/> Weight:105gr "
+        },
+        "url": "hariq-deva-super"
 }, {
-	"title": "Римби Джъмбо",
-	"category": "kuhnenski-rolki",
-	"image": "/static/img/products/rimbi1_k.png",
-	"thumb": "/static/img/products/rimbi1_k_thumb.png",
-	"fulltext": {
-		"bg" : "Материал:100% целулоза <br/> Брой ролки в пакет: 1  <br/>  Слоеве: 2  <br/> Пакет в т.е. 6   <br/> Грамаж:400гр ",
-		"en": "Material:100% cellulose.<br/> Pieces in pack: 1  <br/>  Layers: 2  <br/>  Packages in t.u:  6   <br/> Weight: 400gr "
-	},
-	"url": "rolki-rimbi"
+        "title": "Римби Джъмбо",
+        "category": "kuhnenski-rolki",
+        "image": "/static/img/products/rimbi1_k.png",
+        "thumb": "/static/img/products/rimbi1_k_thumb.png",
+        "fulltext": {
+                "bg" : "Материал:100% целулоза <br/> Брой ролки в пакет: 1  <br/>  Слоеве: 2  <br/> Пакет в т.е. 6   <br/> Грамаж:400гр ",
+                "en": "Material:100% cellulose.<br/> Pieces in pack: 1  <br/>  Layers: 2  <br/>  Packages in t.u:  6   <br/> Weight: 400gr "
+        },
+        "url": "rolki-rimbi"
 }, {
-	"title": "Римби 2",
-	"category": "kuhnenski-rolki",
-	"image": "/static/img/products/rimbi2_k.png",
-	"thumb": "/static/img/products/rimbi2_k_thumb.png",
-	"fulltext": {
-		"bg": "Материал: еко-целулоза <br/> Брой ролки в пакет: 2  <br/> Слоеве: 2 <br/> Пакет в т.е. 6  <br/> Грамаж:180гр",
-		"en" : "Material:eco-cellulose  <br/>Pieces in pack: 2  <br/> Layers: 2 <br/>  Packages in t.u:  6  <br/> Weight:180gr "
-	},
-	"url": "rolki-rimbi2"
+        "title": "Римби 2",
+        "category": "kuhnenski-rolki",
+        "image": "/static/img/products/rimbi2_k.png",
+        "thumb": "/static/img/products/rimbi2_k_thumb.png",
+        "fulltext": {
+                "bg": "Материал: еко-целулоза <br/> Брой ролки в пакет: 2  <br/> Слоеве: 2 <br/> Пакет в т.е. 6  <br/> Грамаж:180гр",
+                "en" : "Material:eco-cellulose  <br/>Pieces in pack: 2  <br/> Layers: 2 <br/>  Packages in t.u:  6  <br/> Weight:180gr "
+        },
+        "url": "rolki-rimbi2"
 }, {
-	"title": "Melody",
-	"category": "kuhnenski-rolki",
-	"image": "/static/img/products/melody_k.png",
-	"thumb": "/static/img/products/melody_k_thumb.png",
-	"fulltext": {
-		"bg": "Ролки в пакет: 1.  <br/> Пакети в чувал: 6. ",
-		"en" : "Pieces in pack: 1.  <br/>  Packages in t.u: 6. "
-	},
-	"url": "rolki-melody"
+        "title": "Melody",
+        "category": "kuhnenski-rolki",
+        "image": "/static/img/products/melody_k.png",
+        "thumb": "/static/img/products/melody_k_thumb.png",
+        "fulltext": {
+                "bg": "Ролки в пакет: 1.  <br/> Пакети в чувал: 6. ",
+                "en" : "Pieces in pack: 1.  <br/>  Packages in t.u: 6. "
+        },
+        "url": "rolki-melody"
 }, {
-	"title": "Spring",
-	"category": "kuhnenski-rolki",
-	"image": "/static/img/products/spring_k.png",
-	"thumb": "/static/img/products/spring_k_thumb.png",
-	"fulltext": {
-		"bg": "Брой ролки в пакет: 1  <br/>  Цвят: бял <br/>Слоеве: 2  <br/> Пакет в т.е. 4   <br/> Грамаж:320 ",
-		"en": "Pieces in pack: 1  <br/>  Color: white <br/> Layers: 2  <br/>  Packages in t.u:  4   <br/> Weight:320gr "
-	},
-	"url": "rolki-spring"
+        "title": "Spring",
+        "category": "kuhnenski-rolki",
+        "image": "/static/img/products/spring_k.png",
+        "thumb": "/static/img/products/spring_k_thumb.png",
+        "fulltext": {
+                "bg": "Брой ролки в пакет: 1  <br/>  Цвят: бял <br/>Слоеве: 2  <br/> Пакет в т.е. 4   <br/> Грамаж:320 ",
+                "en": "Pieces in pack: 1  <br/>  Color: white <br/> Layers: 2  <br/>  Packages in t.u:  4   <br/> Weight:320gr "
+        },
+        "url": "rolki-spring"
 }, {
-	"title": "Sense",
-	"category": "kuhnenski-rolki",
-	"image": "/static/img/products/sense_k.png",
-	"thumb": "/static/img/products/sense_k_thumb.png",
-	"fulltext": {
-		"bg": "Материал: 100% целулоза <br/> Брой ролки в пакет: 2  <br/>Слоеве: 2  <br/> Пакет в т.е. 10   <br/> Грамаж:115 ",
-		"en": "Material:100%  cellulose <br/> Pieces in pack: 2  <br/> Layers: 2  <br/>  Packages in t.u:  10   <br/> Weight:115gr "
-	},
-	"url": "rolki-sense"
+        "title": "Sense",
+        "category": "kuhnenski-rolki",
+        "image": "/static/img/products/sense_k.png",
+        "thumb": "/static/img/products/sense_k_thumb.png",
+        "fulltext": {
+                "bg": "Материал: 100% целулоза <br/> Брой ролки в пакет: 2  <br/>Слоеве: 2  <br/> Пакет в т.е. 10   <br/> Грамаж:115 ",
+                "en": "Material:100%  cellulose <br/> Pieces in pack: 2  <br/> Layers: 2  <br/>  Packages in t.u:  10   <br/> Weight:115gr "
+        },
+        "url": "rolki-sense"
 }, {
-	"title": "Deva",
-	"category": "nosni-kurpichki",
-	"image": "/static/img/products/n1.png",
-	"thumb": "/static/img/products/n1_thumb.png",
-	"fulltext": {
-		"bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
-		"en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
-	},
-	"url": "kurpichki-deva"
+        "title": "Deva",
+        "category": "nosni-kurpichki",
+        "image": "/static/img/products/n1.png",
+        "thumb": "/static/img/products/n1_thumb.png",
+        "fulltext": {
+                "bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
+                "en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
+        },
+        "url": "kurpichki-deva"
 }, {
-	"title": "Deva",
-	"category": "nosni-kurpichki",
-	"image": "/static/img/products/n2.png",
-	"thumb": "/static/img/products/n2_thumb.png",
-	"fulltext": {
-		"bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
-		"en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
-	},
-	"url": "kurpichki-deva1"
+        "title": "Deva",
+        "category": "nosni-kurpichki",
+        "image": "/static/img/products/n2.png",
+        "thumb": "/static/img/products/n2_thumb.png",
+        "fulltext": {
+                "bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
+                "en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
+        },
+        "url": "kurpichki-deva1"
 }, {
-	"title": "Deva",
-	"category": "nosni-kurpichki",
-	"image": "/static/img/products/n3.png",
-	"thumb": "/static/img/products/n3_thumb.png",
-	"fulltext": {
-		"bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
-		"en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
-	},
-	"url": "kurpichki-deva2"
+        "title": "Deva",
+        "category": "nosni-kurpichki",
+        "image": "/static/img/products/n3.png",
+        "thumb": "/static/img/products/n3_thumb.png",
+        "fulltext": {
+                "bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
+                "en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
+        },
+        "url": "kurpichki-deva2"
 }, {
-	"title": "Deva",
-	"category": "nosni-kurpichki",
-	"image": "/static/img/products/n4.png",
-	"thumb": "/static/img/products/n4_thumb.png",
-	"fulltext": {
-		"bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
-		"en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
-	},
-	"url": "kurpichki-deva3"
+        "title": "Deva",
+        "category": "nosni-kurpichki",
+        "image": "/static/img/products/n4.png",
+        "thumb": "/static/img/products/n4_thumb.png",
+        "fulltext": {
+                "bg": "Материал: 100% целулоза <br/> Брой в пакет: 6  <br/> Пакет в т.е. 240   <br/> Ароматизирани",
+                "en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
+        },
+        "url": "kurpichki-deva3"
 }, {
-	"title": "Донна дневни",
-	"category": "pr",
-	"image": "/static/img/products/donad_p.png",
-	"thumb": "/static/img/products/donad_p_thumb.png",
-	"fulltext": {
-		"bg": "Материал: коприна <br/> Брой в пакет: 10  <br/> Пакет в т.е. 40   <br/> Вид:дневни ",
-		"en": "Material: silk <br/> Pieces in pack: 10  <br/>  Packages in t.u: 40   <br/> Type: daily "
-	},
-	"url": "prevruzki-donna-dn"
+        "title": "Донна дневни",
+        "category": "pr",
+        "image": "/static/img/products/donad_p.png",
+        "thumb": "/static/img/products/donad_p_thumb.png",
+        "fulltext": {
+                "bg": "Материал: коприна <br/> Брой в пакет: 10  <br/> Пакет в т.е. 40   <br/> Вид:дневни ",
+                "en": "Material: silk <br/> Pieces in pack: 10  <br/>  Packages in t.u: 40   <br/> Type: daily "
+        },
+        "url": "prevruzki-donna-dn"
 }, {
-	"title": "Донна нощни",
-	"category": "pr",
-	"image": "/static/img/products/donan_p.png",
-	"thumb": "/static/img/products/donan_p_thumb.png",
-	"fulltext": {
-		"bg": "Материал: коприна <br/> Брой в пакет: 10  <br/> Пакет в т.е. 40   <br/> Вид:нощни ",
-		"en": "Material: silk <br/> Pieces in pack: 10  <br/>  Packages in t.u:  40   <br/>  Type: night"
-	},
-	"url": "prevruzki-donna-ng"
+        "title": "Донна нощни",
+        "category": "pr",
+        "image": "/static/img/products/donan_p.png",
+        "thumb": "/static/img/products/donan_p_thumb.png",
+        "fulltext": {
+                "bg": "Материал: коприна <br/> Брой в пакет: 10  <br/> Пакет в т.е. 40   <br/> Вид:нощни ",
+                "en": "Material: silk <br/> Pieces in pack: 10  <br/>  Packages in t.u:  40   <br/>  Type: night"
+        },
+        "url": "prevruzki-donna-ng"
 }, {
-	"title": "Донна ежедневни",
-	"category": "pr",
-	"image": "/static/img/products/donald_p.png",
-	"thumb": "/static/img/products/donald_p_thumb.png",
-	"fulltext": {
-		"bg":  "Материал: памук <br/> Брой в пакет: 25  <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
-		"en":  "Material: cotton <br/> Pieces in pack: 25  <br/>  Packages in t.u: 24р.  <br/> Type: daily "
-	},
-	"url": "prevruzki-donnacot"
+        "title": "Донна ежедневни",
+        "category": "pr",
+        "image": "/static/img/products/donald_p.png",
+        "thumb": "/static/img/products/donald_p_thumb.png",
+        "fulltext": {
+                "bg":  "Материал: памук <br/> Брой в пакет: 25  <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
+                "en":  "Material: cotton <br/> Pieces in pack: 25  <br/>  Packages in t.u: 24р.  <br/> Type: daily "
+        },
+        "url": "prevruzki-donnacot"
 }, {
-	"title": "Донна ежедневни",
-	"category": "pr",
-	"image": "/static/img/products/donasn_p.png",
-	"thumb": "/static/img/products/donasn_p_thumb.png",
-	"fulltext": {
-		"bg": "Материал: коприна <br/> Брой в пакет: 25  <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
-		"en":  "Material: silk <br/> Pieces in pack: 25  <br/>  Packages in t.u:  24р.  <br/> Type: daily "
-	},
-	"url": "prevruzki-donnasilk"
+        "title": "Донна ежедневни",
+        "category": "pr",
+        "image": "/static/img/products/donasn_p.png",
+        "thumb": "/static/img/products/donasn_p_thumb.png",
+        "fulltext": {
+                "bg": "Материал: коприна <br/> Брой в пакет: 25  <br/> Пакет в т.е. 24р.  <br/> Вид:дневни ",
+                "en":  "Material: silk <br/> Pieces in pack: 25  <br/>  Packages in t.u:  24р.  <br/> Type: daily "
+        },
+        "url": "prevruzki-donnasilk"
 }]
