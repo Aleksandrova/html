@@ -9,7 +9,7 @@
 				<? } ?>
 				<img class="image" src="<?=$now->image;?>">
 				<div class="text-holder bg-hack">
-					<?=mb_substr($now->fulltext->{$lng}, 0, 50, 'UTF-8');?>..
+					<?=str_replace("#", "<br/>", mb_substr(str_replace("<br/>", "#", $now->fulltext->{$lng}), 0, 50, 'UTF-8'));?>..
 				</div>
 				<div class="bottom bg-hack-4"></div>
 			</div>

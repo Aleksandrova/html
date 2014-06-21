@@ -700,6 +700,7 @@ img {
 	font-size: 18px;
 	line-height:160%;
 	margin-top: 0px;
+	overflow: hidden;
 }
 .example .bottom {
 	margin-left: 0px;
