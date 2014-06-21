@@ -33,8 +33,7 @@
 				<a <?=_link("/about");?>><?=$label['menu']['about']?></a>
 				<a <?=_link("/interesting");?>><?=$label['menu']['interesting']?></a>
 				<a <?=_link("/contacts");?>><?=$label['menu']['contacts']?></a>
-				<a href="  <?=$label['lang']?> " > </a>
-						
+				<a href="<?=$label['lang'].$currentPath?>"> <img src=" <?=$label['icon']?> " > </a>
 				
 			</div>
 			

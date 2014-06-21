@@ -27,6 +27,7 @@ $app->hook('slim.before', function() use ($app){
 
     require('./app/lang/' . $app->view->getData('lng') . '.php');
     $app->view->setData('label', $lang);
+	$app->view->setData('currentPath', $env['PATH_INFO']);
 });
 
 $app->get('/', function () use ($app) {
