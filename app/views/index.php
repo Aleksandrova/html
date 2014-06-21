@@ -33,6 +33,7 @@
 				<a <?=_link("/about");?>><?=$label['menu']['about']?></a>
 				<a <?=_link("/interesting");?>><?=$label['menu']['interesting']?></a>
 				<a <?=_link("/contacts");?>><?=$label['menu']['contacts']?></a>
+				<img src="/static/img/gb-flag.png">
 			</div>
 			
 			<div style="clear: both;"></div>
