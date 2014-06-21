@@ -38,3 +38,6 @@ $lang['contacts']['clickhere'] = 'За заявки, въпроси и пове�
 $lang['contacts']['maptext'] = 'Офиса ни може да намерите на:';
 
 $lang['contacts']['send'] = 'Изпрати';
+
+$lang['icon'] = '/static/img/gb-flag.png';
+$lang['lang'] = '/en';

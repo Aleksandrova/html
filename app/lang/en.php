@@ -38,3 +38,6 @@ $lang['contacts']['clickhere'] = 'For queries, questions and more information cl
 $lang['contacts']['maptext'] = 'Our office can be found at:';
 
 $lang['contacts']['send'] = 'SEND';
+
+$lang['icon'] = '/static/img/bg-flag.png';
+$lang['lang'] = '/bg';

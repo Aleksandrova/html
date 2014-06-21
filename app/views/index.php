@@ -33,7 +33,9 @@
 				<a <?=_link("/about");?>><?=$label['menu']['about']?></a>
 				<a <?=_link("/interesting");?>><?=$label['menu']['interesting']?></a>
 				<a <?=_link("/contacts");?>><?=$label['menu']['contacts']?></a>
-				<img src="/static/img/gb-flag.png">
+				<a href="  <?=$label['lang']?> " > </a>
+						
+				
 			</div>
 			
 			<div style="clear: both;"></div>
@@ -47,4 +49,7 @@
 	</div>
 	<script src="/static/js/media-support.js"></script>
 </body>
+
+
+
 </html>
