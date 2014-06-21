@@ -932,8 +932,16 @@ form p{
 	position: relative;
 	top: 10px;
 	left: 40px;
+	width: 100px;
 	
 }
+
+@media all and (max-width: 750px) { 
+	form p, input{
+		display: block;
+	} 
+}
+
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color: rgba(255,255,255, 0.3);
@@ -979,6 +987,8 @@ form p{
 	position: relative;
 	top:8px;
 }
+
+
 	
 	
 /* 404 */
