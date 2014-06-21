@@ -1,4 +1,4 @@
-﻿[{
+[{
 	"title": {
 		"bg": "Знаехте ли, че...",
 		"en": "Did you know that..."
@@ -19,8 +19,8 @@
 	"image": "history.png",
 	"thumb": "history_thumb.png",
 	"fulltext": {
-		"bg": "Древни прототипи на тоалетната хартия са мека трева, листа от дървета, снопчета мъх; парчета животинска кожа или овча вълна. Древните гърци ползвали дори камъни и парчета глина. Специален вид натурални гъби, привързани върху пръчица и изплаквани в солена вода, използвали в Древен Рим. За многократна употреба били и тоалетните копринени или памучни “кърпички” на богатите жители на средновековните градове. Китайските императори използвали или салфетки от сурова коприна или листа от тънка хартия, която струвала тогава немалко пари. ",
-		"en": " Ancient prototypes of toilet paper is soft grass, tree leaves, tufts of moss; pieces of animal skin or wool. The ancient Greeks used stones and even pieces of clay. Special kind of natural sponges, tied on a stick and rinsed in salt water, used in Ancient Rome. Reusable and toilets were silk or cotton "wipes" the wealthy inhabitants of medieval towns. Chinese emperors used napkins or raw silk or thin sheets of paper, which then cost money to make. "
+		"bg": "Древни прототипи на тоалетната хартия са мека трева, листа от дървета, снопчета мъх; парчета животинска кожа или овча вълна. Древните гърци ползвали дори камъни и парчета глина. Специален вид натурални гъби, привързани върху пръчица и изплаквани в солена вода, използвали в Древен Рим. За многократна употреба били и тоалетните копринени или памучни 'кърпички' на богатите жители на средновековните градове. Китайските императори използвали или салфетки от сурова коприна или листа от тънка хартия, която струвала тогава немалко пари. ",
+		"en": " Ancient prototypes of toilet paper is soft grass, tree leaves, tufts of moss; pieces of animal skin or wool. The ancient Greeks used stones and even pieces of clay. Special kind of natural sponges, tied on a stick and rinsed in salt water, used in Ancient Rome. Reusable and toilets were silk or cotton 'wipes' the wealthy inhabitants of medieval towns. Chinese emperors used napkins or raw silk or thin sheets of paper, which then cost money to make. "
 	},
 	"url": "istoria"
 },
@@ -33,7 +33,7 @@
 	"thumb": "first_thumb.png",
 	"fulltext": {
 		"bg":  "Промишленото производство на хартия, предназначена изключително за използване в тоалетната, било започнато в САЩ през 1857 година от Джоузеф Гайети (Joseph C. Gayetty ). Лечебните тоалетни хартии на Гайети били пропити със сок от алое, нарязани на еднакви листа и запечатани в картонени кутии по 500 броя. Продавали се като медицински продукт на немалката тогава сума от 50 цента. Рекламно послание използвало мотото: “Най-голямата необходимост на времето!“  ",
-		"en": " Industrial production of paper designed exclusively for use in the bathroom, was initiated in the U.S. in 1857 by Joseph Gaiety (Joseph C. Gayetty). Tissue toilet paper on the Gaiety were imbued with aloe juice, cut into uniform sheets and sealed in cartons of 500 pieces. Sold as a medicinal product of a number then the sum of 50 cents. Creative used the slogan "The greatest need of the time!" "
+		"en": " Industrial production of paper designed exclusively for use in the bathroom, was initiated in the U.S. in 1857 by Joseph Gaiety (Joseph C. Gayetty). Tissue toilet paper on the Gaiety were imbued with aloe juice, cut into uniform sheets and sealed in cartons of 500 pieces. Sold as a medicinal product of a number then the sum of 50 cents. Creative used the slogan “The greatest need of the time!“ "
 	},
 	"url": "purvi-proizvodstva"
 }]
