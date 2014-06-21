@@ -36,6 +36,8 @@ $lang['contacts']['sendsuccessful'] = 'The message was sent successfully!';
 $lang['contacts']['writetous'] = 'Write us';
 $lang['contacts']['clickhere'] = 'For queries, questions and more information click here.';
 $lang['contacts']['maptext'] = 'Our office can be found at:';
+$lang['contacts']['name'] = 'Name:';
+$lang['contacts']['text'] = 'Text:';
 
 $lang['contacts']['send'] = 'SEND';
 

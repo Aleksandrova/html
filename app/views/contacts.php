@@ -28,11 +28,11 @@
 	<div class="bg-hack" id="form-holder" style="display: none;">
 		<div id="write-us" class="bg-hack"><p><?=$label['contacts']['writetous'];?></p></div>
 		<form action="/<?=$lng;?>/contacts" method="post">
-	        <p>Име: </p> <input name="name" placeholder="Вашето име...">
+	        <p> <?=$label['contacts']['name']?> </p> <input name="name" placeholder="Вашето име...">
 
 			<p>Email: </p> <input name="email" type="email" placeholder="Email...">
 
-			<p>Текст: </p> <div id="tex"><textarea name="message" placeholder="Съобщението Ви..."></textarea></div>
+			<p><?=$label['contacts']['text']?> </p> <div id="tex"><textarea name="message" placeholder="Съобщението Ви..."></textarea></div>
 					
 			<input id="button-send" type="submit" value="<?=$label['contacts']['send'];?>">
 	        <div id="fix"></div>
