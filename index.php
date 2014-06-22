@@ -192,7 +192,7 @@ $app->map('/_manager', function() use ($app){
     } else {
         if ($app->request()->post('psw') == 'fobos123') {
             $_SESSION['logged'] = 1;
-            $app->redirect('/manager');
+            $app->redirect('/_manager');
         }
     }
 

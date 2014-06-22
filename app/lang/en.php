@@ -26,7 +26,7 @@ $lang['products']['kurpichki'] = 'Handkerchiefs';
 $lang['products']['pr'] = 'Sanitary napkins';
 $lang['products']['backbtn'] = 'Back';
 $lang['products']['notfound'] = 'No products found.';
-
+$lang['products']['ketyring'] ='Catering';
 $lang['about']['learnmore'] = 'Learn about FobosR';
 $lang['about']['data'] = 'Fobos R Ltd. is a company specialized in the production and distribution of a wide range of napkins, kitchen rolls, toilet paper, handkerchiefs, and products for re-ho-ing channel. ';
 

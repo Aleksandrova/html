@@ -25,6 +25,7 @@ $lang['products']['rolki'] = 'Кухненски ролки';
 $lang['products']['kurpichki'] = 'Носни кърпички';
 $lang['products']['pr'] = 'Дамски превръзки';
 $lang['products']['backbtn'] = 'Назад';
+$lang['products']['ketyring'] = 'Кетъринг';
 $lang['products']['notfound'] = 'Няма намерени продукти по вашите критерии.';
 
 $lang['about']['learnmore'] = 'Научете за FobosR';
