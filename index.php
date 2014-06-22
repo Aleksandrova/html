@@ -100,7 +100,7 @@ $app->get('/interesting/:id', function($id) use ($app){
         }
     }
     $title = isset($current->url) ? $current->title : 'Интерестно';
-    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $current, 'title'=>$title]);
+    $app->render('index.php', ['path' => 'interesting', 'data' => $data, 'current' => $current, 'title'=>$title->{$app->view->getData('lng')}]);
 });
 
 function filter($input, $cat) {

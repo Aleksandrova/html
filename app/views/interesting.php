@@ -4,7 +4,7 @@
 
 	<div class="text-wrapper">
 		<div class="current-article-heading">
-			<?=$current->title;?>
+			<?=$current->title->{$lng};?>
 		</div>
 		<div class="current-article-text">
 			<?=$current->fulltext->{$lng};?>
@@ -30,7 +30,7 @@
 			</div>
 			<div class="article-content">
 				<div class="heading">
-					<?=$now->title?>
+					<?=$now->title->{$lng}?>
 				</div>
 				<?=mb_substr($now->fulltext->{$lng}, 0, 80, 'UTF-8');?>...
 			</div>
