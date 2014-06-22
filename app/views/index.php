@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
-	<title><?=$title;?> - <?=$label['title'];?></title>
+	<title><?=isset($title) ? $title : '';?> - <?=$label['title'];?></title>
 	<meta name="classification" content="business" />
 	<meta name="robots" content="index, follow" />
 	<meta name="owner" content="FobosR" />

@@ -171,9 +171,33 @@ $app->get('/products/:id', function($id) use ($app) {
     $app->render('index.php', ['path'=>'products', 'current'=>$current, 'title'=>$title, 'id' => $cat]);
 });
 
-$app->get('/manager', function() use ($app){
-    $app->render('index.php', ['path'=>'admin', 'title'=>'Страницата не бе намерена.']);
-});
+$app->map('/_manager', function() use ($app){
+    $logged = false;
+    if (isset($_SESSION['logged'])) {
+        $logged = true;
+        $input = $app->request()->post('content');
+        $status = "";
+        if ($input) {
+            if (json_decode($input) != NULL) {
+                $status = "Успешно редактирано!";
+                file_put_contents("./app/api/products.json", $input);
+            } else {
+                $status = "Имахте допусната синтактична грешка и промените ви не бяха запазени.";
+            }
+        }
+
+        $content = file_get_contents("./app/api/products.json");
+        $app->render('index.php', ['path'=>'admin', 'content' => $content, 'title'=>'Страницата не бе намерена.', 'msg'=>$status, 'logged'=>true]);
+        return;
+    } else {
+        if ($app->request()->post('psw') == 'fobos123') {
+            $_SESSION['logged'] = 1;
+            $app->redirect('/manager');
+        }
+    }
+
+    $app->render('index.php', ['path'=>'admin', 'logged'=>false]);
+})->via('GET', 'POST');
 
 $app->notFound(function () use ($app) {
     $app->render('index.php', ['path'=>'404', 'title'=>'Страницата не бе намерена.']);
