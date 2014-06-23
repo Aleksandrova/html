@@ -4,8 +4,8 @@
 	</div>
 	<div style="overflow: hidden;">
 		<div class="part">
-			<? foreach($data as $now) { ?> 
-			<a class="bg-hack" <?=_link("/contacts/" . $now->url);?>>
+			<? $i=0; foreach($data as $now) { $i++; ?> 
+			<a class="bg-hack" <?=($i % 2 == 0 ? 'style="float: right;"' : '')?> <?=_link("/contacts/" . $now->url);?>>
 				<p><?=$now->city->{$lng};?></p>
 			</a>
 			<? } ?>
