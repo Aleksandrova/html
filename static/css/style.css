@@ -900,6 +900,10 @@ img {
 	color: #56e8cd !important;
 }
 
+#form-holder input {
+	width: 700px;
+}
+
 input{
 	display: block; 
 }

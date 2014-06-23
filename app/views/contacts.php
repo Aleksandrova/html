@@ -1,6 +1,6 @@
 <div class="dark-holder-small" id="contacts-holder">
 	<div>
-		<img src="/static/img/contacts-map.png">
+		<img style="width: 100%;" src="/static/img/contacts-map.png">
 	</div>
 	<div style="overflow: hidden;">
 		<div class="part">
