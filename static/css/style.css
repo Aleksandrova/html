@@ -383,6 +383,10 @@ img {
 	background:none !important;
 }
 
+#contacts-map{
+	width: 100%;
+}
+
 .part{
 	width: 100%;
 	float: left;
@@ -948,8 +952,8 @@ form p{
 }
 
 @media all and (max-width: 750px) { 
-	form p, input{
-		display: block;
+	form p,  input{
+		width:100% !important;
 	} 
 }
 

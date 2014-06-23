@@ -6,7 +6,7 @@ $lang['title'] = "Фобос ЕР";
 $lang['titles']['home'] = 'Начало';
 $lang['titles']['products'] = 'Продукти';
 $lang['titles']['about'] = 'За нас';
-$lang['titles']['interesting'] = 'Интерестно';
+$lang['titles']['interesting'] = 'Интересно';
 $lang['titles']['contacts'] = 'Контакти';
 
 $lang['menu']['home'] = 'НАЧАЛО';
