@@ -12,7 +12,7 @@ $lang['titles']['contacts'] = 'Контакти';
 $lang['menu']['home'] = 'НАЧАЛО';
 $lang['menu']['products'] = 'ПРОДУКТИ';
 $lang['menu']['about'] = 'ЗА НАС';
-$lang['menu']['interesting'] = 'ИНТЕРЕСТНО';
+$lang['menu']['interesting'] = 'ИНТЕРЕСНО';
 $lang['menu']['contacts'] = 'КОНТАКТИ';
 
 $lang['products']['head_text'] = 'Какво предлагаме?';
