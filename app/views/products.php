@@ -72,7 +72,7 @@
 		<? } ?>
 
 		<? if(isset($id) && $id == 'ketaring') { ?>
-			<img src="/static/img/ketyring.png" width="100%">
+			<img src="/static/img/ketyring.png" width="95%" style="margin-bottom: 20px">
 		<?}?>
 
 	</div>
