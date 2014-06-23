@@ -908,6 +908,10 @@ img {
 	color: #56e8cd !important;
 }
 
+form div{
+	width: auto;
+	height: auto;
+}
 #form-holder input {
 	width: 700px;
 }
@@ -928,7 +932,7 @@ textarea{
 	border: none;
 	padding:10px;
 	margin-top:-48px;
-	margin-left: 140px;
+	margin-left: 140px; 
 	font-size: 16pt;
 	font-family: "Century Gothic"; 
 	color: #fff;
@@ -960,9 +964,23 @@ form p{
 }
 
 @media all and (max-width: 750px) { 
-	form p,  input{
-		width:100% !important;
-	} 
+
+	form p{
+		display: none;
+	}
+	
+	#form-holder input, #form-holder textarea, #tex  {
+		width: 83%;
+		margin-top: 20px;
+		margin-right: auto;
+		margin-left: auto;
+		
+	}
+	
+	#form-holder textarea{
+		margin-left: -10px;
+	}
+	
 }
 
 
