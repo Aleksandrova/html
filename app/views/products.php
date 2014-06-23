@@ -27,7 +27,7 @@
 			<a <?=$g->gen("kuhnenski-rolki");?>><?=$label['products']['rolki'];?></a>
 			<a <?=$g->gen("nosni-kurpichki");?>><?=$label['products']['kurpichki'];?></a>
 			<a <?=$g->gen("pr");?>><?=$label['products']['pr'];?></a>
-			<a > <?=$label['products']['ketyring'];?></a>
+			<a <?=$g->gen("ketaring");?>><?=$label['products']['ketyring'];?></a>
 	</div>
 	
 	
@@ -47,7 +47,7 @@
 				</a>
 			<? } ?>
 
-			<? if ( !isset($notnull) ) { ?><div style="font-size: 20px; "><?=$label['products']['notfound'];?></div><? } ?>
+			<? if ( !isset($notnull) && $id != 'ketaring') { ?><div style="font-size: 20px; "><?=$label['products']['notfound'];?></div><? } ?>
 		<? } ?>
 
 		<? if(isset($current)) { 
@@ -68,8 +68,12 @@
 				</div>
 			</div><? } ?>
 
-			<? if ( !isset($current->title) ) { ?><div style="font-size: 20px; "><?=$label['products']['notfound'];?></div><? } ?>
+			<? if ( !isset($current->title) && $id != 'ketaring' ) { ?><div style="font-size: 20px; "><?=$label['products']['notfound'];?></div><? } ?>
 		<? } ?>
+
+		<? if(isset($id) && $id == 'ketaring') { ?>
+			<img src="/static/img/ketyring.png" width="100%">
+		<?}?>
 
 	</div>
 	<div style="clear: both; margin-bottom: 50px;"></div>
