@@ -27,6 +27,7 @@
 			<a <?=$g->gen("kuhnenski-rolki");?>><?=$label['products']['rolki'];?></a>
 			<a <?=$g->gen("nosni-kurpichki");?>><?=$label['products']['kurpichki'];?></a>
 			<a <?=$g->gen("pr");?>><?=$label['products']['pr'];?></a>
+			<a > <?=$label['products']['ketyring'];?></a>
 	</div>
 	
 	

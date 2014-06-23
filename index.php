@@ -49,7 +49,7 @@ $app->post('/contacts', function() use ($app) {
     try {
         $validation->add($app->request->post('email'))->isEmail("Невалиден e-mail адрес.");
         $validation->add($app->request->post('name'))->min(4, "Името трябва да е минимум 4 символа.");
-        $validation->add($app->request->post('message'))->min(15, "Текста трябва е минимум 15 символа.");
+        $validation->add($app->request->post('message'))->min(15, "Текстът трябва е минимум 15 символа.");
         $app->flash('success', true);
 
         $message = wordwrap($app->request->post('email'), 70);
@@ -192,7 +192,7 @@ $app->map('/_manager', function() use ($app){
     } else {
         if ($app->request()->post('psw') == 'fobos123') {
             $_SESSION['logged'] = 1;
-            $app->redirect('/manager');
+            $app->redirect('/_manager');
         }
     }
 

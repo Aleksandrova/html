@@ -6,7 +6,7 @@ $lang['title'] = "Фобос ЕР";
 $lang['titles']['home'] = 'Начало';
 $lang['titles']['products'] = 'Продукти';
 $lang['titles']['about'] = 'За нас';
-$lang['titles']['interesting'] = 'Интерестно';
+$lang['titles']['interesting'] = 'Интересно';
 $lang['titles']['contacts'] = 'Контакти';
 
 $lang['menu']['home'] = 'НАЧАЛО';
@@ -25,6 +25,7 @@ $lang['products']['rolki'] = 'Кухненски ролки';
 $lang['products']['kurpichki'] = 'Носни кърпички';
 $lang['products']['pr'] = 'Дамски превръзки';
 $lang['products']['backbtn'] = 'Назад';
+$lang['products']['ketyring'] = 'Кетъринг';
 $lang['products']['notfound'] = 'Няма намерени продукти по вашите критерии.';
 
 $lang['about']['learnmore'] = 'Научете за FobosR';
