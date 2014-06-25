@@ -19,13 +19,14 @@ $lang['products']['head_text'] = 'Какво предлагаме?';
 $lang['products']['t-hartia'] = 'Тоалетна хартия';
 $lang['products']['celuloza'] = '100% целулоза';
 $lang['products']['reciklirana'] = 'Рециклирана';
-$lang['products']['eko-celuloza'] = 'Еко-целулозна';
+$lang['products']['eko-celuloza'] = 'Избелена';
 $lang['products']['salfetki'] = 'Салфетки';
 $lang['products']['rolki'] = 'Кухненски ролки';
 $lang['products']['kurpichki'] = 'Носни кърпички';
 $lang['products']['pr'] = 'Дамски превръзки';
 $lang['products']['backbtn'] = 'Назад';
 $lang['products']['ketyring'] = 'Кетъринг';
+$lang['products']['partners'] = 'Партньори';
 $lang['products']['notfound'] = 'Няма намерени продукти по вашите критерии.';
 
 $lang['about']['learnmore'] = 'Научете за FobosR';

@@ -109,19 +109,19 @@
         },
         "url": "hartiq-rimbi-chanta"
 }, {
-        "title": "Фреш",
+        "title": "3Б Маркет",
         "category": "toaletna-hartia",
-        "sub": "100-celuloza",
-        "image": "/static/img/products/fresh_h.png",
-        "thumb": "/static/img/products/fresh_h_thumb.png",
+        "sub": "eko-celulozna",
+        "image": "/static/img/products/3b.png",
+        "thumb": "/static/img/products/3b.png",
         "fulltext": {
-                "bg" : "100% целулоза.  <br/> Ролки в пакет: 4.  <br/> Пакети в чувал: 10. ",
-                "en": "Material:100% cellulose.  <br/>  Pieces in pack: 4.  <br/>  Packages in t.u:  10. "
+                "bg" : "Материал: еко-целулоза <br/> Ролки в пакет: 12.  <br/> Слоеве: 3. ",
+                "en": "Material: eco-cellulose.  <br/>  Pieces in pack: 4.  <br/>  Layers:  10. "
         },
-        "url": "hartiq-fresh"
+        "url": "hartiq-3b"
 }, {
         "title": "Фреш Лукс",
-        "category": "toaletna-hartia",
+        "category": "partners",
         "sub": "100-celuloza",
         "image": "/static/img/products/fresh_lux_h.png",
         "thumb": "/static/img/products/fresh_lux_h_thumb.png",
@@ -132,7 +132,7 @@
         "url": "hartiq-fresh-lux"
 }, {
         "title": "Финес",
-        "category": "toaletna-hartia",
+        "category": "partners",
         "sub": "reciklirana",
         "image": "/static/img/products/fines1_h.png",
         "thumb": "/static/img/products/fines1_h_thumb.png",
@@ -150,9 +150,20 @@
         "fulltext": {
                 "bg": "Натурал.  <br/> 300 къса.  <br/> Пакети в чувал: 24. ",
                 "en" :"Color: natural  <br/> 300  slices.  <br/>  Packages in a sack: 24. "
-},
+	},
         "url": "hariq-deva"
-}, {
+},{
+        "title": "Плам пласт",
+        "category": "partners",
+        "sub": "reciklirana",
+        "image": "/static/img/products/plam.png",
+        "thumb": "/static/img/products/plam.png",
+        "fulltext": {
+                "bg": "Натурал.  <br/> 300 къса.  <br/> Пакети в чувал: 24. ",
+                "en" :"Color: natural  <br/> 300  slices.  <br/>  Packages in a sack: 24. "
+	},
+        "url": "hariq-deva"
+},{
         "title": "Мелани",
         "category": "toaletna-hartia",
         "sub": "reciklirana",
@@ -176,7 +187,7 @@
         "url": "hartiq-moni"
 }, {
         "title": "Финес",
-        "category": "toaletna-hartia",
+        "category": "partners",
         "sub": "reciklirana",
         "image": "/static/img/products/fines_h.png",
         "thumb": "/static/img/products/fines_h_thumb.png",
@@ -240,7 +251,7 @@
         "url": "rolki-rimbi2"
 }, {
         "title": "Melody",
-        "category": "kuhnenski-rolki",
+        "category": "partners",
         "image": "/static/img/products/melody_k.png",
         "thumb": "/static/img/products/melody_k_thumb.png",
         "fulltext": {
