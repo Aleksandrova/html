@@ -30,18 +30,41 @@
                 "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 30х30 <br/> Пакет в т.е. 12  ",
                 "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful <br/> Size: 30х30 <br/>  Packages in t.u:  12 "
         },
-"url": "salfetki-perle30"
+		"url": "salfetki-perle30"
+},
+ {
+        "title": "Перле",
+        "category": "salfetki",
+        "sub": "30x30",
+        "image": "/static/img/products/perles_s.png",
+        "thumb": "/static/img/products/perles_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял <br/> Размер: 30х30 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white <br/> Size: 30х30 <br/>  Packages in t.u:  12 "
+        },
+		"url": "salfetki-perle30s"
 }, {
         "title": "Перле",
         "category": "salfetki",
-        "sub": "33x33",
-        "image": "/static/img/products/perle_s.png",
-        "thumb": "/static/img/products/perle_s_thumb.png",
+        "sub": "28x28",
+        "image": "/static/img/products/perle28.png",
+        "thumb": "/static/img/products/perle28_thumb.png",
         "fulltext": {
-                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
-                "en" : "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 28х28 <br/> Пакет в т.е. 12  ",
+                "en" : "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white/colorful  <br/> Size: 28х28 <br/>  Packages in t.u:  12  "
         },
-        "url": "salfetki-perle33"
+        "url": "salfetki-perle28"
+}, {
+        "title": "Перле",
+        "category": "salfetki",
+        "sub": "28x28",
+        "image": "/static/img/products/perle282.png",
+        "thumb": "/static/img/products/perle282_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 28х28 <br/> Пакет в т.е. 12  ",
+                "en" : "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white/colorful  <br/> Size: 28х28 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-perle282"
 }, {
         "title": "Дева",
         "category": "salfetki",
@@ -52,19 +75,53 @@
                 "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
                 "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
         },
-        "url": "salfetki-deva33"
-}, {
+        "url": "salfetki-deva33s"
+},{
         "title": "Дева",
         "category": "salfetki",
-        "sub": "25x28",
-        "image": "/static/img/products/deva33_s.png",
-        "thumb": "/static/img/products/deva33_s_thumb.png",
+        "sub": "33x33",
+        "image": "/static/img/products/deva333_s.png",
+        "thumb": "/static/img/products/deva333_s_thumb.png",
         "fulltext": {
-                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял <br/> Размер: 25х28 <br/> Пакет в т.е. 12  ",
-                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/>Color: white <br/> Size: 25х28 <br/>  Packages in t.u:  12  "
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
         },
-        "url": "salfetki-deva1"
+        "url": "salfetki-deva333"
+},
+{
+        "title": "Дева",
+        "category": "salfetki",
+        "sub": "33x33",
+        "image": "/static/img/products/deva332_s.png",
+        "thumb": "/static/img/products/deva332_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-deva332"
+},{
+        "title": "Дева",
+        "category": "salfetki",
+        "sub": "33x33",
+        "image": "/static/img/products/deva3333_s.png",
+        "thumb": "/static/img/products/deva3333_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Брой в пакет: 70  <br/> Цвят: бял/цветни <br/> Размер: 33х33 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-deva3333"
 }, {
+        "title": "Финес",
+        "category": "partners",
+        "sub": "28x28",
+        "image": "/static/img/products/fines_s.png",
+        "thumb": "/static/img/products/fines_s_thumb.png",
+        "fulltext": {
+                "bg": "Материал:100% целулоза <br/> Размер: 28х28 <br/> Пакет в т.е. 12  ",
+                "en": "Material:100% cellulose  <br/> Size: 28х28 <br/>  Packages in t.u:  12  "
+        },
+        "url": "salfetki-finess"
+},{
         "title": "Писана",
         "category": "toaletna-hartia",
         "sub": "eko-celulozna",
@@ -74,7 +131,7 @@
                 "bg":"Материал:еко-целулоза <br/> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакет в т.е.  10   <br/> Грамаж:100гр ",
                 "en": "Material:eco-cellulose <br/> Pieces in pack: 4  <br/> Color: bleached <br/> Layers: 3  <br/> Packages in t.u:   10   <br/> Weight:100gr "
         },
-        "url": "salfetki-pisana"
+        "url": "hartiya-pisana"
 }, {
         "title": "Перле",
         "category": "toaletna-hartia",
@@ -157,7 +214,7 @@
         "category": "partners",
         "sub": "reciklirana",
         "image": "/static/img/products/plam.png",
-        "thumb": "/static/img/products/plam.png",
+        "thumb": "/static/img/products/plam_thumb.png",
         "fulltext": {
                 "bg": "Натурал.  <br/> 300 къса.  <br/> Пакети в чувал: 24. ",
                 "en" :"Color: natural  <br/> 300  slices.  <br/>  Packages in a sack: 24. "

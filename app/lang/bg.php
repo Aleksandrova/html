@@ -45,3 +45,5 @@ $lang['contacts']['send'] = 'Изпрати';
 
 $lang['icon'] = '/static/img/gb-flag.png';
 $lang['lang'] = '/en';
+
+$lang['ketyring'] ='Ние...';
