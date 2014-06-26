@@ -170,7 +170,7 @@
         "category": "toaletna-hartia",
         "sub": "eko-celulozna",
         "image": "/static/img/products/3b.png",
-        "thumb": "/static/img/products/3b.png",
+        "thumb": "/static/img/products/3b_thumb.png",
         "fulltext": {
                 "bg" : "Материал: еко-целулоза <br/> Ролки в пакет: 12.  <br/> Слоеве: 3. ",
                 "en": "Material: eco-cellulose.  <br/>  Pieces in pack: 4.  <br/>  Layers:  10. "
