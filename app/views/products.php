@@ -11,8 +11,8 @@
 
 			<div class="subcat" style="display: <?=($id == 'toaletna-hartia' ? 'block' : 'none');?>">
 				<a <?=$g->gen("toaletna-hartia", "100-celuloza");?>><?=$label['products']['celuloza'];?></a>
-				<a <?=$g->gen("toaletna-hartia", "reciklirana");?>><?=$label['products']['reciklirana'];?></a>
 				<a <?=$g->gen("toaletna-hartia", "eko-celulozna");?>><?=$label['products']['eko-celuloza'];?></a>
+				<a <?=$g->gen("toaletna-hartia", "reciklirana");?>><?=$label['products']['reciklirana'];?></a>
 			</div>
 			
 			<a <?=$g->gen("salfetki");?>><?=$label['products']['salfetki'];?></a>
@@ -20,6 +20,7 @@
 			<div class="subcat" style="display: <?=($id == 'salfetki' ? 'block' : 'none');?>">
 				<a <?=$g->gen("salfetki", "25x25");?>>25x25</a>
 				<a <?=$g->gen("salfetki", "25x28");?>>25x28</a>
+				<a <?=$g->gen("salfetki", "28x28");?>>28x28</a>
 				<a <?=$g->gen("salfetki", "30x30");?>>30x30</a>
 				<a <?=$g->gen("salfetki", "33x33");?>>33x33</a>
 			</div>
