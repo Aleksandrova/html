@@ -45,4 +45,4 @@ $lang['contacts']['send'] = 'SEND';
 $lang['icon'] = '/static/img/bg-flag.png';
 $lang['lang'] = '/bg';
 
-$lang['ketyring'] ='We...';
+$lang['ketyring'] ='';

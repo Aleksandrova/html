@@ -63,7 +63,7 @@
 					<div class="text-holder">
 						<?=$current->fulltext->{$lng};?>
 					</div>
-					<a <?=_link("/products/cat/" . $current->category);?> class="back-btn bg-hack">
+					<a <?=_link("/products/cat/" . $current->category . (isset($current->sub) ? '/' . $current->sub : ''));?> class="back-btn bg-hack">
 						<img src="/static/img/back_arrow.png" style="width: 37px; height: 37px;">
 						<span style="top: -7px; position: relative;"><?=$label['products']['backbtn'];?></span>
 					</a>
