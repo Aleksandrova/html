@@ -97,7 +97,7 @@
 		"en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white <br/> Size: 30х30 <br/>  Packages in t.u:  12 "
 	},
 	"url": "salfetki-perle30-blue"
-},{
+}, {
 	"title": "Перле 30x30",
 	"category": "salfetki",
 	"sub": "30x30",
@@ -152,7 +152,7 @@
 		"en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
 	},
 	"url": "salfetki-fresh2"
-},{
+}, {
 	"title": "Fresh 33x33",
 	"category": "partners",
 	"sub": "33x33",
@@ -163,7 +163,7 @@
 		"en": "Material:100% cellulose <br/> Pieces in pack: 70  <br/> Color: white/colorful  <br/> Size: 33х33 <br/>  Packages in t.u:  12  "
 	},
 	"url": "salfetki-fresh1"
-},  {
+}, {
 	"title": "Дева 33x33",
 	"category": "salfetki",
 	"sub": "33x33",
@@ -225,7 +225,7 @@
 	"image": "/static/img/products/pisana_h.png",
 	"thumb": "/static/img/products/pisana_h_thumb.png",
 	"fulltext": {
-		"bg": "Материал:еко-целулоза <br/>Слоеве: 3<br />Ароматизирана <br /> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакети в стек:  10   <br/> Грамаж:100гр ",
+		"bg": "Материал:еко-целулоза <br/>Ароматизирана <br /> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакети в стек:  10   <br/> Грамаж:100гр ",
 		"en": "Material:eco-cellulose <br/> Pieces in pack: 4  <br/> Color: bleached <br/> Layers: 3  <br/> Packages in t.u:   10   <br/> Weight:100gr "
 	},
 	"url": "hartiya-pisana"
@@ -236,7 +236,7 @@
 	"image": "/static/img/products/perle_h.png",
 	"thumb": "/static/img/products/perle_h_thumb.png",
 	"fulltext": {
-		"bg": "Материал:еко-целулоза <br/>Слоеве: 3<br />Ароматизирана, деко <br /> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакети в стек:  10   <br/> Грамаж:100гр ",
+		"bg": "Материал:еко-целулоза <br/>Ароматизирана, деко <br /> Брой ролки в пакет: 4  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакети в стек:  10   <br/> Грамаж:100гр ",
 		"en": "Material:eco-cellulose <br/>Pieces in pack:: 4  <br/>  Color: bleached  <br/>  Layers: 3  <br/>  Packages in t.u:  10   <br/> Weight: 100gr "
 	},
 	"url": "hartiq-perle"
@@ -247,7 +247,7 @@
 	"image": "/static/img/products/rimbi_h.png",
 	"thumb": "/static/img/products/rimbi_h_thumb.png",
 	"fulltext": {
-		"bg": "Материал:еко-целулоза <br/>Слоеве: 3<br /> Индивидуално опакована <br /> Ароматизирана <br /> Брой ролки в пакет: 9  <br/> Цвят: избелена <br/> Слоеве: 3  <br/> Пакети в стек: 1   <br/> Грамаж:140гр ",
+		"bg": "Материал:еко-целулоза <br /> Индивидуално опакована <br /> Ароматизирана <br /> Брой ролки в пакет: 9  <br /> Цвят: избелена <br /> Слоеве: 3  <br /> Пакети в стек: 1  <br /> Грамаж:140гр ",
 		"en": "Material:eco-cellulose <br/> Pieces in pack: 9  <br/>  Color: bleached  <br/> Layers: 3  <br/> Packages in t.u:  1   <br/> Weight: 140gr "
 	},
 	"url": "hartiq-rimbi"
@@ -313,7 +313,7 @@
 	"image": "/static/img/products/plam.png",
 	"thumb": "/static/img/products/plam_thumb.png",
 	"fulltext": {
-		"bg": "Натурал.  <br/> 300 къса.  <br/> Пакети в чувал: 24. <br /> Грамаж: 90гр.",
+		"bg": "Натурал.  <br /> 300 къса.  <br /> Пакети в чувал: 24. <br /> Грамаж: 90гр.",
 		"en": "Color: natural  <br/> 300  slices.  <br/>  Packages in a sack: 24. "
 	},
 	"url": "hariq-plam-plast"
@@ -400,8 +400,8 @@
 	"image": "/static/img/products/rimbi1_k.png",
 	"thumb": "/static/img/products/rimbi1_k_thumb.png",
 	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой ролки в пакет: 1  <br/>  Слоеве: 2  <br/> Пакети в стек: 6   <br/> Грамаж:400гр ",
-		"en": "Material:100% cellulose.<br/> Pieces in pack: 1  <br/>  Layers: 2  <br/>  Packages in t.u:  6   <br/> Weight: 400gr "
+		"bg": "Материал:100% целулоза <br/> Брой ролки в стек: 6  <br/>  Слоеве: 2     <br/> Грамаж:400гр ",
+		"en": "Material:100% cellulose.<br/> Pieces in pack: 6  <br/>  Layers: 2     <br/> Weight: 400gr "
 	},
 	"url": "rolki-rimbi"
 }, {
@@ -410,8 +410,8 @@
 	"image": "/static/img/products/rimbiB.png",
 	"thumb": "/static/img/products/rimbiB_thumb.png",
 	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Брой ролки в пакет: 1  <br/>  Слоеве: 2  <br/> Пакети в стек: 4   <br/> Грамаж:350гр ",
-		"en": "Material:100% cellulose.<br/> Pieces in pack: 1  <br/>  Layers: 2  <br/>  Packages in t.u:  4   <br/> Weight: 350gr "
+		"bg": "Материал:100% целулоза <br/> Брой ролки в стек: 4  <br/>  Слоеве: 2    <br/> Грамаж: 350гр. ",
+		"en": "Material:100% cellulose.<br/> Pieces in pack: 4  <br/>  Layers: 2    <br/> Weight: 350gr "
 	},
 	"url": "rolki-rimbi-bobina"
 }, {
@@ -430,7 +430,7 @@
 	"image": "/static/img/products/melody_k.png",
 	"thumb": "/static/img/products/melody_k_thumb.png",
 	"fulltext": {
-		"bg": "Материал:100% целулоза <br/> Слоеве: 2 <br />Ролки в пакет: 1.  <br/> Пакети в чувал: 6. <br />Грамаж: 560гр.",
+		"bg": "Материал:100% целулоза <br/> Слоеве: 2 <br />Ролки в стек: 6.  <br />Грамаж: 560гр.",
 		"en": "Pieces in pack: 1.  <br/>  Packages in t.u: 6. "
 	},
 	"url": "rolki-melody"
@@ -440,8 +440,8 @@
 	"image": "/static/img/products/spring_k.png",
 	"thumb": "/static/img/products/spring_k_thumb.png",
 	"fulltext": {
-		"bg": "Брой ролки в пакет: 1  <br/>  Цвят: бял <br/>Слоеве: 2  <br/> Пакети в стек: 4   <br/> Грамаж:320 ",
-		"en": "Pieces in pack: 1  <br/>  Color: white <br/> Layers: 2  <br/>  Packages in t.u:  4   <br/> Weight:320gr "
+		"bg": "Брой ролки в стек: 4  <br/>  Цвят: бял <br/>Слоеве: 2     <br/> Грамаж: 350гр. ",
+		"en": "Pieces in pack: 4  <br/>  Color: white <br/> Layers: 2   <br/> Weight: 350gr. "
 	},
 	"url": "rolki-spring"
 }, {
@@ -450,8 +450,8 @@
 	"image": "/static/img/products/sense_k.png",
 	"thumb": "/static/img/products/sense_k_thumb.png",
 	"fulltext": {
-		"bg": "Материал: 100% целулоза <br/> Брой ролки в пакет: 2  <br/>Слоеве: 2  <br/> Пакети в стек: 10   <br/> Грамаж:115 ",
-		"en": "Material:100%  cellulose <br/> Pieces in pack: 2  <br/> Layers: 2  <br/>  Packages in t.u:  10   <br/> Weight:115gr "
+		"bg": "Материал: 100% целулоза <br/> Брой ролки в пакет: 2  <br/>Слоеве: 2  <br/> Пакети в стек: 10   <br/> Грамаж: 115гр. ",
+		"en": "Material:100%  cellulose <br/> Pieces in pack: 2  <br/> Layers: 2  <br/>  Packages in t.u:  10   <br/> Weight: 115gr "
 	},
 	"url": "rolki-sense"
 }, {
@@ -494,7 +494,7 @@
 		"en": "Material: 100% cellulose <br/> Pieces in pack: 6pcs. <br/>  Packages in t.u:  240.  <br/> "
 	},
 	"url": "kurpichki-deva3"
-},{
+}, {
 	"title": "Deva блистер",
 	"category": "nosni-kurpichki",
 	"image": "/static/img/products/n6.png",

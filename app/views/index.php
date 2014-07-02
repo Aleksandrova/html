@@ -13,7 +13,6 @@
 	<meta name="description" content="Фобос Ер ООД е специализирана фирма в производството и пласмента на богата гама от салфетки, кухненси рула, тоалетна хартия, носни кърпички и други..." />
 </head>
 <body>
-	<div style="position: absolute; display: none; top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: red;">dasdas</div>	
 	<!--[if IE]>
 	<script>
 		document.body.className = 'ie-hacks';
@@ -24,9 +23,7 @@
 			<div id="logo">
 				<a <?=_link("/");?>> <img src="/static/img/logo.png"> </a>
 			</div>
-
 			<img src="/static/img/lines.png" id="lines" class="show-for-small toggle-icon">
-
 			<div id="mainmenu">
 				<a <?=_link("/");?>><?=$label['menu']['home']?></a>
 				<a <?=_link("/products");?>><?=$label['menu']['products']?></a>
@@ -34,13 +31,10 @@
 				<a <?=_link("/interesting");?>><?=$label['menu']['interesting']?></a>
 				<a <?=_link("/contacts");?>><?=$label['menu']['contacts']?></a>
 				<a href="<?=$label['lang'].$currentPath?>"> <img src=" <?=$label['icon']?> " > </a>
-				
 			</div>
-			
 			<div style="clear: both;"></div>
 		</div>
 	</div>
-
 	<div id="content-wrapper">
 		<div class="well">
 			<? if (isset($path)) require('./app/views/' . $path . '.php'); ?>
@@ -48,7 +42,4 @@
 	</div>
 	<script src="/static/js/media-support.js"></script>
 </body>
-
-
-
 </html>

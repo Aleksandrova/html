@@ -4,10 +4,10 @@
 		<a <?=_link("/products/" . $now->url);?> class="box">
 			<div class="example">
 				<? if ($i == 1 || $i == 4) { ?>
-				 <div class="title hide-for-small bg-hack-4"><?=$now->title;?></div>
+				<div class="title hide-for-small bg-hack-4"><?=$now->title;?></div>
 				<div class="triangle hide-for-small"></div> 
 				<? } ?>
-				<img class="image" src="<?=$now->image;?>">
+				<img class="image" style="height: 161px;" src="<?=$now->thumb;?>">
 				<div class="text-holder bg-hack">
 					<?=str_replace("#", "<br/>", mb_substr(str_replace("<br/>", "#", $now->fulltext->{$lng}), 0, 50, 'UTF-8'));?>..
 				</div>
